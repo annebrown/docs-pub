@@ -1,0 +1,10 @@
+nav:
+  - 'index.md'
+  - 'Front-End': 
+    - 'angular'
+    - 'next'
+  - 'Back-End':
+    - 'angular'
+    - 'next'
+  - 'Full-Stack':
+    - 'angular'

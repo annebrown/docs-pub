@@ -1,0 +1,30 @@
+site_name: docs
+copyright: Copyright &copy; 2024 Anne Brown
+repo_url: https://github.com/annebrown/docs-pub
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  palette:
+    primary: green
+    accent: purple
+# theme:
+  features:
+    - header.autohide
+    - navigation.footer
+extra:
+  generator: false # Made with Material for MkDocs
+  social:
+#- icon: img/logo.png 
+# -  link: https://www.annebrown.ca
+    - icon: fontawesome/brands/github 
+      link: https://github.com/annebrown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+
+

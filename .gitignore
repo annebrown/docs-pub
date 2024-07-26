@@ -1,0 +1,11 @@
+# -----
+# Index
+# -----
+# General
+# MkDocs
+
+# General
+temp/
+
+# MkDocs - Local Builds 
+site/
