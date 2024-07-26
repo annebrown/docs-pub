@@ -8,8 +8,6 @@
 
 Add !!!!!!!!!!!!!!!!!!!!!!!!
 
-sudo apt install mkdocs-material
-
 ## Python VENV
 
 Create venv dir in proj dir
@@ -21,8 +19,15 @@ source venv/bin/activate
 ```
 
 ```bash
-pip3 install mkdocs-material
-pip3 install mkdocs-git-revision-date-localized-plugin
+pipx isntall mkdocsmkdocs
+pipx install mkdocs-material --include-deps --force
+pip3 install mkdocs-git-revision-date-localized-plugin --include-deps --force
+```
+
+```bash
+plugins:
+  - search
+  - git-revision-date-localized
 ```
 
 ## Conclusion
