@@ -10,3 +10,6 @@ temp/
 # MkDocs - Local Builds 
 site/
 .*
+
+# Local Netlify folder
+.netlify
