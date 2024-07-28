@@ -1,4 +1,11 @@
-# Adding Angular Content
+---
+title: Adding Angular Content
+description: Adding components to Angular App
+---
+
+## Description
+
+{{ description }}
 
 Angular apps are single page.  When different content is requested, the browser only renders the part of the page that is required.  This can reduce traffic and increase responsiveness.
 

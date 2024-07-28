@@ -1,5 +1,11 @@
+---
+title: Browsers
+description: Browser Config and Notes
+---
 
-# Browsers
+## Description
+
+{{ description }}
 
 ## Temporal Search
 

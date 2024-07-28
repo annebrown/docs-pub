@@ -1,13 +1,14 @@
 ---
+title: Issue - RasPi Incorrect Screen Res
+description: RasPi External Monitor Res Support
 tags:
-    - issues
+    - Issues
+    - CLOSED
 ---
 
-# Issues - RasPi400
-
-## Issue: Incorrect Screen Resolution - CLOSED
-
 ### Description
+
+{{ description }}
 
 RasPi400 external monitor res (1680x1050) not supported in settings or config.
 

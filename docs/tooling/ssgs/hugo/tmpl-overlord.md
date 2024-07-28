@@ -1,4 +1,11 @@
-# Overlord HTML Template
+---
+title: Overlord HTML Template
+description: Essential dev tool
+---
+
+## Description
+
+{{ description }}
 
 Overlord template, `layouts/_default/baseof.html` is the frame encompassing everything else.  It's elements are comprised of things you want on every page.  It is a complete HTML page.
 

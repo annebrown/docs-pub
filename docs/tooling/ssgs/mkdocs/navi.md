@@ -1,4 +1,11 @@
-# MkDocs Navi
+---
+title: Navi
+description: MKdocs Navi
+---
+
+## Description
+
+{{ description }}
 
 ## ```nav``` Config Setting
 

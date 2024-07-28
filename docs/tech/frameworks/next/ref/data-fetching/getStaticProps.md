@@ -1,4 +1,11 @@
-# getStaticProps
+--
+title: getStaticProps
+description: SSG Fetch
+---
+
+## Description
+
+{{ description }}
 
 - SSG
 - data before page is rendered on svr

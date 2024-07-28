@@ -1,10 +1,15 @@
---- 
+---
+title: Angular Cheetsheet
+description: Angular command and notes
 tags:
     - Cheatsheet
     - Angular
 ---
 
-# Angular Cheatsheet
+## Description
+
+{{ description }}
+
 
 ```text
 Install        - npx install -g angular/cli@latest

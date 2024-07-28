@@ -1,9 +1,10 @@
 ---
+title: Issue - Externally Mgd Env
+description: MkDocs and Plugins install venv error
 tags:
-    - issues
-    - mkdocs
-    - mkdocs-plugins
-    - OPEN
+    - Issues
+    - MkDocs
+    - CLOSED
 ---
 
 # Issues - MkDocs

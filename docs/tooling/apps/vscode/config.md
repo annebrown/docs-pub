@@ -1,4 +1,13 @@
-# VSCode Config
+---
+title: Settings
+description: VSCode Config
+tags:
+  - VSCode
+---
+
+## Description
+
+{{ description }}
 
 ## Usage
 

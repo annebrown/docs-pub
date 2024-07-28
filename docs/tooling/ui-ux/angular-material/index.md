@@ -1,8 +1,15 @@
-# [Angular Material](https://material.angular.io)
+---
+title: Material Style for Angular
+description: Angular Design Components
+---
 
 ## Description
 
-Material Design Components fo Angular
+{{ description }}
+
+
+- [Angular Material](https://material.angular.io "Official Site")
+
 
 
 

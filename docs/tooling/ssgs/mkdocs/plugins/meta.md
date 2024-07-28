@@ -1,4 +1,14 @@
-# Meta
+---
+title: Meta
+description: Meta MkDocs Plugin
+tags:
+  - Meta
+---
+
+## Description
+
+{{ description }}
+
 
 [Meta](https://squidfunk.github.io/mkdocs-material/plugins/meta/) is a Material Built-In Plugin
 

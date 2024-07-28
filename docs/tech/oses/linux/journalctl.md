@@ -1,4 +1,11 @@
-# journalctl Command
+---
+title: journalctl Command
+description: Linux Log Viewer
+---
+
+## Description
+
+{{ description }}
 
 ## Purpose
 

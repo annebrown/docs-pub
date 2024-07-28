@@ -1,8 +1,11 @@
-# About
+---
+title: About
+description: About this Site
+hide: 
+  - navigation
+---
 
-## Description
-
-Technical Reference Docs
+{{ description }}
 
 ## Purpose
 

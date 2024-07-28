@@ -1,3 +1,0 @@
-# Development
-
-Projects and Deployments

@@ -1,4 +1,11 @@
-# Hugo Themes
+---
+title: Themes
+description: Hugo Themes
+---
+
+## Description
+
+{{ description }}
 
 ## Create Theme Skeleton
 

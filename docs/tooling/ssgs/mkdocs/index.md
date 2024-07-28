@@ -1,20 +1,23 @@
-# Mkdocs
+---
+title: MkDocs
+description: SSG for docs
+---
 
 ## Description
 
-[MkDocs](https://www.mkdocs.org) is  a Static Site Generator (SSG).
+{{ description }}
 
-
+[MkDocs](https://www.mkdocs.org) is an SSG writen in Python.
 
 Add !!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Python VENV
 
-Create venv dir in proj dir
+Create venv dir in proj dir:
 
 ```bash
 cd [proj-dir]
-python3 -m venv venv
+python3 -m venv .venv
 source venv/bin/activate
 ```
 

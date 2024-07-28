@@ -1,4 +1,11 @@
-# Next.js Reference Apps
+---
+title: Next.js Reference Apps
+description: Complete apps and demos for reference
+---
+
+## Description 
+
+{{ description }}
 
 ## Default App
 

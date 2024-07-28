@@ -1,4 +1,11 @@
-# Next.js LIfecycle 
+---
+title: Next.js LIfecycle 
+description: Next.js app stages
+---
+
+## Description
+
+{{ description }}
 
 ## Next.js Lifecycle
 

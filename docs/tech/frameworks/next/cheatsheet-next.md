@@ -1,10 +1,14 @@
 --- 
+title: Cheatsheet - Next.js
+description: Next.js commands and notes
 tags:
     - Cheatsheet
     - Next.js
 ---
 
-# Next.js Cheatsheet
+## Description 
+
+{{ description }}
 
 ## Commands
 

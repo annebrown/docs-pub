@@ -1,4 +1,11 @@
-# apt -vs- snap
+---
+title: apt -vs snap
+description: apt and snap notes and comparison
+---
+
+## Description
+
+{{ description }}
 
 Source: [Reddit](https://www.reddit.com/r/Ubuntu/comments/a364ii/proscons_of_snap_vs_apt/) (6 yrs ago)
 

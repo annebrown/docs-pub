@@ -1,4 +1,11 @@
-# Create Basic Site
+---
+title: Create Site
+description: Create Basic Hugo Site
+---
+
+## Description
+
+{{ description }}
 
 ## Create New Site
 

@@ -1,9 +1,12 @@
-# UI/UX Design
+---
+title: UI/UX Design
+description: Misc UI/UX Docs and Refs
+---
 
-## [Angular Material](angular-material/index.md)
+{{ description }}
 
-## [MkDocs-Material Emoji Search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/?h=icons#search)
 
-## [Materialui.co/colors](https://materialui.co/colors)
-
-## [Tailwind Color Palette](https://tailwindcolor.com/)
+- [Material-web.dev Components](https://material-web.dev/components/tabs/#interactive-demo)
+- [MkDocs-Material Emoji Search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/?h=icons#search)
+- [Materialui.co/colors](https://materialui.co/colors)
+- [Tailwind Color Palette](https://tailwindcolor.com/)

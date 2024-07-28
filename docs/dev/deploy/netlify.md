@@ -1,10 +1,17 @@
-# Netlify
+---
+title: Deploy - Netlify
+description: Projects deployed to  [Netlify](https://app.netlify.com/ "Official Site")
+---
+
+## Description
+
+{{ description }}
 
 ## Deployments
 
-<https://docs.annebrown.ca> (MkDocs SSG)
+[https://docs.annebrown.ca](https://docs.annebrown.ca "This Site") - MkDocs SSG
 
-<https://www.annebrown.ca> (Angular Full-Stack)
+[https://www.browndomain.com](https://www.annebrown.ca "Authentication Required") - Angular Full-Stack
 
 ## Netlify CLI
 

@@ -1,4 +1,11 @@
-# Linux Dev Env
+---
+title: Linux Dev Env
+description: Install Linux Dev Env on ChromOS Host
+---
+
+## Description
+
+{{ description }}
 
 ## Install LDE
 

@@ -1,4 +1,13 @@
-# Git
+---
+title: Git
+description: Git Config
+tags:
+  - Git
+---
+
+## Description
+
+{{ description }}
 
 ## Git Global Config
 

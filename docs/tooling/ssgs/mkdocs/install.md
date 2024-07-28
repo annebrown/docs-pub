@@ -1,4 +1,11 @@
-# Mkdocs
+---
+title: Install
+description: Install and run MkDocs
+---
+
+## Description
+
+{{ description }}
 
 URL: [Getting Started w MkDocs](https://mkdocs.org/getting-started)
 

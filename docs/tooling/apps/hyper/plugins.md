@@ -1,4 +1,11 @@
-# Hyper Plugins
+---
+title: Huper Plugins
+description: All About Hyper Plugins
+---
+
+## Description
+
+{{ description }}
 
 ## Installed Plugins
 

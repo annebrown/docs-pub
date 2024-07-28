@@ -1,5 +1,12 @@
-# Fav Bash Cmds
+---
+title: Fav Bash Cmds
+description: My Fav and Freq-Use Bash Cmd Ref
+---
 
+## Description
+
+{{ description }}
+ 
 ## Network
 
 ### Info

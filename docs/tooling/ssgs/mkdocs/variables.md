@@ -1,4 +1,11 @@
-# Variables
+---
+title: Variables
+description: Using variables in MkDocs
+---
+
+## Description
+
+{{ description }}
 
 ## Custome Vars
 

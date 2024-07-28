@@ -1,4 +1,11 @@
-# Next.js Scripts
+---
+title: Next.js Scripts
+description: Available Next.js Scripts
+---
+
+## Description
+
+{{ description }}
 
 | Script | Cmd | Descr |
 | :--- | :--- | :--- |

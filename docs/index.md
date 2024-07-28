@@ -1,3 +1,8 @@
-# Home
+---
+title: Home
+description: Technical Refererence Docs
+hide:
+  - navigation
+---
 
-Technical Refererence Docs
+{{ description }}

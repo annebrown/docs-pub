@@ -1,4 +1,11 @@
-# Theming MkDocs
+---
+title: Theming
+description: Styling MkDocs
+---
+
+## Description
+
+{{ description }}
 
 ## Emojis
 

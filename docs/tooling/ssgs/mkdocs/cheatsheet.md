@@ -1,10 +1,14 @@
 --- 
+title: Cheatsheet
+description: Cmds and notes
 tags:
     - Cheatsheet
     - MkDocs
 ---
 
-# MkDocs Cheatsheet
+## Description
+
+{{ description }}
 
 ```tet
 Install         - sudo apt install mkdocs

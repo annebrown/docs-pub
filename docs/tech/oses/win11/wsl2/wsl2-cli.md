@@ -1,4 +1,11 @@
-# Wsl2 CLI
+---
+title: WSL2 CLI
+description: Linux Shell Program and Command Lang
+---
+
+## Description
+
+{{ description }}
 
 Run from windows CLI (.exe extension not rqd).
 

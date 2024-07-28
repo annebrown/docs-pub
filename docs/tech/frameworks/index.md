@@ -1,53 +1,55 @@
-# Frameworks
+---
+title: Frameworks
+description: My Framework Notes
+---
+
+## Description
+
+{{ description }}
 
 ## Front-End
 
-### [Angular](angular/index.md)
-
-### [Next.js](next/index.md)
-
-### [Vue](https://vuejs.org)
+- [Angular](angular/index.md)
+- [Next.js](next/index.md)
+- [Vue](https://vuejs.org "Official Site")
 
 ## Back-End
 
-### [Angular](angular/index.md)
-
-###[Express.js](http://expressjs.com)
-
-### [Next.js](next/index.md)
-
-### [Node.js](node.js/index.md)
+- [Angular](angular/index.md)
+- [Express.js](http://expressjs.com "Official Site")
+- [Next.js](next/index.md)
+- [Node.js](node.js/index.md)
 
 ## Full Stack
 
-### [Angular](angular/index.md)
+- [Angular](angular/index.md)
 
 ### LAMP
 
-- [Apache](https://abache.org)
-- [Linux](https://www.linux.org)
-- [MySQL](https://www.mysql.com)
-- Perl/PHP/Python (See [languages](../languages/index.md)
+- [Apache](https://abache.org "Official Site")
+- [Linux](https://www.linux.org "Official Site")
+- [MySQL](https://www.mysql.com "Official Site")
+- Perl/PHP/Python (See [languages](../languages/index.md))
 
 ### MEAN
 
 - [Angular](angular/index.md)
-- [Express.js](http://expressjs.com)
-- [MongoDB](https://mongodb.com)
+- [Express.js](http://expressjs.com "Official Site")
+- [MongoDB](https://mongodb.com "Official Site")
 - [Node.js](node.js/index.md)
 
 ### MERN
 
-- [Express.js](http://expressjs.com)
-- [MongoDB](https://mongodb.com)
-- [Node.js](https://nodejs.org)
-- [React.js](https://react.dev)
+- [Express.js](http://expressjs.com "Official Site")
+- [MongoDB](https://mongodb.com "Official Site")
+- [Node.js](node.js/index.md)
+- [React.js](https://react.dev "Official Site")
 
 ### MEVN
 
-- [Express.js](http://expressjs.com)
-- [MongoDB](https://mongodb.com)
+- [Express.js](http://expressjs.com "Official Site")
+- [MongoDB](https://mongodb.com "Official Site")
 - [Node.js](node.js/index.md)
-- [Vue](https://vuejs.org)
+- [Vue](https://vuejs.org "Official Site")
 
 ### [Next.js](next/index.md)

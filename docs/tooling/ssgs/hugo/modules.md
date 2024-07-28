@@ -1,4 +1,11 @@
-# Modules
+---
+title: Modules
+description: Hugo Modules
+---
+
+## Description
+
+{{ description }}
 
 ## Module Dependencies
 

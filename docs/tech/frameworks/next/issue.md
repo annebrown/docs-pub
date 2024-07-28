@@ -1,8 +1,14 @@
 ---
+title: Issue - Incorrect React Version
+description: Next.js dev server returns error 
 tags:
     - issues
     - SOLVED
 ---
+
+## Description 
+
+{{ description }}
 
 # Issues - Next.js
 
@@ -14,9 +20,6 @@ Next.js install script, `create-next-app`, returns error when attempting to run 
 
 ```bash
 npm run dev
-
-...
-
 Error: Next.js requires react >= 19.0.0 to be installed.
 ```
 

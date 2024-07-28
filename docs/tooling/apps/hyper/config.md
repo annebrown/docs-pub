@@ -1,4 +1,13 @@
-# Hyper Config
+---
+title: Hyper
+description: Hyper Terminal for Linux
+tags: 
+  - Hyper
+---
+
+## Description
+
+{{ description }}
 
 ## Config File
 

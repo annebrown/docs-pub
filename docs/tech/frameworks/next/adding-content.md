@@ -1,4 +1,13 @@
-# Adding Next.js App Content
+---
+title: Adding Content
+description: Adding content to Next.js app
+tags: 
+  - Next.js
+---
+
+## Description 
+
+{{ description }}
 
 ## Add a Page UI
 

@@ -1,7 +1,13 @@
+---
+title: Konsole
+description: KDE Terminal Emulator Config
+tags:
+  - Konsole
+---
 
-# Konsole
+## Description
 
-KDE Terminal Emulator
+{{ description }}
 
 ## Useful Shortcuts
 

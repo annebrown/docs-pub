@@ -1,29 +1,177 @@
-site_name: docs
-copyright: Copyright &copy; 2024 Anne Brown
+#-------------------------------------------------------------------------------
+# mkdocs.yml - docs-pub
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+# Project:
+#-------------------------------------------------------------------------------
+site_name: docs.annebrown.ca
+site_url: https://docs.annebrown.ca
+site_author: Anne Brown
+site_description: Technical Reference Docs
+watch:
+  - includes
+#-------------------------------------------------------------------------------
+# Repo
+#-------------------------------------------------------------------------------
+repo_name: annebrown/docs-pub
 repo_url: https://github.com/annebrown/docs-pub
+#-------------------------------------------------------------------------------
+# Copyright
+#-------------------------------------------------------------------------------
+copyright: Copyright &copy; 2024 Anne Brown
+#-------------------------------------------------------------------------------
+# theme:
+#-------------------------------------------------------------------------------
 theme:
   name: material
-  logo: img/logo.png
-  favicon: img/favicon.ico
-  palette:
-    primary: green
-    accent: purple
-# theme:
+  custom_dir: custom_theme
+  #-----------------------------------------------------------------------------
+  # Material Features:
+  #-----------------------------------------------------------------------------
   features:
-    - header.autohide
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    #- header.autohide
+    #- navigation.expand
     - navigation.footer
+    - navigation.indexes
+    #- navigation.sections
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    #- navigation.tracking # Replaces Site Name in Header
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    #- toc.integrate
+  #-----------------------------------------------------------------------------
+  # palette:
+  #-----------------------------------------------------------------------------  
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: blue
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  #-----------------------------------------------------------------------------
+  # Font
+  #-----------------------------------------------------------------------------
+  font:
+    text: Roboto
+    code: Roboto Mono
+  #-----------------------------------------------------------------------------
+  # Images
+  #-----------------------------------------------------------------------------
+  icon:
+    tags:
+      HTML: fontawesome/brands/html5
+      JavaScript: fontawesome/brands/js
+      CSS: fontawesome/brands/css3
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+#-------------------------------------------------------------------------------
+# extra:
+#-------------------------------------------------------------------------------
 extra:
+  analytics:
+    provider: google
+    property: G-130437165
+  consent:
+    actions:
+      - reject
+      - accept
+      - manage
+    title: Cookie consent
+    description: >- 
+      This site's cookies record visits and prefs, and measure the effectiveness of the docs and whether searches
+      were successful. Consent is optional.
   generator: false # Made with Material for MkDocs
   social:
 #- icon: img/logo.png 
 # -  link: https://www.annebrown.ca
     - icon: fontawesome/brands/github 
       link: https://github.com/annebrown
+#-------------------------------------------------------------------------------
+# extra_css:
+#-------------------------------------------------------------------------------
+extra_css:
+  - stylesheets/extra.css
+#-------------------------------------------------------------------------------
+# markdown_extensions:
+#-------------------------------------------------------------------------------
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append: 
+        - includes/abbr.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+#-------------------------------------------------------------------------------
+# plugins:
+#-------------------------------------------------------------------------------
 plugins:
+  - search
   - git-revision-date-localized
+  - breadcrumbs
+  - tags:
+      tags_file: dev/meta/tags.md
+  - task-collector:
+      output_file: 'dev/meta/TaskList.md' 
+  - meta-manager
+  #- include_dir_to_nav
+  - macros
+  - awesome-pages
+
+
+
+
 
 
 

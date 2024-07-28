@@ -1,4 +1,14 @@
-# Firefox
+---
+title: Firefox
+description: Firefox Config
+tags:
+  - Firefox
+---
+
+## Description
+
+{{ description }}
+
 
 ## KDE Plasma's Global Menu
 

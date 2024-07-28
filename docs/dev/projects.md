@@ -1,6 +1,13 @@
-# Projects
+---
+title: Projects
+description: Project Details
+---
 
-## docs-pub
+## Description
+
+{{ description }}
+
+<h2 markdown="1" style="color: green">docs-pub</h2>
 
 [This project](../about.md)
 
@@ -10,24 +17,30 @@ GitHub: <https://github.com/annebrown/docs-pub>
 
 ### Status
 
-Operational, living knowledgebase, using MkDocs SSG.
+Operational, living knowledgebase, using MkDocs SSG
+
+*[SSG]: Static Site Generator
 
 Deployments:
 
-<https://docs.annebrown.ca> (Continuous Integration (CI), Netlify)
+<https://docs.annebrown.ca> - [Netlify](https://app.netlify.com "Official Site") CI
 
-<https://docs.misscommunication.ca> (CI, on [ReadTheDocs](https://www.readthedocs.org), with ads.)
+<https://docs.misscommunication.ca> - [ReadTheDocs](https://www.readthedocs.org) CI, with ads
 
 
 ### Dev Svr
 
-Url: http://127.0.0.1:8000
+URL: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-CLI: mkdocs serve
+CLI: ```mkdocs serve```
 
-Bash Alias: docserver # Run svr in custom terminal
+Aliases: 
 
-## www.browndomain.com
+`activate-venv` # Activate Python Virtual Env
+
+`docserver` # Run svr in custom terminal
+
+<h2 markdown="1" style="color: green">www.browndomain.com</h2>
 
 ### Repo
 
@@ -63,7 +76,7 @@ CLI: npm run dev
 
 Bash Alias: nextbd # Run svr in custom terminal
 
-## www.annebrown.ca
+<h2 markdown="1" style="color: green">www.annebrown.ca</h2>
 
 Apex Landing Page
 
@@ -100,7 +113,7 @@ CLI: ng serve
 
 Bash Alias: angularab # Run svr in custom terminal
 
-## dotfiles
+<h2 markdown="1" style="color: green">dotfiles</h2>
 
 ### Repo
 
@@ -118,7 +131,7 @@ Config for new dev hosts and envs (e.g., bare metal host, VM, GitPod).  In conju
 
 Operational and evolving with new configs mods.
 
-## dotfiles-priv
+<h2 markdown="1" style="color: green">dotfiles-priv</h2>
 
 ### Repo
 

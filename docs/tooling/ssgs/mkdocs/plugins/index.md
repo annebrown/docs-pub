@@ -1,7 +1,16 @@
-# Mkdocs Plugins
+---
+title: Plugins
+description: Plugins for MdDocs
+---
 
-MkDocs has Built-in Plugins [TODO: tags link] and its plug-ins can also have built-ins.  
+## Description
 
+{{ description }}
+
+MkDocs has Built-in Plugins, and its themes can also have built-ins.  
+
+
+[TODO: tags link] 
 # Installing
 
 ```bash

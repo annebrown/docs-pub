@@ -1,4 +1,11 @@
-#  Config
+---
+title: Config
+description: Hugo Config
+---
+
+## Description
+
+{{ description }}
 
 ## Basic Config File 
 

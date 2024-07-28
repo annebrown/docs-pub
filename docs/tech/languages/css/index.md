@@ -1,6 +1,13 @@
-# CSS
+---
+title: CSS
+description: Style Sheet language for specifying presentation and styling of a doc written in a markup lang.
+tags: 
+  - CSS
+---
 
 ## Description
+
+{{ description }}
 
 Style Sheet language for specifying presentation and styling of a doc written in a markup lang.
 

@@ -1,7 +1,13 @@
+---
+title: pnpm
+description: JavaScript Pkg Mgr
+tags:
+  - JavaScript
+---
 
-# pnpm
+## Description
 
-pnpm is a pkg mgr.
+{{ description }}
 
 ## Install pnpm
 

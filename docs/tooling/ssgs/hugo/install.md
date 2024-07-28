@@ -1,4 +1,12 @@
-# Install Hugo
+---
+title: Install
+description: Install Hugo
+---
+
+## Description
+
+{{ description }}
+
 
 ## Install Go
 

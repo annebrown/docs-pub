@@ -1,4 +1,14 @@
-# Extensions
+---
+title: Extensions
+description: VSCode Extension Config
+tags:
+  - VSCode
+---
+
+## Description
+
+{{ description }}
+
 
 ## Git
 

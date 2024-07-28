@@ -1,5 +1,12 @@
-# Gnome Desktop
+---
+title: Gnome Desktop
+description: Gnome Desktop Config
+---
 
+## Description
+
+{{ description }}
+ 
 ## Dark Theme
 
 ```bash

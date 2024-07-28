@@ -1,4 +1,11 @@
-# mkdocs-awsome-pages-p0lugin
+---
+title: mkdocs-awsome-pages-plugin
+description: Essential MkDocs Navi Plugin
+---
+
+## Description
+
+{{ description }}
 
 Automatic navi, without polluting `mkdocs.yml`
 

@@ -1,4 +1,11 @@
-# Install Hyper
+---
+title: Install Hyper
+description: Install Hyper Terminal
+---
+
+## Description
+
+{{ description }}
 
 ## Required Libraries
 

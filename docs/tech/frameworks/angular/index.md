@@ -1,11 +1,10 @@
-# Angular
+---
+title: Angular
+description: Open-source, Full-Stack, Web App Framework
+---
 
 ## Description
 
-Open-source, Full-Stack, Web App Framework
+{{ description }}
 
-## [Install](install.md)
-
-## [Components](components.md)
-
-## [Material](material.md/index.md)
+> Well documented, scaleable, highly efficient, feature-rich tools, APIs and libs, for Web App Dev

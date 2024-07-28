@@ -1,4 +1,15 @@
-# Neovim
+---
+title: Neovim
+description: Feature rich, Vim-based IDE
+tags:
+  - Vim
+  - Neovim
+---
+
+## Description
+
+{{ description }}
+
 
 ## Install
 

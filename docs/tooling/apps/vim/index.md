@@ -1,13 +1,14 @@
 ---
+title: Vim
+description: Essential dev tool
 tags:
-    - Index
+  - Vim
 ---
-
-# Vim
 
 ## Description
 
-- Essential dev tool
+{{ description }}
+
 - Built-in on all popular linux distros
 - Extensions available for most popular terminals, browsers, text editors, IDEs, and for many other dev tools.
   

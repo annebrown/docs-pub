@@ -1,4 +1,13 @@
-# Install 
+---
+title: Install
+description: Installing and Run Next.js App 
+tags:
+  - Next.js
+---
+
+## Description 
+
+{{ description }}
 
 Next.js is installed as separate apps.  
 

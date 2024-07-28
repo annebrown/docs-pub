@@ -1,4 +1,12 @@
-# Logs
+---
+title: Logs
+description: Linux Log Files and Mgmt
+---
+
+## Description
+
+{{ description }}
+
 
 ## Path
 

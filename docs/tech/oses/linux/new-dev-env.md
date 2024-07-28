@@ -1,8 +1,11 @@
-# New Dev Env
+---
+title: Mew Dev Emv
+description: Congigure New Development Environment
+---
 
 ## Description
 
-Configure new dev env.
+{{ description }}
 
 ## Usage
 
