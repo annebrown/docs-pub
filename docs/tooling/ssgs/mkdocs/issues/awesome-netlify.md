@@ -62,5 +62,31 @@ mkdocs-meta-manager==1.0.0
 mkdocs-task-collector==0.1.12
 ```
 
-Dumped cache and deployed on latest commit.
+Dumped cache and deployed on latest commit.  
+
 ### Result
+
+Same same.
+
+## Try Re-order Plugin Third-to-Last
+
+Last three plugins in confg: awesome, then tags, then macros.  
+
+Warnings from dev svr:
+
+!!! Warning Materials/Tabs and Macros plugins must load before awesome-pages.  
+
+    Macros and Tabs must come after awesome-pages because it defines an on_nav handler that will be overridden by awesome-pages.
+
+
+### Result
+
+
+
+## Solution
+
+Not solved.
+
+## Status
+
+OPEN
