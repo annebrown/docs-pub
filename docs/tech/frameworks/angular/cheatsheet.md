@@ -1,6 +1,6 @@
 ---
 title: Angular Cheetsheet
-description: Angular command and notes
+description: Angular cmds and notes
 tags:
     - Cheatsheet
     - Angular
