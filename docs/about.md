@@ -3,6 +3,7 @@ title: About
 description: About this Site
 hide: 
   - navigation
+  - toc
 ---
 
 ## Description

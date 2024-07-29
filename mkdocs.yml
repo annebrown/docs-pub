@@ -152,8 +152,8 @@ markdown_extensions:
 #-------------------------------------------------------------------------------
 plugins:
   - search
-  - git-revision-date-localized
   - awesome-pages
+  - git-revision-date-localized
   - macros
   - meta-manager
   - tags:
