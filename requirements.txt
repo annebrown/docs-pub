@@ -4,5 +4,7 @@ mkdocs-material
 pymdown-extensions
 mkdocs-git-revision-date-localized-plugin
 mkdocs-awesome-pages-plugin
-
+mkdocs-macros-plugin
+mkdocs-meta-manager
+mkdocs-task-collector
 
