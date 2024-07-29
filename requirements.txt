@@ -3,4 +3,4 @@ mkdocs
 mkdocs-material
 pymdown-extensions
 mkdocs-git-revision-date-localized
-mkdocs-awsome-pages-plugin
+
