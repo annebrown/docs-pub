@@ -12,18 +12,10 @@ tags:
 
 ## Inline
 
---8<-- "styling.md"
+--8<-- "data/snipper-1line.txt"
 
 ## Block
 
-``` title="data/snippets.md"
---8<-- "data/snippets.txt"
+``` title="data/snippet-block.md"
+--8<-- "data/snippet-block.txt"
 ```
-The `#!python range()` function is used to generate a sequence of numbers.
-
-
-``` title="styling.md"
---8<-- "styling.md"
-```
-
-

@@ -9,7 +9,7 @@ description: Styling MkDocs
 
 ## Emojis
 
-[CSS](css.md)
+[CSS](https://www.w3.org/Style/CSS/Overview.en.html "Official Site")
 
 [Emoji Search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/?h=icons#search)
 

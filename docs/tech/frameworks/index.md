@@ -18,7 +18,7 @@ description: My Framework Notes
 - [Angular](angular/index.md)
 - [Express.js](http://expressjs.com "Official Site")
 - [Next.js](next/index.md)
-- [Node.js](node.js/index.md)
+- [Node.js](node/index.md)
 
 ## Full Stack
 
@@ -29,27 +29,27 @@ description: My Framework Notes
 - [Apache](https://abache.org "Official Site")
 - [Linux](https://www.linux.org "Official Site")
 - [MySQL](https://www.mysql.com "Official Site")
-- Perl/PHP/Python (See [languages](../languages/index.md))
+- Perl/PHP/Python (See [Languages](../languages/))
 
 ### MEAN
 
 - [Angular](angular/index.md)
 - [Express.js](http://expressjs.com "Official Site")
 - [MongoDB](https://mongodb.com "Official Site")
-- [Node.js](node.js/index.md)
+- [Node.js](node/index.md)
 
 ### MERN
 
 - [Express.js](http://expressjs.com "Official Site")
 - [MongoDB](https://mongodb.com "Official Site")
-- [Node.js](node.js/index.md)
+- [Node.js](node/index.md)
 - [React.js](https://react.dev "Official Site")
 
 ### MEVN
 
 - [Express.js](http://expressjs.com "Official Site")
 - [MongoDB](https://mongodb.com "Official Site")
-- [Node.js](node.js/index.md)
+- [Node.js](node/index.md)
 - [Vue](https://vuejs.org "Official Site")
 
 ### [Next.js](next/index.md)

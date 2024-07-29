@@ -20,5 +20,5 @@ extra:
 Use in MD:
 
 ```markdown
-My fav color is {{my.fav-color}}.
+My fav color is {{ my.fav-color }}.
 ```

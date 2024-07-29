@@ -26,13 +26,13 @@ INFO    - Writing config file: mkdocs-pub/mkdocs.yml
 INFO    - Writing initial docs: mkdocs-pub/docs/index.md
 ```
 
-Config File: ```/mkdocs.yml```:
+Config File: `/mkdocs.yml`:
 
 ```yml
 site_name: My Docs
 ```
 
-Initial Doc: ```/docs/index.md```
+Initial Doc: `/docs/index.md`
 
 ```html
 # Welcome to MkDocs
@@ -61,5 +61,5 @@ INFO    -  Cleaning site directory
 INFO    -  Documentation built in 0.07 seconds
 INFO    -  [08:15:44] Watching paths for changes: 'docs', 'mkdocs.yml'
 INFO    -  [08:15:44] Serving on http://127.0.0.1:8000/
-
 ```
+

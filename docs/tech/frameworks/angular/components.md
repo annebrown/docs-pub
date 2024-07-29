@@ -24,4 +24,3 @@ CREATE src/app/two/two.component.ts (222 bytes)
 ```
 
 A component has its own logic and inner-connent, and, optionally style, and unit tests.
-

@@ -108,11 +108,6 @@ extra:
       This site's cookies record visits and prefs, and measure the effectiveness of the docs and whether searches
       were successful. Consent is optional.
   generator: false # Made with Material for MkDocs
-  social:
-#- icon: img/logo.png 
-# -  link: https://www.annebrown.ca
-    - icon: fontawesome/brands/github 
-      link: https://github.com/annebrown
 #-------------------------------------------------------------------------------
 # extra_css:
 #-------------------------------------------------------------------------------
@@ -133,12 +128,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
-      anchor_linenums: true
+      #anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.inlinehilite
   - pymdownx.snippets:
       auto_append: 
         - includes/abbr.md
@@ -157,17 +151,16 @@ markdown_extensions:
 # plugins:
 #-------------------------------------------------------------------------------
 plugins:
-  - search
+  - awesome-pages
   - git-revision-date-localized
-  - breadcrumbs
+  - macros
+  - meta-manager
+  - search
   - tags:
       tags_file: dev/meta/tags.md
   - task-collector:
       output_file: 'dev/meta/TaskList.md' 
-  - meta-manager
-  #- include_dir_to_nav
-  - macros
-  - awesome-pages
+
 
 
 

@@ -1,6 +1,8 @@
 ---
 title: Deploy - Vercel
 description: Porjects deployed to [Vercel](https://vercel.com/  "Official Site")
+tags:
+  - Vercel
 ---
 
 ## Description

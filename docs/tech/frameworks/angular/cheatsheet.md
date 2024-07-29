@@ -10,7 +10,6 @@ tags:
 
 {{ description }}
 
-
 ```text
 Install        - npx install -g angular/cli@latest
 Create New App - ng new [project-name]

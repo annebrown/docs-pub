@@ -1,6 +1,8 @@
 ---
 title: mkdocs-awsome-pages-plugin
 description: Essential MkDocs Navi Plugin
+tags:
+  - mkdocs-awesome-pages-plugin
 ---
 
 ## Description
@@ -31,13 +33,13 @@ nav:
   - index.md
   - section 1:
       - page1.md
-	  - page2.md
+      - page2.md
   - Section 2:
       - another-page.md
 ```
 
 ### Rest Filter
 
-Lines beginning with `  - ...` are called `Rest Filters`.
+Lines beginning with `...` are called `Rest Filters`.
 
-Rest filters check filters items in the containing folder.
+Rest filters - check filters items in the containing folder.

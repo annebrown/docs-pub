@@ -23,10 +23,10 @@ The HTML specification is maintained by the W3C.
 
 ## Tooltips
 
-This a [Link w Tooltip](index.md "Here is the Tooltip").
+This a [Link w Tooltip](sandbox.md "Here is the Tooltip").
 
 Also of use in a [reference][example]
 
-  [example]: index.md "I'm a tooltip!"
+  [example]: styling.md "I'm a tooltip!"
 
 This is an icon :material-information-outline:{ title="Important information" } with some important information.

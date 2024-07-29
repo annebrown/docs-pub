@@ -1,7 +1,10 @@
 ---
 title: Angular
 description: Open-source, Full-Stack, Web App Framework
+tags:
+  - Angular
 ---
+
 
 ## Description
 

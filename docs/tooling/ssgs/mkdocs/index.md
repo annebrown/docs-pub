@@ -9,9 +9,7 @@ description: SSG for docs
 
 [MkDocs](https://www.mkdocs.org) is an SSG writen in Python.
 
-Add !!!!!!!!!!!!!!!!!!!!!!!!
-
-## Python VENV
+## Python Virtual Env
 
 Create venv dir in proj dir:
 
@@ -35,8 +33,6 @@ plugins:
 
 ## Conclusion
 
-!!!+ warning
+!!! warning
 
-    Material for MkDocs appears to the be best addon, however, to use many of its good features, they expect a $15/mo payment, for individual, non-commercian use.  Good luck with that.  
-
-
+    Material for MkDocs appears to the be best addon, however, to use many of its good features, they expect a $15/mo payment, for individual, non-commercian use.  Good luck with that.

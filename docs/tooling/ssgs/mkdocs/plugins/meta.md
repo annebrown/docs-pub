@@ -2,19 +2,16 @@
 title: Meta
 description: Meta MkDocs Plugin
 tags:
-  - Meta
+  - Meta Plugin
 ---
 
 ## Description
 
 {{ description }}
 
+[Meta](https://squidfunk.github.io/mkdocs-material/plugins/meta "Official Site") is a Material Built-In Plugin.
 
-[Meta](https://squidfunk.github.io/mkdocs-material/plugins/meta/) is a Material Built-In Plugin
-
-## Description
-
-Meta recursively merges the contents of ```.meta.yml```  files with the frontmatter of all pages contained in the same folder and all subfolders.  This, with the help of other plugins, enables powerful features, such as inherited tags, etc.
+Meta recursively merges the contents of `.meta.yml`  files with the frontmatter of all pages contained in the same folder and all subfolders.  This, with the help of other plugins, enables powerful features, such as inherited tags, etc.
 
 ## Tags
 
@@ -24,14 +21,13 @@ tags:
  - Tooling
 ```
 
-All pages in the containing folder receive these tags, with the help of another Material built-in ```tags``` plugin.
+All pages in the containing folder receive these tags, with the help of another Material built-in `tags` plugin.
 
 ## Setup
 
-```mkdocs.yml```:
+`mkdocs.yml`:
 
 ```yml
 plugins: 
   - meta
 ```
-

@@ -5,6 +5,8 @@ hide:
   - navigation
 ---
 
+## Description
+
 {{ description }}
 
 ## Purpose
@@ -14,7 +16,6 @@ This site is comprised of stuff I'm working on and want to remember.  It was cre
 ## Usage
 
 Usage is covered under the [MIT Liscense](https://opensource.org/license/MIT).  It is intended for my use, however, it may be of use to others.  It is a living knowledge base and WILL MOST PROBABLY/DEFINITELY contain incorrect data. Ensure you know what you are doing before copying and reusing any code available here.  
-
 
 ## Repo
 

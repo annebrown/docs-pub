@@ -1,6 +1,8 @@
 ---
 title: Deploy - Netlify
 description: Projects deployed to  [Netlify](https://app.netlify.com/ "Official Site")
+tags:
+  - Netlify
 ---
 
 ## Description

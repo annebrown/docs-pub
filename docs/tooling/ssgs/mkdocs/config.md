@@ -1,6 +1,6 @@
 ---
-title: Cheatsheet
-description: MkDocs Notes and Cmds
+title: Config
+description: MkDocs Config
 ---
 
 ## Description
