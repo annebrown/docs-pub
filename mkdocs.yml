@@ -151,15 +151,14 @@ markdown_extensions:
 #-------------------------------------------------------------------------------
 plugins:
   - search
-  - awesome-pages
   - git-revision-date-localized
-  - macros
   - meta-manager
   - tags:
       tags_file: dev/meta/tags.md
   - task-collector:
       output_file: 'dev/meta/TaskList.md'
   - awesome-pages
+  - macros
 
 
 

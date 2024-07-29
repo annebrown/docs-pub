@@ -14,7 +14,7 @@ tags:
 
 {{ description }}
 
-## Try - Set Specific Versions in `meta.yml`
+## Try - Set Specific Versions in `mkdocs.yml`
 
 ### Steps
 
@@ -62,4 +62,5 @@ mkdocs-meta-manager==1.0.0
 mkdocs-task-collector==0.1.12
 ```
 
+Dumped cache and deployed on latest commit.
 ### Result
