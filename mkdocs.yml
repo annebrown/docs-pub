@@ -41,7 +41,7 @@ theme:
     - navigation.indexes
 #    #- navigation.sections
 #    - navigation.path
-    - navigation.tabs
+#    - navigation.tabs
 #    - navigation.tabs.sticky
 #    - navigation.top
 #    #- navigation.tracking # Replaces Site Name in Header
