@@ -29,7 +29,7 @@ description: My Framework Notes
 - [Apache](https://abache.org "Official Site")
 - [Linux](https://www.linux.org "Official Site")
 - [MySQL](https://www.mysql.com "Official Site")
-- Perl/PHP/Python (See [Languages](../languages/))
+- Perl/PHP/Python
 
 ### MEAN
 

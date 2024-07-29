@@ -7,7 +7,6 @@ description: Install Hugo
 
 {{ description }}
 
-
 ## Install Go
 
 ```bash
@@ -33,4 +32,3 @@ sudo snap install hugo
 ```bash
 hugo version
 ```
-
