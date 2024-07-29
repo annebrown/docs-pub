@@ -31,10 +31,3 @@ Mkdocs SSG
 Netlify: <https://docs.annebrown.ca>
 
 ReadtheDocs: <https://docs.misscommunication.ca>
-
-## To Do
-
-- [  ] Footers
-- [  ] Breadcrumbs
-- [  ] Index
-- [  ] Dark/Light Mode Toggle
