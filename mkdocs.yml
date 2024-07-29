@@ -29,27 +29,27 @@ theme:
   # Material Features:
   #-----------------------------------------------------------------------------
   features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    - content.tooltips
-    #- header.autohide
-    #- navigation.expand
-    - navigation.footer
+#    - announce.dismiss
+#    - content.action.edit
+#    - content.action.view
+#    - content.code.annotate
+#    - content.code.copy
+#    - content.tooltips
+#    #- header.autohide
+#    #- navigation.expand
+#    - navigation.footer
     - navigation.indexes
-    #- navigation.sections
-    - navigation.path
+#    #- navigation.sections
+#    - navigation.path
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    #- navigation.tracking # Replaces Site Name in Header
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
-    #- toc.integrate
+#    - navigation.tabs.sticky
+#    - navigation.top
+#    #- navigation.tracking # Replaces Site Name in Header
+#    - search.highlight
+#    - search.share
+#    - search.suggest
+#    - toc.follow
+#   #- toc.integrate
   #-----------------------------------------------------------------------------
   # palette:
   #-----------------------------------------------------------------------------  
@@ -116,49 +116,49 @@ extra_css:
 # markdown_extensions:
 #-------------------------------------------------------------------------------
 markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-  - pymdownx.highlight:
-      #anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.snippets:
-      auto_append: 
-        - includes/abbr.md
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - toc:
-      permalink: true
+#  - abbr
+#  - admonition
+#  - attr_list
+#  - def_list
+#  - footnotes
+#  - md_in_html
+#  - pymdownx.details
+#  - pymdownx.emoji:
+#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+#      emoji_index: !!python/name:material.extensions.emoji.twemoji
+#  - pymdownx.highlight:
+#      #anchor_linenums: true
+#      line_spans: __span
+#      pygments_lang_class: true
+#  - pymdownx.inlinehilite
+#  - pymdownx.keys
+#  - pymdownx.snippets:
+#      auto_append: 
+#        - includes/abbr.md
+#  - pymdownx.superfences
+#  - pymdownx.tabbed:
+#      alternate_style: true
+#      combine_header_slug: true
+#      slugify: !!python/object/apply:pymdownx.slugs.slugify
+#        kwds:
+#          case: lower
+#  - pymdownx.tasklist:
+#      custom_checkbox: true
+#  - toc:
+#      permalink: true
 #-------------------------------------------------------------------------------
 # plugins:
 #-------------------------------------------------------------------------------
 plugins:
   - awesome-pages
-  - search
-  - git-revision-date-localized
-  - meta-manager
-  - task-collector:
-      output_file: 'dev/meta/TaskList.md'
-  - tags:
-      tags_file: dev/meta/tags.md
-  - macros
+ # - search
+ # - git-revision-date-localized
+ # - meta-manager
+ # - task-collector:
+ #     output_file: 'dev/meta/TaskList.md'
+ # - tags:
+ #     tags_file: dev/meta/tags.md
+ # - macros
 
 
 

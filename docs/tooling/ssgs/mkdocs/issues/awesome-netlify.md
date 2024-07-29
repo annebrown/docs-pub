@@ -82,9 +82,21 @@ Dumped cache and deployed on latest commit.
 
 ### Result
 
-Same old.
+awesome-pages (`.pages`) broken everwhere, not just on `navigation.tabs`.
 
 ## Try - Load awesome-pages First
+
+### Result
+
+Same.
+
+## Try - Disabling Everything but awesome-pages
+
+Removed all features, extensions and plugins, except navigation.tabs, navigation-indexes, and awesome-pages.
+
+### Result
+
+
 
 ## Solution
 
