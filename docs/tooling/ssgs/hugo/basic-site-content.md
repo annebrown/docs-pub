@@ -1,17 +1,16 @@
 ---
 title: Basic Site Content
-description: Essential dev tool
+description: Hugo Default Site Content
 ---
 
 ## Description
 
 {{ description }}
 
-## Overlord HTML Template
+## baseof.html
 
-The [Overlord template](tmpl-overlord.md) is a complete HTML file, used as the basis of all other pages.
+This is a complete HTML file, used as the basis of all other pages.
 
 ## Single Page Templates
 
-Hugo also uses templates for [inner content](tmpl-inner-pages.md) pages, thus further modularizing common content for each page type
-
+Hugo also uses templates for [inner content](tmpl-inner-pages.md) pages, thus further modularizing common content for each page type.
