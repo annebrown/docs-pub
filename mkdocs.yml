@@ -150,12 +150,12 @@ markdown_extensions:
 # plugins:
 #-------------------------------------------------------------------------------
 plugins:
+  - awesome-pages
   - search
   - git-revision-date-localized
   - meta-manager
   - task-collector:
       output_file: 'dev/meta/TaskList.md'
-  - awesome-pages
   - tags:
       tags_file: dev/meta/tags.md
   - macros

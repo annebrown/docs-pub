@@ -78,10 +78,13 @@ Warnings from dev svr:
 
     Macros and Tabs must come after awesome-pages because it defines an on_nav handler that will be overridden by awesome-pages.
 
+Dumped cache and deployed on latest commit.  
 
 ### Result
 
+Same old.
 
+## Try - Load awesome-pages First
 
 ## Solution
 
