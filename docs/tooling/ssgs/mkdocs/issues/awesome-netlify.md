@@ -62,7 +62,7 @@ mkdocs-meta-manager==1.0.0
 mkdocs-task-collector==0.1.12
 ```
 
-Dumped cache and deployed on latest commit.  
+Dumped cache and deployed w latest commit.  
 
 ### Result
 
@@ -93,6 +93,8 @@ Same.
 ## Try - Disabling Everything but awesome-pages
 
 Removed all features, extensions and plugins, except navigation.tabs, navigation-indexes, and awesome-pages.
+
+Clear cache and deploy latest commit.
 
 ### Result
 
