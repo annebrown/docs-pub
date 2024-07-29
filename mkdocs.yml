@@ -159,7 +159,9 @@ plugins:
   - tags:
       tags_file: dev/meta/tags.md
   - task-collector:
-      output_file: 'dev/meta/TaskList.md' 
+      output_file: 'dev/meta/TaskList.md'
+  - awesome-pages
+
 
 
 
