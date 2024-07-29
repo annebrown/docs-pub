@@ -105,8 +105,7 @@ extra:
       - manage
     title: Cookie consent
     description: >- 
-      This site's cookies record visits and prefs, and measure the effectiveness of the docs and whether searches
-      were successful. Consent is optional.
+      This site's cookies record your visits and prefs. Dark/Light mode auto-respects your sys settings.  Your Internet, your choice.
   generator: false # Made with Material for MkDocs
 #-------------------------------------------------------------------------------
 # extra_css:
