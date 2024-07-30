@@ -9,7 +9,8 @@ temp/
 
 # MkDocs - Local Builds 
 site/
-.*
+.venv
+.notes
 
 # Local Netlify folder
 .netlify

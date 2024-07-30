@@ -1,0 +1,4 @@
+nav:
+  - 'Auto-Generated Tasks List': TaskList.md
+  - 'Auto Generated Tags List': tags.md
+  - 'Macros Plugin': macros.md

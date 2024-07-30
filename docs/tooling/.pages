@@ -1,0 +1,4 @@
+nav:
+  - 'Apps': apps
+  - 'SSGs': ssgs
+  - 'UI/UX': ui-ux
