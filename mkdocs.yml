@@ -97,7 +97,7 @@ theme:
 extra:
   analytics:
     provider: google
-    property: G-130437165
+    property: G-XX85YVVSKQ
   consent:
     actions:
       - reject

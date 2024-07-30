@@ -55,6 +55,13 @@ Theme colors can be overriden in [user settings](#user) file.  See [VS Code Work
  "window.systemColorTheme": "dark",
 ```
 
+## Custom Title Bar
+
+When KDE Global Menu is in use, the bar displaying icons to open and close panels, e.g. terminal panel, is not visible.  To make the 
+custom title bar visible:
+
+Settings > window: CCustom Title Bar Visibility > windowed
+
 ## Editors
 
 ### Page Border
