@@ -11,28 +11,22 @@ tags:
 
 ## Usage
 
-Turn off `Sync Settings` and store VSCode user settings in [dotfiles](../../../dev/projects.md#dotfiles):
-
-```bash
-~/.dotfiles/code/.config/Code/User/settings.json
-```
+Move VSCode settings to `~/.dotfiles`.  See [Dotfiles Project](../../../dev/projects.md#dotfiles).
 
 This allows customized VSCode settings to be pulled into new dev envs (bare metal server, VM, GitPod, etc.).  See [New Dev Env](../../../tech/oses/linux/new-dev-env.md) and the [dotfiles](../../../dev/projects.md#dotfiles) project.
 
-## Settings File Default Locns:
-
-### User
+### User Settings
 
 ```bash
-~/.config/Code/User/settings.json
+mv ~/.config/Code/User/settings.json ~/.dotfiles/code/.config/Code/User/settings.json
 ```
 
 Alphabetizing this file facilitates mods and helps reduce dups.
 
-### Workspace
+### Profiles
 
 ```bash
-~/.config/Code/Workspaces/[Numeric ID]/
+mv ~/.config/Code/User/profiles/ ~./dotfiles/code/.config/Code/User/profiles/
 ```
 
 ## Default Settings

@@ -1,0 +1,6 @@
+nav:
+  - Home: index.md
+  - angular
+  - next
+  - node
+  - SSGs: ssgs

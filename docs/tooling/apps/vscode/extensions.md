@@ -55,6 +55,8 @@ Map `Esc` to `jj`:
 
 ## YAML
 
+MkDocs Schema:
+
 ```json
 yaml.schemas": {
     "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"

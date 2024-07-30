@@ -1,6 +1,6 @@
 ---
 title: Hugo
-description: Open-source SSG
+description: Open-source Python Full-Stack SSG
 tags:
   - Hugo
 ---

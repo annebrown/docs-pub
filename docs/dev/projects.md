@@ -11,13 +11,9 @@ description: Project Details
 
 [This project](../about.md)
 
-### Repo
-
-GitHub: <https://github.com/annebrown/docs-pub>
-
 ### Status
 
-Operational, living knowledgebase, using MkDocs SSG
+Operational
 
 *[SSG]: Static Site Generator
 
@@ -113,7 +109,7 @@ CLI: ng serve
 
 Bash Alias: angularab # Run svr in custom terminal
 
-<h2 markdown="1" style="color: green">dotfiles</h2>
+<h2 markdown="1" style="color: green">Dotfiles</h2>
 
 ### Repo
 
@@ -121,7 +117,7 @@ GitHub: <https://github.com/annebrown/dotfiles>
 
 ### Description
 
-Dev Env Config using GNU-stow and other config tools.
+Dev env config using [GNU-stow](https://www.gnu.org/software/stow/).
 
 ### Purpose
 
@@ -129,9 +125,9 @@ Config for new dev hosts and envs (e.g., bare metal host, VM, GitPod).  In conju
 
 ### Status
 
-Operational and evolving with new configs mods.
+Operational.
 
-<h2 markdown="1" style="color: green">dotfiles-priv</h2>
+<h2 markdown="1" style="color: green">Dotfiles Private</h2>
 
 ### Repo
 

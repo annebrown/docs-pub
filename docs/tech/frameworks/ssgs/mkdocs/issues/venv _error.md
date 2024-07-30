@@ -1,6 +1,6 @@
 ---
-title: venv Error
-description: MkDocs and Plugins install venv error
+title: Python pip venv Error
+description: MkDocs plugins install throwing venv error
 tags:
     - Issues
     - MkDocs
@@ -10,6 +10,10 @@ tags:
 ## Description
 
 {{ description }}
+
+## Status
+
+SOLVED
 
 ## Problem
 
@@ -49,7 +53,3 @@ hint: See PEP 668 for the detailed specification.
 ## Solution
 
 Use Python venv for project.  See [Install](../install.md) for correct install method.
-
-## Status
-
-SOLVED

@@ -27,7 +27,7 @@ source .venv/bin/activate
 ```
 `pip` will now install every Python pkg into `./.venv` until venv is deactivated or terminal is closed.
 
-## `.bash_aliases`
+## Add Shortcut to `.bash_aliases`
 
 ```bash
 alias activate-venv="source ./.venv/bin/activate"
@@ -36,7 +36,11 @@ alias activate-venv="source ./.venv/bin/activate"
 ## Install MkDocs
 
 Install MkDocs, plus its plugins, themes and extensions:
+
 ```bash
-pipx isntall mkdocs
-pipx install mkdocs-material --include-deps --force
-pip3 install mkdocs-git-revision-date-localized-plugin --include-deps --force
+pip isntall mkdocs
+pip install mkdocs-material
+pip install mkdocs-git-revision-date-localized-plugin
+ ...
+
+```

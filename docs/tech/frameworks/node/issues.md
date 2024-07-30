@@ -8,6 +8,10 @@ tags:
 
 {{ description }}
 
+## Status
+
+SOLVED
+
 ## Error
 
 ```bash

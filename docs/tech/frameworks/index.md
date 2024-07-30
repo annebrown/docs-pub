@@ -1,6 +1,6 @@
 ---
 title: Frameworks
-description: My Framework Notes
+description: My Notes on  Frameworks
 ---
 
 ## Description
@@ -9,20 +9,33 @@ description: My Framework Notes
 
 ## Front-End
 
-- [Angular](angular/index.md)
-- [Next.js](next/index.md)
-- [Vue](https://vuejs.org "Official Site")
+### [Angular](angular/index.md)
+
+### [Next.js](next/index.md)
+
+### [Vue](https://vuejs.org "Official Site")
 
 ## Back-End
 
-- [Angular](angular/index.md)
-- [Express.js](http://expressjs.com "Official Site")
-- [Next.js](next/index.md)
-- [Node.js](node/index.md)
+### [Angular](angular/index.md)
+
+### [Express.js](http://expressjs.com "Official Site")
+
+### [Next.js](next/index.md)
+
+### [Node.js](node/index.md)
 
 ## Full Stack
 
-- [Angular](angular/index.md)
+### [Angular](angular/index.md)
+
+### SSGs
+
+- [MkDocs](ssgs/mkdocs/index.md)
+- [Hugo](ssgs/hugo/index.md)
+- [Jekyll](https://jekyllrb.com "Official Site")
+- [Gatsby](https://www.gatsbyjs.com "Official Site")
+- [Next.js](next/index.md)
 
 ### LAMP
 

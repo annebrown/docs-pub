@@ -1,3 +1,21 @@
+---
+title: Config
+description: MkDocs Config
+---
+
+## Description
+
+{{ description }}
+
+## `mkdocs.yml`
+
+Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins and extensions, order matters.
+
+Here are sample settings from a working implementation:
+
+### Project Settings
+
+```yml
 #-------------------------------------------------------------------------------
 # mkdocs.yml - docs-pub
 #-------------------------------------------------------------------------------
@@ -8,21 +26,45 @@ site_name: docs.annebrown.ca
 site_url: https://docs.annebrown.ca
 site_author: Anne Brown
 site_description: Technical Reference Docs
+```
+
+### Watches
+
+To provide live preview, MkDocs server watches its default confg and dirs for changes.  Add items here to include additional dirs to watch.
+
+```yml
 #-------------------------------------------------------------------------------
 # Watches
 #-------------------------------------------------------------------------------
 watch:
   - includes
+```
+
+### Repo
+
+Connect proj to its source repo for  view, edit, etc.:
+
+```yml
 #-------------------------------------------------------------------------------
 # Repo
 #-------------------------------------------------------------------------------
 repo_name: annebrown/docs-pub
 repo_url: https://github.com/annebrown/docs-pub
+```
+
+### Copyright
+
+```yml
 #-------------------------------------------------------------------------------
 # Copyright
 #-------------------------------------------------------------------------------
 copyright: Copyright &copy; 2024 Anne Brown
-#-------------------------------------------------------------------------------
+```
+
+### Theme
+
+```yml
+-------------------------------------------------------------------------------
 # theme:
 #-------------------------------------------------------------------------------
 theme:
@@ -94,13 +136,18 @@ theme:
       CSS: fontawesome/brands/css3
   logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
+```
+
+### Analytics and Cookies
+
+```yml
 #-------------------------------------------------------------------------------
 # extra:
 #-------------------------------------------------------------------------------
 extra:
   analytics:
     provider: google
-    property: G-XX85YVVSKQ
+    property: G-[Your Google Analytics Property]
   consent:
     actions:
       - reject
@@ -108,13 +155,23 @@ extra:
       - manage
     title: Cookie consent
     description: >- 
-      This site's cookies record your visits and prefs.  Your Internet, your choice.
+      This site's cookies record your visits and prefs. Your privacy, your choice.
   generator: false # Made with Material for MkDocs
+```
+
+### Extending and Overriding Theme Sytling
+
+```yml
 #-------------------------------------------------------------------------------
 # extra_css:
 #-------------------------------------------------------------------------------
 extra_css:
   - stylesheets/extra.css
+```
+
+### Markdown Extensions
+
+```yml
 #-------------------------------------------------------------------------------
 # markdown_extensions:
 #-------------------------------------------------------------------------------
@@ -149,6 +206,11 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
+```
+
+### Plugins
+
+```yml
 #-------------------------------------------------------------------------------
 # plugins:
 #-------------------------------------------------------------------------------
@@ -162,13 +224,8 @@ plugins:
   - tags:
       tags_file: dev/docs-proj/meta/tags.md
   - macros
+```
 
+## VSCode YAML Schema
 
-
-
-
-
-
-
-
-
+Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../../../tooling/apps/vscode/extensions.md#yaml)
