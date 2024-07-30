@@ -1,19 +1,25 @@
 ---
-title: Modules
-description: Hugo Modules
+title: Failed to load modules
+description: Hugo Modules not found
 ---
 
 ## Description
 
 {{ description }}
 
-## Module Dependencies
+## Status
 
-If build throws:
+SOLVED
+
+## Problem
+
+Build throws:
 
  `Error: failed to load modules: module "github.com/[some-git-acct]/[some-module]: not found in ...`
- 
-then import the module by adding an entry to `hugo.yaml` (or `hugo.toml` or `hugo.json`):
+
+## Solution
+
+Import the missing module by adding an entry to `hugo.yaml` [ |`hugo.toml`|`hugo.json` ]:
 
 ```yaml
 module:
@@ -23,13 +29,7 @@ module:
 
 and
 
-```bash
-cd [path-to-proj]/themes/github.com/hugomods/[mod-name]
-```
-
-Also:
-
-> Is this necessary? Shouldn't conf.yaml work?
+> Is this step necessary? Shouldn't conf.yaml handle the rest?  Verify if revisiting Hugo.
 
 ```bash
  cd [path-to-proj]/github.com/

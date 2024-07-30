@@ -1,0 +1,10 @@
+nav:
+  - index.md
+  - install.md
+  - config.md
+  - create-basic-site.md
+  - basic-site-content.md
+  - templ-inner-pages.md
+  - modules.md
+  - themes.md
+  

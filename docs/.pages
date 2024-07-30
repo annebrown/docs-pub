@@ -1,4 +1,6 @@
 nav:
+  - Issues:
+    - ... | /**/issues/*.md
   - Home: index.md
   - dev
   - tooling

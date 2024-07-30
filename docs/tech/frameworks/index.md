@@ -31,11 +31,15 @@ description: My Notes on  Frameworks
 
 ### SSGs
 
-- [MkDocs](ssgs/mkdocs/index.md)
-- [Hugo](ssgs/hugo/index.md)
-- [Jekyll](https://jekyllrb.com "Official Site")
-- [Gatsby](https://www.gatsbyjs.com "Official Site")
-- [Next.js](next/index.md)
+#### [MkDocs](mkdocs/index.md)
+
+#### [Hugo](hugo/index.md)
+
+#### [Jekyll](https://jekyllrb.com "Official Site")
+
+#### [Gatsby](https://www.gatsbyjs.com "Official Site")
+
+#### [Next.js](next/index.md)
 
 ### LAMP
 
