@@ -3,7 +3,7 @@
     "name": "docs.annebrown.cas",
     "icons": [
       {
-        "src": "~/.dotfiles/img/logo/logo-ab-190x190.svg",
+        "src": "/overrides/asssets/images/logo-ab-190x190.svg",
         "type": "image/svg",
         "sizes": "190x190"
       },
