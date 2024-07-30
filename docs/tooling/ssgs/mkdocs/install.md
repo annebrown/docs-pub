@@ -7,59 +7,36 @@ description: Install and run MkDocs
 
 {{ description }}
 
-URL: [Getting Started w MkDocs](https://mkdocs.org/getting-started)
+## Create venv
+
+When a Python Virtual Env is activated for a proj, `pip` will install all the constricting snake stuff into `[project_dir]/.venv`. This isolates the proj with its own specific Python interpreter, and software libs and binaries.
+
+Create `.venv` under proj dir:
+
+```bash
+cd [proj-dir]
+python3 -m venv .venv
+```
+
+## Activate venv
+
+Activate Python virtual env:
+
+```bash
+source .venv/bin/activate
+```
+`pip` will now install every Python pkg into `./.venv` until venv is deactivated or terminal is closed.
+
+## `.bash_aliases`
+
+```bash
+alias activate-venv="source ./.venv/bin/activate"
+```
 
 ## Install MkDocs
 
+Install MkDocs, plus its plugins, themes and extensions:
 ```bash
-sudo apt install mkdocs
-mkdocs --versoin
-```
-
-## Create New MkDocs Proj
-
-```bash
-mkdocs new mkdocs-proj-name
-cd mkdocs-proj-name
-INFO    - Creating project directory: mkdocs-pub
-INFO    - Writing config file: mkdocs-pub/mkdocs.yml
-INFO    - Writing initial docs: mkdocs-pub/docs/index.md
-```
-
-Config File: `/mkdocs.yml`:
-
-```yml
-site_name: My Docs
-```
-
-Initial Doc: `/docs/index.md`
-
-```html
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org)
-
-## Commands
-
-* 'mkdocs new [dir-name]` - Create a new project.
-* ....
-
-## Project layout
-
-    mkdocsyml   # The config file
-    docs/
-        index.md    # The docs homepage.
-        ...         # Other markdown pages, images and oth files
-```
-
-## View Docs
-
-```bash
-mkdocs serve
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Documentation built in 0.07 seconds
-INFO    -  [08:15:44] Watching paths for changes: 'docs', 'mkdocs.yml'
-INFO    -  [08:15:44] Serving on http://127.0.0.1:8000/
-```
-
+pipx isntall mkdocs
+pipx install mkdocs-material --include-deps --force
+pip3 install mkdocs-git-revision-date-localized-plugin --include-deps --force

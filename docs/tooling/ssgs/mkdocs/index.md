@@ -1,51 +1,14 @@
 ---
 title: MkDocs
-description: SSG for docs
+description: Docs-based SSG, written in Python
 ---
 
 ## Description
 
 {{ description }}
 
-[MkDocs](https://www.mkdocs.org) is a docs-based SSG writen in Python.
-
-## Create venv
-
-When a Python Virtual Env is activated for a proj, `pip` will install all the constricting snake stuff into `[project_dir]/.venv`. This isolates the proj with its own specific Python interpreter, and software libs and binaries.
-
-Create `.venv` under proj dir:
-
-```bash
-cd [proj-dir]
-python3 -m venv .venv
-```
-
-## Activate venv
-
-Activate Python virtual env:
-
-```bash
-source .venv/bin/activate
-```
-`pip` will now install every Python pkg into `./.venv` until venv is deactivated or terminal is closed.
-
-## `.bash_aliases`
-
-```bash
-alias activate-venv="source ./.venv/bin/activate"
-```
-
-## Install MkDocs
-
-Install MkDocs, plus its plugins, themes and extensions:
-```bash
-pipx isntall mkdocs
-pipx install mkdocs-material --include-deps --force
-pip3 install mkdocs-git-revision-date-localized-plugin --include-deps --force
-```
-
 ## Conclusion
 
 !!! warning
 
-    Material for MkDocs appears to the be best addon, however, to use many of its good features, they expect a $15/mo payment, for individual, non-commercian use.  Good luck with that.
+    [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/ "Official Site") is an essential add-on framework for [MkDocs](https://www.mkdocs.org/ "Official Site"), however, to use some of its features (e.g. breadcrumbs), they are asking for :moneybag: $15/mo  payment, for individual, non-commercial use. :face_with_raised_eyebrow:  
