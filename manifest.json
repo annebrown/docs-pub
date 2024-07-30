@@ -1,0 +1,18 @@
+{
+    "short_name": "Docs",
+    "name": "docs.annebrown.cas",
+    "icons": [
+      {
+        "src": "~/.dotfiles/img/logo/logo-ab-190x190.svg",
+        "type": "image/svg",
+        "sizes": "190x190"
+      },
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "description": "Technical Ref Docs",
+  }

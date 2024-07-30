@@ -41,7 +41,7 @@ See [VSCode Default Settings](https://code.visualstudio.com/docs/getstarted/sett
 
 ## Color
 
-Theme colors can be overriden in [user settings](#user) file.  See [VS Code Workbench Color List](workbench.colorCustomizations.md) for available customizations.
+Theme colors can be overriden in [user-settings](#user-settings).  See [VS Code Workbench Color List](workbench.colorCustomizations.md) for available customizations.
 
 ### Dark Theme
 
