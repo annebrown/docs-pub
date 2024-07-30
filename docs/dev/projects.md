@@ -1,13 +1,13 @@
 ---
 title: Projects
-description: Project Details
+description: Project Summaries
 ---
 
 ## Description
 
 {{ description }}
 
-<h2 markdown="1" style="color: green">docs-pub</h2>
+## <h2 markdown="1" style="color: green">docs-pub Project</h2>
 
 [This project](../about.md)
 
@@ -15,9 +15,15 @@ description: Project Details
 
 Operational
 
-*[SSG]: Static Site Generator
+### Repo
 
-Deployments:
+GitHub Repo: <https://github.com/annebrown/docs-pub/>
+
+### Tech Stack
+
+Mkdocs SSG
+
+### Deployments
 
 <https://docs.annebrown.ca> - [Netlify](https://app.netlify.com "Official Site") CI
 
@@ -30,17 +36,17 @@ URL: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 CLI: ```mkdocs serve```
 
-Aliases: 
+Bash Aliases:
 
 `activate-venv` # Activate Python Virtual Env
 
-`docserver` # Run svr in custom terminal
+`docserver` # Run svr in customized terminal
 
-<h2 markdown="1" style="color: green">www.browndomain.com</h2>
+## <h2 markdown="1" style="color: green">www.browndomain.com Project</h2>
 
 ### Repo
 
-GitHub: <https://github.com/annebrown/browndomain.com>
+GitHub: [https://github.com/annebrown/browndomain.com](https://github.com/annebrown/browndomain.com)
 
 ### Description
 
@@ -54,25 +60,23 @@ Collaborative Development
 
 In development.
 
-Prototype: <https://www.browndomain.com>
+Prototype: [www.browndomain.com](https://www.browndomain.com)
 
-Evaluated Hugo as an SSG, however its lack of adequate documentation was too much of a time waster.  YMMD  
-
-Ditched Hugo for Next.js as SSG:
-
- - Creating a new webapp and getting it runnng on a dev server took two commands.  
- - Customizing it as a landing page, and then build and deploy to Vercel with custom domain, very fast.
- - Currently evaluating its function as an SSG,
+Currently evaluating Next.js for PWA dev.
 
 ### Dev Svr 
 
-URL: http://localhost:3000
+URL: [http://localhost:3000](http://localhost:3000)
 
-CLI: npm run dev 
+CLI: `npm run dev`
 
-Bash Alias: nextbd # Run svr in custom terminal
+Bash Aliases:
 
-<h2 markdown="1" style="color: green">www.annebrown.ca</h2>
+`nextserve` # Start Next.js Dev Svr
+
+`nextbd` # Run svr in custom terminal
+
+## <h2 markdown="1" style="color: green">www.annebrown.ca Project</h2>
 
 Apex Landing Page
 
@@ -109,7 +113,7 @@ CLI: ng serve
 
 Bash Alias: angularab # Run svr in custom terminal
 
-<h2 markdown="1" style="color: green">Dotfiles</h2>
+## <h2 markdown="1" style="color: green">Dotfiles Project</h2>
 
 ### Repo
 
@@ -127,7 +131,7 @@ Config for new dev hosts and envs (e.g., bare metal host, VM, GitPod).  In conju
 
 Operational.
 
-<h2 markdown="1" style="color: green">Dotfiles Private</h2>
+## <h2 markdown="1" style="color: green">Dotfiles-priv Project</h2>
 
 ### Repo
 

@@ -14,4 +14,4 @@ tags:
 ???+ Note "Ditching Hugo"
 
     Hugo has insufficient documentation to create a simple site in a reasonable timeframe.
-    Ditching Hugo until better documentation becomes available.
+    Rejecting Hugo until better documentation becomes available

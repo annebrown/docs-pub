@@ -4,6 +4,7 @@
 *[HTML]: Hyper Text Markup Language
 *[ISR]: Incremental Static Regeneration
 *[LTS]: Long Term Support
+*[PWA]: Progressive Web App
 *[SSG]: Static Site Generation
 *[SSR]: Server-Side Rendering
 *[URL]: Universal Resource Locator

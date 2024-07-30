@@ -1,9 +1,14 @@
 {
     "short_name": "Docs",
-    "name": "docs.annebrown.cas",
+    "name": "docs.annebrown.ca",
     "icons": [
       {
         "src": "/overrides/asssets/images/logo-ab-190x190.svg",
+        "type": "image/svg",
+        "sizes": "190x190"
+      },
+      {
+        "src": "~/.dotfiles/img/logos/logo-ab-190x190.svg",
         "type": "image/svg",
         "sizes": "190x190"
       },

@@ -182,6 +182,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - pymdownx.betterem
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -220,7 +221,7 @@ plugins:
   - git-revision-date-localized
   - meta-manager
   - task-collector:
-      output_file: 'dev/docs-proj/meta/TaskList.md'
+      output_file: dev/docs-proj/meta/TaskList.md
   - tags:
       tags_file: dev/docs-proj/meta/tags.md
   - macros

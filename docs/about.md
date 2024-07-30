@@ -10,24 +10,17 @@ hide:
 
 {{ description }}
 
-## Purpose
-
-This site is comprised of stuff I'm working on and want to remember.  It was created to make my notes conveniently accessible from anywhere.
+- Comprised of stuff I'm working on and want to remember.
+- Created to make my notes conveniently accessible from anywhere.
 
 ## Usage
 
-Usage is covered under the [MIT Liscense](https://opensource.org/license/MIT).  It is intended for my use, however, it may be of use to others.  It is a living knowledge base and WILL MOST PROBABLY/DEFINITELY contain incorrect data. Ensure you know what you are doing before copying and reusing any code available here.  
+Tho these docs are designed for my purpose, they may be of use to others.  Usage is covered under the [MIT License](https://opensource.org/license/MIT).
 
-## Repo
+!!! warning
 
-GitHub Repo: <https://github.com/annebrown/docs-pub/>
+    This project is a living knowledge base and <span style="color: red">*WILL MOST DEFINITELY*</span> contain errors. Ensure you know what you are doing before copying and reusing code or data.  
 
-## Tech Stack
+## Project Details
 
-Mkdocs SSG
-
-## Deployments
-
-Netlify: <https://docs.annebrown.ca>
-
-ReadtheDocs: <https://docs.misscommunication.ca>
+For more info, see [docs-pub Project](dev/projects.md#docs-pub-project).
