@@ -218,7 +218,9 @@ markdown_extensions:
 plugins:
   - awesome-pages
   - search
-  - git-revision-date-localized
+  - git-revision-date-localized:
+        exclude:
+        - index.md
   - meta-manager
   - task-collector:
       output_file: dev/docs-proj/meta/TaskList.md

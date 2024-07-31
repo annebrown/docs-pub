@@ -27,7 +27,9 @@ Activate Python virtual env:
 ```bash
 source .venv/bin/activate
 ```
-`pip` will now install every Python pkg into `./.venv` until venv is deactivated or terminal is closed.
+`pip` will now install every Python pkg into `./.venv` until venv is deactivated (`exit` or Ctrl-C or close terminal).  
+
+A project's venv must be re-activated (`source .venv/bin/activate`) to install more pkgs or run services.
 
 ## Add Shortcut to `.bash_aliases`
 

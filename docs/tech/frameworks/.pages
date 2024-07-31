@@ -3,6 +3,5 @@ nav:
   - angular
   - next
   - node
-  - SSGs:
-    - mkdocs
-    - hugo
+  - mkdocs
+  - hugo
