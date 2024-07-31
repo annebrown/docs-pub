@@ -9,7 +9,7 @@ description: Styling MkDocs
 
 ## Page-Specific Styling
 
-To add custom styles to a specific page, add the [md_in_html](../mkdocs/plugins/md_in_html.md) extension to `meta.yml`:
+To add custom styles to a specific page, add the [md_in_html](../mkdocs/add-ons/md_in_html.md) extension to `meta.yml`:
 
 ```yml
 markdown_extensions:
