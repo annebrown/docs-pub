@@ -1,16 +1,19 @@
 # -----
 # Index
 # -----
-# General
-# MkDocs
+
+# Temp proj notes
+.notes
 
 # General
 temp/
 
+#VSCode
+
+
 # MkDocs - Local Builds 
 site/
 .venv
-.notes
 
 # Local Netlify folder
 .netlify

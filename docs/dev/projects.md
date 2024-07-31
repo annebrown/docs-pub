@@ -17,7 +17,7 @@ Operational
 
 ### Repo
 
-GitHub Repo: <https://github.com/annebrown/docs-pub/>
+GitHub Repo: <https://github.com/annebrown/docs-pub.git>
 
 ### Tech Stack
 
@@ -45,7 +45,7 @@ Bash Aliases:
 
 ### Repo
 
-GitHub: [https://github.com/annebrown/browndomain.com](https://github.com/annebrown/browndomain.com)
+GitHub: [https://github.com/annebrown/browndomain.com.git](https://github.com/annebrown/browndomain.com.git)
 
 ### Description
 
@@ -116,7 +116,7 @@ Bash Alias: angularab # Run svr in custom terminal
 
 ### Repo
 
-GitHub: <https://github.com/annebrown/dotfiles>
+GitHub: <https://github.com/annebrown/dotfiles.git>
 
 ### Description
 
