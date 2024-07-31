@@ -1,0 +1,11 @@
+nav:
+  - index.md
+  - install.md
+  - config.md
+  - styling.md
+  - navi.md
+  - variables.md
+  - issues
+  - plugins
+  - cheatsheet.md
+  

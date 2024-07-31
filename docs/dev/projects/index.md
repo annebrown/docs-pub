@@ -2,14 +2,13 @@
 title: Projects
 description: Project Summaries
 ---
+<link rel="stylesheet" href="projects.css">
 
-## Description
+Project Summaries
 
-{{ description }}
+## docs-pub Project
 
-## <h2 markdown="1" style="color: green">docs-pub Project</h2>
-
-[This project](../about.md)
+[This project](../../about.md)
 
 ### Status
 
@@ -41,7 +40,7 @@ Bash Aliases:
 
 `docserver` # Run svr in customized terminal
 
-## <h2 markdown="1" style="color: green">www.browndomain.com Project</h2>
+## www.browndomain.com Project
 
 ### Repo
 
@@ -75,7 +74,7 @@ Bash Aliases:
 
 `nextbd` # Run svr in custom terminal
 
-## <h2 markdown="1" style="color: green">www.annebrown.ca Project</h2>
+## www.annebrown.ca Project
 
 Apex Landing Page
 
@@ -112,7 +111,7 @@ CLI: ng serve
 
 Bash Alias: angularab # Run svr in custom terminal
 
-## <h2 markdown="1" style="color: green">Dotfiles Project</h2>
+## Dotfiles Project
 
 ### Repo
 
@@ -130,7 +129,7 @@ Config for new dev hosts and envs (e.g., bare metal host, VM, GitPod).  In conju
 
 Operational.
 
-## <h2 markdown="1" style="color: green">Dotfiles-priv Project</h2>
+## Dotfiles-priv Project
 
 ### Repo
 

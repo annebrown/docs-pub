@@ -1,4 +1,3 @@
 nav:
-  - projects.md
   - deploy
-  - 'docs-pub Project': proj-docs-pub
+  - projects

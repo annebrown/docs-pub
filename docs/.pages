@@ -1,6 +1,6 @@
 nav:
   - Home: index.md
-  - dev
-  - tooling
   - tech
+  - tooling
+  - dev
   - About: about.md

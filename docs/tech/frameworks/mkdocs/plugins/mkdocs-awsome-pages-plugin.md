@@ -9,7 +9,7 @@ tags:
 
 {{ description }}
 
-Automatic navi, without polluting `mkdocs.yml`
+Supports automatic and specific dir-based navi, without polluting `mkdocs.yml`
 
 ## Usage
 
@@ -17,6 +17,7 @@ Create a `.pages` file in a dir:
 
 ```yml
 nav:
+  - index.md
   - first-sub-dir
   - first-page.md
   - ... | intro-*.md # all starting with "intro"
@@ -26,7 +27,13 @@ nav:
   - last-page.md
 ```
 
-Sections:
+### Rest Filter
+
+Lines beginning with `...` are called `Rest Filters`.
+
+Rest filters - check filters items in the containing folder.
+
+## Custom Sections
 
 ```yml
 nav:
@@ -38,8 +45,3 @@ nav:
       - another-page.md
 ```
 
-### Rest Filter
-
-Lines beginning with `...` are called `Rest Filters`.
-
-Rest filters - check filters items in the containing folder.

@@ -19,7 +19,7 @@ Konsole profiles and bookmarks are located here:
 
 ```~/.local/share/konsole```
 
-Use [dotfiles](../../dev/projects.md#dotfiles-project) to store Konsole config.
+Use [dotfiles](../../dev/projects/index.md#dotfiles-project) to store Konsole config.
 
 ## Create New Profile
 

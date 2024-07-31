@@ -113,8 +113,9 @@ extra:
 #-------------------------------------------------------------------------------
 # extra_css: Using /overrides/
 #-------------------------------------------------------------------------------
-#extra_css:
-#  - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
+#  - stylesheets/projects.css
 #-------------------------------------------------------------------------------
 # markdown_extensions:
 #-------------------------------------------------------------------------------
@@ -161,9 +162,9 @@ plugins:
         - index.md
   - meta-manager
   - task-collector:
-      output_file: dev/proj-docs-pub/meta/TaskList.md
+      output_file: dev/projects/proj-docs-pub/meta/TaskList.md
   - tags:
-      tags_file: dev/proj-docs-pub/meta/tags.md
+      tags_file: dev/projects/proj-docs-pub/meta/tags.md
   - macros
 
 

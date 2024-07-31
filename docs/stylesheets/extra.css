@@ -1,25 +1,31 @@
+
+/* Stylesheet Loaded Test */
+/*
 h2 {
     color: green;
-};
-
-/*
-h2#proj {
-    color: green;
 }
+*/
 
-/* @media (min-width: 992px) {
+/* Desktop */
+/*
+@media (min-width: 992px) {
     .sidebar {
-      width: 250px; 
+      width: 250px;
     }
 }
 */
-/*  
+
+/* Mobile */
+/*
 @media (max-width: 991px) {
     .sidebar {
       width: 100%; 
     }
-} */
-/* iframe {max-width: 50%;}
+}
+*/
+
+/*
+iframe {max-width: 50%;}
 .md-header { width: 50%;}
 .md-header__inner.md-grid {
     width: 50%;
@@ -34,16 +40,24 @@ nav.md-tabs {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-} */
-/* div.md-grid {
-    width: 50%;
+}
+div.md-grid {
+    width: 100%;
 }
 .md-tabs__list {
     width: 50;
 }
+*/
+
+
+/* Takes out Hambr Menu
+/*
 .md-grid {
-    width: 50%;
+    width: 100%;
 }
+*/
+
+/*
 ul.md-tabs__list {
     width: 50%;
 }
@@ -51,4 +65,5 @@ ul.md-tabs__list {
     width: 300px;
     box-sizing: 50%;
     line-height: 1;
-} */
+}
+*/

@@ -9,4 +9,3 @@ tags:
 
 {{ description}}
 
-TODO: meta-mgr plugin

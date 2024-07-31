@@ -23,4 +23,4 @@ Tho these docs are designed for my purpose, they may be of use to others.  Usage
 
 ## Project Details
 
-For more info, see [docs-pub Project](dev/projects.md#docs-pub-project).
+For more info, see [docs-pub Project](dev/projects/index.md#docs-pub-project).
