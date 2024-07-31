@@ -6,6 +6,6 @@ nav:
   - navi.md
   - variables.md
   - issues
-  - plugins
+  - 'Add-Ons': add-ons
   - cheatsheet.md
   

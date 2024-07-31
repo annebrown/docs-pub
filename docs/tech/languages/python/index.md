@@ -36,3 +36,11 @@ A project's venv must be re-activated (`source .venv/bin/activate`) to install m
 ```bash
 alias activate-venv="source ./.venv/bin/activate"
 ```
+
+## List Installed venv Pkgs
+
+To list installed pkgs while venv is activated: 
+
+```bash
+pip list
+```

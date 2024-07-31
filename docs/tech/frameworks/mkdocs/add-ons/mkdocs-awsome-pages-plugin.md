@@ -1,5 +1,5 @@
 ---
-title: mkdocs-awsome-pages-plugin
+title: awsome-pages Plugin
 description: Essential MkDocs Navi Plugin
 tags:
   - mkdocs-awesome-pages-plugin
@@ -9,7 +9,15 @@ tags:
 
 {{ description }}
 
-Supports automatic and specific dir-based navi, without polluting `mkdocs.yml`
+The aptly-named awesome-pages plulgin adds automatic and specific dir-based navi, without polluting `mkdocs.yml`.  For detailed usage instructions see [mkdocs-aweome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin).
+
+## Install
+
+In the project [venv](../install.md#activate-venv):
+
+```bash
+pip install mkdocs-awesome-pages-plugin
+```
 
 ## Usage
 
@@ -31,7 +39,7 @@ nav:
 
 Lines beginning with `...` are called `Rest Filters`.
 
-Rest filters - check filters items in the containing folder.
+A rest filter applies to items in the containing folder.  
 
 ## Custom Sections
 

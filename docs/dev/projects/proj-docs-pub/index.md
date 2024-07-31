@@ -7,6 +7,6 @@ tags:
 
 {{ description }}
 
-This section covers 
+This section covers project meta data and testing.
 
 For project details see [docs-pub Project Summary](../index.md#docs-pub-project).

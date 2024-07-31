@@ -10,8 +10,8 @@ hide:
 
 {{ description }}
 
-- Comprised of stuff I'm working on and want to remember.
-- Created to make my notes conveniently accessible from anywhere.
+- Comprised of stuff I'm working on and want to reuse.
+- Created to make my notes accessible from anywhere.
 
 ## Usage
 

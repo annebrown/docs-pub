@@ -1,5 +1,5 @@
 ---
-title: Material for MkDocs
+title: Material Theme
 description: Material for MkDocs Theme and Framework
 ---
 
@@ -11,11 +11,13 @@ description: Material for MkDocs Theme and Framework
 
 ## Install
 
+In the project [venv](../install.md#activate-venv):
+
 ```bash
-sudo apt install mkdocs-material
+pip install mkdocs-material
 ```
 
-## Setup
+## Config
 
 Add to `mkdocs.yml`:
 
@@ -24,9 +26,5 @@ theme:
   name: material
 ```
 
-Add to plugins section
+MkDocs and Material for MkDocs have a rich set of available themes, plugins and Python Markdown extensions, some of which are built-in.  Here are some of these [add-ons](../add-ons/index.md).
 
-```bash
-pipx install mkdocs-git-revision-date-localized-plugin --include-deps
-pipx ensurepath
-```

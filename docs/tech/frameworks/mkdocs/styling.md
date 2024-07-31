@@ -1,5 +1,5 @@
 ---
-title: Theming
+title: Styling
 description: Styling MkDocs
 ---
 
@@ -7,13 +7,22 @@ description: Styling MkDocs
 
 {{ description }}
 
-## Page-Specific CSS
+## Page-Specific Styling
 
-To add custom styles to a specific page, add this line to the page:
+To add custom styles to a specific page, add the [md_in_html](../mkdocs/plugins/md_in_html.md) extension to `meta.yml`:
+
+```yml
+markdown_extensions:
+  - md_in_html
+```
+
+and the add this line to the page:
 
 ```HTML
-<link rel="stylesheet" href="../[page-name].css">
+<link rel="stylesheet" href="../[some-page-name].css">
 ```
+
+Then create the css file in the same directory as `[some-page-name].md`.
 
 ## Emojis
 

@@ -7,11 +7,15 @@ description: MkDocs Config
 
 {{ description }}
 
-## `mkdocs.yml`
+## The `mkdocs.yml` File
 
-Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins and extensions, order matters.
+Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins, order matters.  
 
-Here are sample settings from a working implementation:
+The next section contains sample settings.  Some of these are covered [here](../mkdocs/add-ons/index.md).
+
+## Sample Settings
+
+These settings were copied from the `meta.yml` config of a working implementation.
 
 ### Project Settings
 
