@@ -1,6 +1,6 @@
 ---
 title: Python
-Description: Programming Language
+description: Programming Language
 ---
 
 {{ description }}
