@@ -1,5 +1,5 @@
 ---
-title: Testing - Info
+title: Info
 description: Abbrs, Tooltips, etc.
 tags:
   - Links

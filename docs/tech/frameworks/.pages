@@ -1,7 +1,7 @@
 nav:
   - Home: index.md
   - angular
-  - next
-  - node
+  - 'Next.js': next
+  - 'Node.js': node
   - mkdocs
   - hugo
