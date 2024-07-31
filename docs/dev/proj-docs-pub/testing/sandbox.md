@@ -9,7 +9,7 @@ tags:
 
 {{ description }}
 
-Does this HTML abbr pick up its expansion from includes/abbreviations.md snippet file? Nope. ?
+Does this HTML abbr pick up its expansion from includes/abbreviations.md snippet file? Check.
 
 Testing Manifest
 Manifest Img Loaded?

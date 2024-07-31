@@ -29,7 +29,6 @@ Mkdocs SSG
 
 <https://docs.misscommunication.ca> - [ReadTheDocs](https://www.readthedocs.org) CI, with ads
 
-
 ### Dev Svr
 
 URL: [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -96,12 +95,12 @@ Angular Full-Stack App
 
 In early stages of development.
 
-Prototype: <https://www.annebrown.ca>
+Prototype: [https://www.annebrown.ca](https://www.annebrown.ca)
 
 Evaluating Angular framework for web app dev:
 
- - Creating a new webap and getting it runnng on a dev server took two commands.  
- - Customizing it as a landing page, and then build and deploy to Netflix with custom domain, took only a few minutes.
+- Creating a new webap and getting it runnng on a dev server took two commands.  
+- Customizing it as a landing page, and then build and deploy to Netflix with custom domain, took only a few minutes.
   
 Currently evaluating Angular Material UI component lib.
 
@@ -143,7 +142,7 @@ Dev Env Config for sensitive data.  Uses GNU-Stow
 
 ### Purpose
 
-Works in conjunction with [dotfiles](#dotfiles) to config new dev hosts and envs.
+Works in conjunction with the [dotfiles](#dotfiles-project) to config new dev hosts and envs.
 
 ### Status
 

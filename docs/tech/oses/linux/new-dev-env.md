@@ -13,7 +13,7 @@ Instructions for creating a new dev env for use on bare metal hosts, VM and clou
 
 ## Dotfiles
 
-Customized config using [GNU-Stow](https://gnu.org/software/stow/) symlink farm mgr.  See [Dotfiles Project](../../../dev/projects.md#dotfiles).
+Customized config using [GNU-Stow](https://gnu.org/software/stow/) symlink farm mgr.  See [Dotfiles Project](../../../dev/projects.md#dotfiles-project).
 
 ```bash
 $ sudo apt update
