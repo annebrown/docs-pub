@@ -1,5 +1,5 @@
 ---
-title: Issue - nvm Install EACCESS Error
+title: Node.js Install EACCESS Error
 description: Permissions error installing Node.js
 tags:
   - Issues

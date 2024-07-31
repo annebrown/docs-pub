@@ -1,20 +1,14 @@
 ---
-title: Issue - Incorrect React Version
+title: Incorrect React Version
 description: Next.js dev server returns error 
 tags:
-    - issues
+    - Issues
     - SOLVED
 ---
 
 ## Description 
 
 {{ description }}
-
-# Issues - Next.js
-
-## Incorrect React Version - RESOLVED
-
-### Description
 
 Next.js install script, `create-next-app`, returns error when attempting to run dev svr:
 

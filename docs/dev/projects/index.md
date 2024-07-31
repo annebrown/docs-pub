@@ -69,7 +69,7 @@ Findings so far:
 - Next.js site up and running on dev server with two commands.  
 - Next.js and React have totes excellent documentation.  
 - Customization and deploy to Vercel with custom domain, is extrememly rapid and painless.  LAMP this is not.
-- Feature-rich, high-performance, widely-adopted web app dev framework with a huge dev community and tooling.
+- Feature-rich, high-performance, widely-adopted web app dev framework with a huge dev community and ample tooling.
 - Appears to have more built-in functionality and simpler to implement than Angular.
 
 Currently looking to use it as an SSG for large static assets, with a dynamic IF.
@@ -115,7 +115,7 @@ Evaluating Angular framework for PWA dev.  Findings so far:
 
 - Creating new webap and run on dev server takes two commands.  
 - Build and deploy to Netlify with minor mods and custom domain, takes minutes.
-- Scaleable, complex, feature-rich, widely-adopted web app dev framework with a huge dev community and tooling.
+- Scaleable, complex, feature-rich, widely-adopted web app dev framework with a huge dev community and substantial tooling.
 - So far seems to be a more complex web dev framework than Next.js. 
   
 Currently looking at Angular Material UI component lib.

@@ -1,5 +1,5 @@
 ---
-title: Issue - RasPi Incorrect Screen Res
+title: RasPi Incorrect Screen Res
 description: RasPi External Monitor Res Support
 tags:
     - Issues

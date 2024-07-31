@@ -1,6 +1,6 @@
 ---
-title: Install
-description: Installing and Run Next.js App 
+title: Getting Started
+description: Install or Clone Next.js App and Run Dev Svr
 tags:
   - Next.js
 ---
@@ -9,12 +9,12 @@ tags:
 
 {{ description }}
 
-Next.js is installed as separate apps.  
-
 ## Create Next.js App
 
+Next.js is installed as an app:
+
 ```bash
-npm create-next-app@latest
+npx create-next-app@latest
 ? What is your project named? apex
 ? Would you like to use TypeScript? Y
 ? Would you like to use ESLint? y
@@ -42,6 +42,18 @@ Initialized a git repository.
 
 Success! Created apex at /home/anne/prod/apex
 ```
+
+Ignoring the deprecated deps for now because [the Internet said so](../next/issues/deprecated-deps.md).
+
+## Clone Existing App
+
+```bash
+git clone [git-repo-url]
+cd [git-repo]
+npm install
+```
+
+Cloning and installing also throws deprecated deps msgs.
 
 ## Run Dev Svr
 

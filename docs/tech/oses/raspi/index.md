@@ -9,8 +9,6 @@ tags:
 
 {{ description }}
 
-## [Issues](issues.md)
-
 ## Shortcuts
 
 - Terminal: Ctrl-Alt-T
@@ -67,17 +65,15 @@ sudo apt update
 sudo apt full-upgrade
 ```
 
-## Comfiguration
+## Config
 
-### raspi-config
-
-#### GUI
+### GUI
 
 ```bash
 sudo raspi-config
 ```
 
-#### CLI
+### CLI
 
 ```bash
 sudo raspi-config noint <command> <args> [optional-args]

@@ -15,7 +15,7 @@ sudo snap install go --classic
 
 ## Install Dart SaSS
 
-Install SaSS in project directory.
+Install SaSS in project dir:
 
 ```bash
 npm install sass
