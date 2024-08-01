@@ -1,5 +1,5 @@
 --- 
-title: Cheatsheet - Next.js
+title: Cheatsheet
 description: Next.js commands and notes
 tags:
     - Cheatsheet

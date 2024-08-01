@@ -7,7 +7,7 @@ description: Initial TailNext File Structure
 
 {{ description }}
 
-Ref: TailNext [README.md](hhttps://github.com/onwidget/tailnext).
+Ref: TailNext [README.md](https://github.com/onwidget/tailnext).
 
 ```
 /

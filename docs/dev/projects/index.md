@@ -126,7 +126,7 @@ URL: http://localhost:4200
 
 CLI: ng serve
 
-## Bash Shortcuts
+### Bash Shortcuts
 
 ```txt
 goab - go to proj dir
@@ -143,7 +143,7 @@ GitHub: <https://github.com/annebrown/dotfiles.git>
 
 ### Description
 
-Dev env config using [GNU-stow](https://www.gnu.org/software/stow/).
+[Dev env config](../../tech/oses/linux/new-dev-env.md) using [GNU-stow](https://www.gnu.org/software/stow/).
 
 ### Purpose
 
