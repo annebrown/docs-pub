@@ -1,5 +1,5 @@
 ---
-titled: Macros Plugin
+title: Macros Plugin
 description: Macros and automation capabilities
 ---
 

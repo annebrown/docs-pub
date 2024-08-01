@@ -9,14 +9,14 @@ description: Dev Env Config - Sensitive Data
 
 Uses GNU-Stow, in conjuntion with the [dotfiles Project](../dotfiles/index.md)
 
-### Repo
+## Repo
 
 Private
 
-### Purpose
+## Purpose
 
 Works in conjunction with .dotfiles to config new dev env.
 
-### Status
+## Status
 
 Operational

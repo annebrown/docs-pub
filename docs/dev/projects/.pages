@@ -2,8 +2,8 @@ nav:
   - docs-pub: docs-pub
   - .dotfiles: dotfiles
   - .dotfiles-priv: dotfiles-priv
-  - www.annebrown.ca: ab
-  - www.browndomain.com: bd
+  - www.ab.ca: ab
+  - www.bd.com: bd
   - React Prototype: react
   - TailNext: tailnext
   - ...

@@ -3,5 +3,6 @@ nav:
   - angular
   - 'Next.js': next
   - 'Node.js': node
+  - react
   - mkdocs
   - hugo

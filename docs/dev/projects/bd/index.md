@@ -7,15 +7,19 @@ description: Apex Landing Page
 
 {{ description }}
 
-### Repo
+## Repo
 
 GitHub: [https://github.com/annebrown/browndomain.com.git](https://github.com/annebrown/browndomain.com.git)
 
-### Purpose
+## Purpose
 
 Collaborative Development
 
-### Status
+## Tech Stack
+
+Full-Stack Next.js Web App
+
+## Status
 
 In development.
 
@@ -31,13 +35,17 @@ Findings so far:
 
 Currently looking to use it as an SSG for large static assets, with a dynamic IF.
 
-### Dev Svr 
+## Deployments
+
+Still in prototype.
+
+## Dev Svr 
 
 URL: [http://localhost:3000](http://localhost:3000)
 
 CLI: `npm run dev`
 
-### Bash Shortcuts
+## Bash Shortcuts
 
 ```txt
 gobd - go to proj dir

@@ -15,11 +15,11 @@ Not Yet Initialized
 
 ### Purpose
 
-Using [TailNext](https://tailnext.vercel.app/) as a base for a large-file SSG w dynamic IF prototype.
+Using [TailNext](https://tailnext.vercel.app/) as a base for a large-file SSG prototype.
 
 ### Status
 
- In development.
+In development.
 
 Prototype: Not Yet Published
 
@@ -27,11 +27,11 @@ Evaluating large-file SSG.
 
 Findings so far:
 
-Nothing to put here yet.
+Nothing yet to report.
 
 ### Dev Svr 
 
-URL: [http://localhost:3000]http://localhost:3000
+URL: [http://localhost:3000](http://localhost:3000)
 
 CLI: `npm run dev`
 
@@ -39,7 +39,7 @@ CLI: `npm run dev`
 
 ```txt
 #--------------------------------------------------
-# TailNext Project - browndomain.com Prototype
+# TailNext Project - www.bd.com SSG Prototype
 #--------------------------------------------------
 gotn - go to TailNext project
 codetn - VSCode w Next.js theme
@@ -47,5 +47,3 @@ tnserver - run dev svr
 tnservert - launch dev svr as sep process w Next.js theme
 tnstorybook - launch Storybook
 ```
-
-

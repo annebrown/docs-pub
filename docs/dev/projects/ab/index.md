@@ -7,19 +7,19 @@ description: Apex Landing Page
 
 {{ description }}
 
-### Repo
+## Repo
 
 Private
 
-### Purpose
+## Purpose
 
 Personal Dev Tools
 
-### Description
+## Tech Stack
 
-Angular Full-Stack App
+Angular Full-Stack Web App
 
-### Status
+## Status
 
 Early stages of development.
 
@@ -34,13 +34,17 @@ Evaluating Angular framework for PWA dev.  Findings so far:
   
 Currently looking at Angular Material UI component lib.
 
-### Dev Svr 
+## Deployments
 
-URL: http://localhost:4200
+Prototype stage.
 
-CLI: ng serve
+## Dev Svr 
 
-### Bash Shortcuts
+URL: [http://localhost:4200](http://localhost:4200)
+
+CLI: `ng serve`
+
+## Bash Shortcuts
 
 ```txt
 goab - go to proj dir

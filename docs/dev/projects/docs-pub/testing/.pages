@@ -1,4 +1,5 @@
 nav:
+  - index.md
   - Sandbox: sandbox.md
   - Snippets: snippets.md
   - Styling: styling.md

@@ -1,6 +1,11 @@
 ---
 title: Setup
 description: Clone and Setup TailNext Project
+---
+
+## Description
+
+{{ description }}
 
 ## Clone Repo
 
@@ -39,7 +44,7 @@ To integrate Story with the Next.js framework, see [Storybook Integration](../..
 
 ```sh
 #--------------------------------------------------
-# TailNext Project - browndomain.com Prototype
+# TailNext Project - www.browndomain.com Prototype
 #--------------------------------------------------
 alias gotn="cd ~/projects/next.js/tailnext" 
 alias codetn="gotn && code .&" # VSCode w Next.js theme
