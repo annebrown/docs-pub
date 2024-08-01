@@ -1,8 +1,9 @@
 nav:
   - index.md
   - install.md
-  - tailnext
   - cheatsheet.md
   - issues
   - ...
+  - Projects:
+    - TailNext: ../../dev/projects/tailnext
   - ref

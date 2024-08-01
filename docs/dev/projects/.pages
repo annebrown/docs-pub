@@ -1,4 +1,10 @@
 nav:
-  - index.md
-  - 'Project - docs-pub': proj-docs-pub
+  - docs-pub: docs-pub
+  - .dotfiles: dotfiles
+  - .dotfiles-priv: dotfiles-priv
+  - www.annebrown.ca: ab
+  - www.browndomain.com: bd
+  - React Prototype: react
+  - TailNext: tailnext
+  - ...
   

@@ -11,9 +11,9 @@ tags:
 
 ## Usage
 
-Move VSCode settings to `~/.dotfiles`.  See [Dotfiles Project](../../../dev/projects/index.md#dotfiles-project).
+Move VSCode settings to `~/.dotfiles`.  See [Dotfiles Project](../../../dev/projects/dotfiles/index.md).
 
-This allows customized VSCode settings to be pulled into new dev envs (bare metal server, VM, GitPod, etc.).  See [New Dev Env](../../../tech/oses/linux/new-dev-env.md) and the [dotfiles](../../../dev/projects/index.md#dotfiles-project) project.
+This allows customized VSCode settings to be pulled into new dev envs (bare metal server, VM, GitPod, etc.).  See [New Dev Env](../../../tech/oses/linux/new-dev-env.md) and the [dotfiles](../../../dev/projects/dotfiles/index.md) project.
 
 ### User Settings
 

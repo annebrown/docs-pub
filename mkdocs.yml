@@ -161,9 +161,9 @@ plugins:
         - index.md
   - meta-manager
   - task-collector:
-      output_file: dev/projects/proj-docs-pub/meta/TaskList.md
+      output_file: dev/projects/docs-pub/meta/TaskList.md
   - tags:
-      tags_file: dev/projects/proj-docs-pub/meta/tags.md
+      tags_file: dev/projects/docs-pub/meta/tags.md
   - macros
 
 

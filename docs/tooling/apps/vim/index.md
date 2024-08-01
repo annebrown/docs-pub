@@ -14,7 +14,7 @@ tags:
   
 ## Config
 
-If configured in [dotfiles](../../../dev/projects/index.md#dotfiles-project), delete `~/.vimrc` file and `~/.vim` dir, else, move system vim config to dotfiles:
+If configured in [dotfiles](../../../dev/projects/dotfiles/index.md), delete `~/.vimrc` file and `~/.vim` dir, else, move system vim config to dotfiles:
 
 ```bash
 mv ~/.vimrc ~/.dotfiles/vim/.vimrc 

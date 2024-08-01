@@ -1,15 +1,6 @@
 ---
-title: TailNext
-description: Free Next.js + Tailwind CSS Starter Template
-tags:
-  - TailNext
----
-
-## Description
-
-{{ description }}
-
-Using [TailNext](https://tailnext.vercel.app/) as a base for a large-file SSG w dynamic IF prototype.
+title: Setup
+description: Clone and Setup TailNext Project
 
 ## Clone Repo
 
@@ -26,7 +17,7 @@ npm install
 
 ## Install Storybook
 
-See [Storybook](../../../../tooling/apps/storybook/index.md).
+See [Storybook](../../../tooling/apps/storybook/index.md).
 
 After intallation, Story will automatically launch, and pop-up a tutorial window.
 
@@ -40,7 +31,7 @@ npm run storybook
 
 ## Next.js Storybook Integration 
 
-To integrate Story with the Next.js framework, see [Storybook Integration](../storybook-for-next.md).
+To integrate Story with the Next.js framework, see [Storybook Integration](../../../tech/frameworks/next/storybook-for-next.md).
 
 ## Create Project Shortcuts
  
