@@ -13,6 +13,8 @@ description: My Notes on  Frameworks
 
 ### [Next.js](next/index.md)
 
+### [React](../frameworks/react/index.md)
+
 ### [Vue](https://vuejs.org "Official Site")
 
 ## Back-End
@@ -38,8 +40,6 @@ description: My Notes on  Frameworks
 #### [Jekyll](https://jekyllrb.com "Official Site")
 
 #### [Gatsby](https://www.gatsbyjs.com "Official Site")
-
-#### [Next.js](next/index.md)
 
 ### LAMP
 

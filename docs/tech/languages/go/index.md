@@ -7,9 +7,7 @@ tags:
 
 ## Description
 
-{{ description }}
-
-[Go](https://go.dev/ "Official Site") is supported by Google.
+My notes on Google-supported [Go](https://go.dev/ "Official Site"), {{ description }}
 
 ## Install
 

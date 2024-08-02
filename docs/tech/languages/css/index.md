@@ -1,15 +1,13 @@
 ---
 title: CSS
-description: Style Sheet language for specifying presentation and styling of a doc written in a markup lang.
+description: Style Sheet Language for Specifying Presentation and Styling of a Doc Written in a Markup Lang
 tags: 
   - CSS
 ---
 
 ## Description
 
-{{ description }}
-
-CSS [Official Site](https://www.w3.org/Style/CSS/Overview.en.html)
+My notes on [CSS](https://www.w3.org/Style/CSS/Overview.en.html "Official Site"), a {{ description }}
 
 ## CSS Frameworks
 

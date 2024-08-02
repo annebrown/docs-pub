@@ -114,7 +114,7 @@ extra:
 # extra_css: Using /overrides/
 #-------------------------------------------------------------------------------
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 #-------------------------------------------------------------------------------
 # markdown_extensions:
 #-------------------------------------------------------------------------------
@@ -159,12 +159,15 @@ plugins:
   - git-revision-date-localized:
       exclude:
         - index.md
+  - glightbox
   - meta-manager
   - task-collector:
       output_file: dev/projects/docs-pub/meta/TaskList.md
   - tags:
       tags_file: dev/projects/docs-pub/meta/tags.md
   - macros
+  - social
+  
 
 
 

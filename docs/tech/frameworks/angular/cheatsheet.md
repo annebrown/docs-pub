@@ -1,6 +1,6 @@
 ---
-title: Angular Cheetsheet
-description: Angular cmds and notes
+title: Cheetsheet
+description: Angular Quick Ref
 tags:
     - Cheatsheet
     - Angular

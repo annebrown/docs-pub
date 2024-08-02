@@ -3,7 +3,7 @@ title: Python
 description: Programming Language
 ---
 
-{{ description }}
+My notes on Python {{ description }}
 
 ## venv
 

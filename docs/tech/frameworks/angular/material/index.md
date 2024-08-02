@@ -5,7 +5,7 @@ description: Material Styling for Angular Apps
 
 ## Description
 
-{{ description }}
+My notes on {{ description }}
 
 ## Add Angular Material Pkg
 

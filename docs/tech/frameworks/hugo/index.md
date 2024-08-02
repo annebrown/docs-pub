@@ -7,7 +7,7 @@ tags:
 
 ## Description
 
-{{ description }}
+My notes on Hugo, {{ description }}
 
 ???+ Note "Ditching Hugo"
 

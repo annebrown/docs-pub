@@ -1,9 +1,11 @@
 ---
 title: Node.js
-description: Open-Source, cross-platform JavaScript runtime environment
+description: Open-Source, Cross-Platform JavaScript Runtime Environment
 ---
 
-{{ description }}
+## Description 
+
+My notes on Node.js, {{ description }}
 
 ## Install
 

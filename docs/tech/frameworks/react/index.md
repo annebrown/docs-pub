@@ -1,11 +1,14 @@
 ---
 title: React
-description: 
+description: Open-Source Front-End JavaScript UI Lib
 ---
 
 ## Description 
 
-{{ description }}
+My notes on React, {{ description }}
 
-## Setup ##
+It's listed under frameworks because I consider it a Javascript IF Framework. Or, at least, its more of a framework than a lang or tooling.  YMMD.
 
+## Summary/Conclusions/Thoughts
+
+Nothing yet for this placeholder.

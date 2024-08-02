@@ -2,9 +2,17 @@
 title: About
 description: About this Site
 hide: 
+  - title
   - navigation
   - toc
 ---
+<link rel="stylesheet" href="../about.css">
+<div>
+<logo><img src="../assets/img/logo-it-arch-resized.png" alt="IT Architect"/></logo>
+</div>
+
+
+# About
 
 ## Description
 
@@ -17,7 +25,7 @@ hide:
 
 ## Usage
 
-Tho these docs are designed for my purpose, they may be of use to others.  Usage is covered under the [MIT License](https://opensource.org/license/MIT).  
+Tho these docs are designed for my purpose, they may be of use to others.  Usage is covered under the [MIT License](https://opensource.org/license/MIT).
 
 If using code or data from this site, please also reproduce any attached attributions (refs and oth links) to ensure original authors continue to be acknowedged.
 
