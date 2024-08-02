@@ -8,4 +8,3 @@ mkdocs-awesome-pages-plugin==2.9.2
 mkdocs-macros-plugin==1.0.5
 mkdocs-meta-manager==1.0.0
 mkdocs-task-collector==0.1.12
-
