@@ -11,7 +11,7 @@ hide:
 
 </div>
  -->
- <img src="../assets/img/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" style="width: 200px; position: absolute; right: 40px;"/>
+ <img src="../assets/img/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" style="width: 300px; position: absolute; right: 40px;"/>
 
 <!-- ![Image title](../assets/img/logo-it-arch-resized.png =200x200){ align=left } -->
 # About
