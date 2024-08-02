@@ -1,4 +1,5 @@
 # requirements.txt
+CairoSVG                                  2.7.1
 mkdocs==1.6.0
 mkdocs-material==9.5.30
 pymdown-extensions==10.8.1
@@ -8,3 +9,4 @@ mkdocs-awesome-pages-plugin==2.9.2
 mkdocs-macros-plugin==1.0.5
 mkdocs-meta-manager==1.0.0
 mkdocs-task-collector==0.1.12
+pillow==10.4.0
