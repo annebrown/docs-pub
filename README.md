@@ -4,7 +4,7 @@ Technical Reference Docs
 
 ## Tech Stack
 
-Next.js
+MkDocs/Material MkDocs SSG
 
 ## Deployments
 

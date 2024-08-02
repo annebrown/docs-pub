@@ -8,9 +8,8 @@ hide:
 ---
 <link rel="stylesheet" href="../about.css">
 <div>
-<logo><img src="../assets/img/logo-it-arch-resized.png" alt="IT Architect"/></logo>
+<it-logo><img src="../assets/img/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails"/></it-logo>
 </div>
-
 
 # About
 
