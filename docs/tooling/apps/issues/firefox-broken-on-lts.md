@@ -1,22 +1,16 @@
 ---
-title: Firefox
-description: Firefox Config
+title: Firefox Broken on LTS Distro
+description: Broken FF on Ubuntu 24.04 LTS
 tags:
-  - Firefox
+  - Issues
+  - SOLVED
 ---
 
 ## Description
 
-{{ description }}
+Totes Issues w {{ description }}
 
-
-## KDE Plasma's Global Menu
-
-Not supported by FF, known issue.  It can be configured in about:config but is not yet functional.  See [News on this Issue](https://forum.garudalinux.org/t/so-good-global-menu-news-for-firefox-and-thunderbird/37558)
-
-## Broken FF on Ubuntu 24.04 LTS
-
-Totes issues with FF included in Ubunt LTS distro.
+## Fix
 
 ### Remove Default Distro Snap
 
@@ -71,3 +65,7 @@ or
 ```bash
 sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
 ```
+
+## Status
+
+SOLVED

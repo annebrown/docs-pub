@@ -1,17 +1,28 @@
 ---
 title: Browsers
-description: Browser Config and Notes
+description: Web Browsers
 ---
 
 ## Description
 
-{{ description }}
+My notes on {{ description }}
 
 ## Temporal Search
 
 > Rapid tech progression necessitates recent search results.
 
-Example - For results within the past year, enter in the omnibox:
+### CLI
+
+Search [DuckDuckGo CLI](../apps/ddgr.md):
+
+```bash
+ddgr keywords -t y # past year
+ddgr keywords -t m # past month
+```
+
+### GUI
+
+For results within the past year, enter in the omnibox:
 
 - DuckDuckGo: `https://duckduckgo.com/?q=search&atb=v438-3&df=y&ia=web`
 - Google: `https://www.google.com/webhp?source=lnt&tbs=qdr:y`

@@ -3,9 +3,32 @@ title: Python
 description: Programming Language
 ---
 
+## Description
+
 My notes on Python {{ description }}
 
-## venv
+## Install
+
+Add Python PPA:
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+
+This also outputs a list of the latest Python versions for each distro.
+
+Update local PPA cache:
+
+```bash
+sudo apt update
+```
+Install selected version:
+ 
+```bash
+sudo apt-get install python3.12 python3-pip
+```
+
+## Virtual Environment
 
 Some [Python](https://www.python.org/ "Official Site")-based projects require a virtual env.
 

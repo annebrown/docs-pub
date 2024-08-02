@@ -6,14 +6,8 @@ hide:
   - navigation
   - toc
 ---
-<!-- <link rel="stylesheet" href="../about.css">
-<div>
-
-</div>
- -->
- <img src="../assets/images/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" style="width: 250px; position: absolute; right: 40px;"/>
-
-<!-- ![Image title](../assets/img/logo-it-arch-resized.png =200x200){ align=left } -->
+ <img src="../assets/images/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" style="width: 250px; position: relative; float: right;"/>
+ 
 # About
 
 ## Description
