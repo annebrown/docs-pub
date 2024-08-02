@@ -1,5 +1,5 @@
 # requirements.txt
-CairoSVG                                  2.7.1
+CairoSVG==2.7.1
 mkdocs==1.6.0
 mkdocs-material==9.5.30
 pymdown-extensions==10.8.1
