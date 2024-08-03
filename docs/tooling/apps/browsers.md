@@ -37,4 +37,3 @@ For more options, config a search and copy relevent search params from the URL. 
 
 To use KDE Plasma's Global Menu, Panel widget, `Use system title bar and borders` in `Settings`.
 
-## [Firefox](firefox.md)
