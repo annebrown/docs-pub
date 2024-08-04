@@ -1,15 +1,36 @@
 ---
 title: Home
-description: Technical Refererence Docs
+description: Dev Notes
 hide:
   - navigation
   - toc
 ---
 
-## Description
-
 {{ description }}
 
-### Tech Stack
+<style>
+.outter-container {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Fractional  */
+  gap: 10px;
+    /* column-gap: 10px; 
+    row-gap: 20px; */
 
-SSG built on the [MkDocs](https://www.mkdocs.org/)/[MkDocs Material](https://squidfunk.github.io/mkdocs-material/) Framework, including [Python](https://pypi.org/) and other 3rd-party Plugins.
+}
+
+.item-00 {
+  text-align: center;
+  border: 0.25px solid gray;
+}
+</style>
+
+<div class="outter-container">
+    <div class="item-00"><a href="tech/frameworks/"><p>Frameworks</p></a></div>
+    <div class="item-00"><a href="tech/languages/"><p>Languages</p></a></div>
+    <div class="item-00"><a href="tech/oses/"><p>OSes</p></a></div>
+    <div class="item-00"><a href="tech/apps/"><p>Apps</p></a></div>
+    <div class="item-00"><a href="dev/"><p>Dev</p></a></div>   
+    <div class="item-00"><a href="about/"><p>About</p></a></div>
+</div>
+

@@ -1,6 +1,8 @@
 ---
 title: Testing
 description: Temporary Testing Assets
+tags:
+  - Testing
 ---
 
 ## Description 

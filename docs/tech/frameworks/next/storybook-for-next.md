@@ -7,12 +7,12 @@ description: Storybook Intregration with Next.js
 
 {{ description }}
 
-[Storybook](../../../tooling/apps/storybook/index.md) is a front-end tool for building UI components in isolation.
+[Storybook](../../tooling/apps/storybook/index.md) is a front-end tool for building UI components in isolation.
 
 
 ## Install Storybook
 
-See [Storybook Install](../../../tooling/apps/storybook/index.md#install) for instructions.
+See [Storybook Install](../../tooling/apps/storybook/index.md#install) for instructions.
 
 After intallation, Story will automatically launch, and pop-up a tutorial window.
 

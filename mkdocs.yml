@@ -7,7 +7,7 @@
 site_name: docs.annebrown.ca
 site_url: https://docs.annebrown.ca
 site_author: Anne Brown
-site_description: Technical Reference Docs
+site_description: Dev Notes
 #-------------------------------------------------------------------------------
 # Watches
 #-------------------------------------------------------------------------------
@@ -128,8 +128,11 @@ markdown_extensions:
   - pymdownx.betterem
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       #anchor_linenums: true
       line_spans: __span
@@ -166,15 +169,7 @@ plugins:
   - tags:
       tags_file: dev/projects/docs-pub/meta/tags.md
   - macros
-  - social
+  - social:
+      cards_layout_optins:
+        background_color: "#FF1493"
   
-
-
-
-
-
-
-
-
-
-

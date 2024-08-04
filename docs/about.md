@@ -29,6 +29,10 @@ If using code or data from this site, please also reproduce any attached attribu
 
     This project is a living knowledge base and <span style="color: red">*WILL MOST DEFINITELY*</span> contain errors. Ensure you know what your're doing before using code or data from this site. 
 
+### Tech Stack
+
+[MkDocs](https://www.mkdocs.org/)/[MkDocs Material](https://squidfunk.github.io/mkdocs-material/) SSG
+
 ## Project Details
 
 For more info, see [docs-pub Project](dev/projects/docs-pub/index.md).

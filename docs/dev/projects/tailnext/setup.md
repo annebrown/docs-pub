@@ -22,7 +22,7 @@ npm install
 
 ## Install Storybook
 
-See [Storybook](../../../tooling/apps/storybook/index.md).
+See [Storybook](../../../tech/tooling/apps/storybook/index.md).
 
 After intallation, Story will automatically launch, and pop-up a tutorial window.
 

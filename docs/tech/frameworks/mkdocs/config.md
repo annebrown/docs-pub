@@ -68,7 +68,7 @@ copyright: Copyright &copy; 2024 Anne Brown
 ### Theme
 
 ```yml
--------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # theme:
 #-------------------------------------------------------------------------------
 theme:
@@ -235,4 +235,4 @@ plugins:
 
 ## VSCode YAML Schema
 
-Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../../tooling/apps/vscode/extensions.md#yaml)
+Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../tooling/apps/vscode/extensions.md#yaml)

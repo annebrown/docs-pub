@@ -46,3 +46,6 @@ codedocs - vscode workspace (default dark theme)
 docserver - start dev svr in venv
 docservert - launch dev svr in sep process w matching theme
 ```
+## TODOs
+
+:material-checkbox-blank-outline: TODO Add relevent Tooltips in VSCode Settings
