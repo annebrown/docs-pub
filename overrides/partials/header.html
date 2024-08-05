@@ -36,7 +36,7 @@
             position: absolute;
             top: 2.2rem;
             left: 3.8rem;
-            padding: 0;
+
             margin: 0;
             ">
             <a href="/">
@@ -44,16 +44,38 @@
             </a>
         </div>
         <!-- The Navi -->
+        <style>
+          a.my-button {
+            background-color: #A4B888;
+            color: black;
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+            padding-right: 0.5em;
+            padding-left: 0.5em;
+            border-style: double;
+
+            border-color: #A4B888;
+          }
+
+        </style>
         <div style="
-            font-size: 0.7rem; 
+            font-size: 0.6rem; 
             position: absolute; 
             top: 0.7rem;
-            left: 4rem;
+            left: 5rem;
+            background-color: white;
+            border-style: solid;
+            border-color: black;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-right: 0.5em;
+            padding-left: 0.5em;
+
             ">
-            <a href="/">Home &nbsp;</a>  
-            <a href="/tech/">Tech  &nbsp;</a>  
-            <a href="/dev/">Dev  &nbsp;</a> 
-            <a href="/about/">About</a> 
+            <button><a class="my-button" href="/">Home</a></button>&nbsp;
+            <button><a class="my-button" href="/tech/">Tech</a></button>&nbsp;
+            <button><a class="my-button" href="/dev/">Dev</a></button>&nbsp;
+            <button><a class="my-button" href="/about/">About</a></button> 
         </div> 
     </div>
 
