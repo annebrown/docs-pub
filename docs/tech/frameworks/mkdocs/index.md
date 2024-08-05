@@ -1,6 +1,8 @@
 ---
 title: MkDocs
 description: Docs-based SSG, written in Python
+hide:
+  - toc
 ---
 
 ## Description
@@ -13,4 +15,4 @@ After evaluating alternatives, such as Hugo, Jeykll, Gatsby, and Next.js, MkDocs
 
 !!! warning
 
-    [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/ "Official Site") is an essential add-on framework for [MkDocs](https://www.mkdocs.org/ "Official Site"), however, to use some of its features (like breadcrumbs), they are asking for :moneybag: $15/mo  payment, for individual, non-commercial use. :face_with_raised_eyebrow:  
+    [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/ "Official Site") is an essential add-on framework for [MkDocs](https://www.mkdocs.org/ "Official Site"), however, to use some of its features (like breadcrumbs), they are asking for $15/mo sponsorship payment, for individual, non-commercial use. These fees are waived for contributors.  

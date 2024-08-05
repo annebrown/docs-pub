@@ -1,0 +1,83 @@
+<!-- 
+    Simplified MkDocs-Material Header
+        Descr:
+        - Single line
+        - Staticly-coded
+        Purpose:
+        - Static Header Navi 
+        Contents:
+        - Logo & Text
+        - Navi
+        - Mode Toggle
+        - Search Bar
+        - Repo Deets 
+    Locn: /overrides/partials/header.html
+-->
+{% set class = "md-header" %}
+<header class="{{ class }}" data-md-component="header" >
+  <nav class="md-header__inner" aria-label="{{ lang.t('header') }}">
+
+    
+
+
+    <!-- The Left Side -->
+    <div style="display: flex; height: 4rem;">
+        <!-- The Logo/Text Link-->
+        <div style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              padding-left: 10px;
+              margin: 0;
+              ">
+              <a href="/">
+                <img src="/assets/images/logo.svg" style="width:10rex">
+              </a>
+        </div>
+        <div style="
+            position: absolute;
+            top: 3rem;
+            left: 4.75rem;
+            padding: 0;
+            margin: 0;
+            ">
+            <a href="/">
+              docs.annebrown.ca
+            </a>
+        </div>
+        <!-- The Navi -->
+        <div style="
+            font-size: 1rem; 
+            position: absolute; 
+            top: 1rem;
+            left: 6rem;
+            ">
+            <a href="/">Home &nbsp;</a>  
+            <a href="/tech/">Tech  &nbsp;</a>  
+            <a href="/dev/">Dev  &nbsp;</a> 
+            <a href="/about/">About</a> 
+        </div> 
+    </div>
+
+    <!-- The Center Spacer -->
+    <div style="display: flex; flex-grow:1;"></div>
+
+    <!-- The Right Side -->
+    <div style="display: flex;">  
+      <!-- The Dark/Light-Mode Toggle -->
+      {% include "partials/palette.html" %}
+          
+        <!-- The Search Bar -->     
+        <label class="md-header__button md-icon" for="__search">        
+          {% set icon = config.theme.icon.search or "material/magnify" %}       
+          {% include ".icons/" ~ icon ~ ".svg" %}   
+        </label>  
+        {% include "partials/search.html" %}
+    
+        <!-- The Repo Deets -->   
+        <div class="md-header__source">     
+          {% include "partials/source.html" %}  
+        </div>
+    </div>
+  </nav>
+</header>

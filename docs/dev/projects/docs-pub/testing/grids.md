@@ -112,5 +112,3 @@ Meshed w oth elements
 
 > :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
 </div>
-
-

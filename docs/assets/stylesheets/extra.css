@@ -1,11 +1,26 @@
 
 /* Stylesheet Loaded Test */
-/*
-h2 {
+
+/* h2 {
     color: green;
 }
-*/
+    */
 
+body {
+    width: 100% !important;
+}
+
+
+
+
+.md-gred {
+    max-width: initial;
+}
+
+.md-main__inner.md-grid {
+    max-width: 61rem;
+}
+ */
 /* Desktop */
 /*
 @media (min-width: 992px) {

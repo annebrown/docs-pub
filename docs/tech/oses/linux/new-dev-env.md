@@ -34,4 +34,4 @@ Install fav pwd mgr extension on fav browsers.
 
 For convenient 2FA, install GitHub Mobile, from Playstore, on phone and other mobile devices.  
 
-# [Configure Git](../../tooling/apps/git/index.md)
+# [Configure Git](../../apps/git/index.md)

@@ -44,8 +44,9 @@ theme:
     - navigation.indexes
     #- navigation.sections
     - navigation.path
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.prune
+    #- navigation.tabs
+    #- navigation.tabs.sticky
     - navigation.top
     #- navigation.tracking
     - search.highlight

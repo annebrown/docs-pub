@@ -4,7 +4,7 @@ description: Code or Go Paddling
 tags:
   - wttr.in
 ---
- <img src="../../../assets/images/paddling.svg" alt="Paddling on SUB" style="width: 150px; position: relative; float: left; padding-right: 20px; clear: both;"/>
+ <img src="../../../assets/images/paddling.svg" alt="Paddling on SUB" style="border-radius: 49%; width: 150px; position: relative; float: left; margin-right: 20px; clear: both;"/>
 ## Description
 
 Essential <span style="color: lightgreen">{{ description }}</span> Decision Tool

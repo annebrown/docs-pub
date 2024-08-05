@@ -13,4 +13,4 @@ tags:
 
 ## Notes
 
-.notes - Notes not intended for publication, e.g., clipboard, cratchpad, etc
+.notes - Notes not intended for publication, e.g., clipboard, scratchpad, etc

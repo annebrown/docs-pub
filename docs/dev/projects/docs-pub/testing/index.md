@@ -1,6 +1,7 @@
 ---
 title: Testing
 description: Temporary Testing Assets
+icon: material/test-tube
 tags:
   - Testing
 ---
