@@ -19,6 +19,7 @@
 
     <!-- The Left Side -->
     <div style="display: flex; height: 3.7rem;">
+
         <!-- The Logo/Text Link-->
         <div>
             <a href="/">
@@ -36,43 +37,54 @@
             position: absolute;
             top: 2.6rem;
             left: 3.8rem;
-
             margin: 0;
             ">
             <a href="/">
               docs.annebrown.ca
             </a>
         </div>
+
         <!-- The Navi -->
         <style>
-          a.my-button {
+          .my-button {
             background-color: #A4B888;
             color: black;
-            padding-top: 0.1m;
-            padding-bottom: 0.1em;
+            padding: 0;
+            margin: 0;
+/*          padding-top: 0.5em;
+            padding-bottom: 0.5em;
             padding-right: 0.1em;
-            padding-left: 0.1em;
-            border-style: double;
-
-            border-color: #A4B888;
+            padding-left: 0.1em; */
+            border-style: outset;
+            border-color: gray;
+            border-top-style: double;
+            border-top-color: grey;
+            border-radius: 5%;
           }
-
         </style>
         <div style="
             font-size: 0.7rem; 
             position: absolute; 
             top: 0.7rem;
             left: 5rem;
-            background-color: white;
-            border-style: solid none solid none;
+            padding-top: .1em;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            background-color: black;
+            border-style: solid solid solid solid;
             border-color: black;
-
+            border-left-color: white;
+            border-right-color: grey;
+            border-top-color: lightgray;
+            border-width:thick;
 
             ">
-            <button><a class="my-button" href="/">Home</a></button>&nbsp;
-            <button><a class="my-button" href="/tech/">Tech</a></button>&nbsp;
-            <button><a class="my-button" href="/dev/">Dev</a></button>&nbsp;
-            <button><a class="my-button" href="/about/">About</a></button> 
+            <button class="my-button" style="width: 4em;"><a href="/">Home</a></button>&nbsp;
+            <button class="my-button" style="width: 4em;"><a href="/tech/">Tech</a></button>&nbsp;
+            <button class="my-button" style="width: 4em;"><a href="/dev/">Dev</a></button>&nbsp;
+            <button class="my-button" style="width: 4em;"><a href="/about/">About</a></button> 
         </div> 
     </div>
 
