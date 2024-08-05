@@ -24,7 +24,7 @@ Alphabetizing these files facilitates mods and helps reduce dups.
 
 ## Move Config Files to .dotfiles
 
-To ease VSCode config for new dev envs, move settings to `~/.dotfiles`.  See [New Dev Env](../../../oses/linux/new-dev-env.md) and the [Dotfiles Project](../../../../dev/projects/dotfiles/index.md).  Skip if using VSCode built-in settings sync. Currently, using built-in sync appears to be less problematic.
+To ease VSCode config for new dev envs, move settings to `~/.dotfiles`.  See [New Dev Env](../../oses/linux/new-dev-env.md) and the [Dotfiles Project](../../../dev/projects/index.md).  Skip if using VSCode built-in settings sync. Currently, using built-in sync appears to be less problematic.
 
 User Settings File:
 

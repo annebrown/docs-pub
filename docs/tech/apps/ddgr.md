@@ -18,7 +18,7 @@ Browse web from terminal, with specific result count and search ranges, control 
 
 Install Python:
 
-See [Python Install](../../languages/python/index.md#install).
+See [Python Install](../languages/python/index.md#install).
 
 Install ddgr:
 

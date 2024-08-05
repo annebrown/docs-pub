@@ -29,7 +29,7 @@ npm run storybook
 
 ## Framework Integration
 
-[Integrate Storybook with Next.js](../../../frameworks/next/storybook-for-next.md) or checkout [Storybook Recipies](https://storybook.js.org/recipes) for info on how to integrate storybook with another frameworks.  
+[Integrate Storybook with Next.js](../../frameworks/next/storybook-for-next.md) or checkout [Storybook Recipies](https://storybook.js.org/recipes) for info on how to integrate storybook with another frameworks.  
 
 ## Check Storybook Project Health
 

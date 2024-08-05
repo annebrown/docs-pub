@@ -36,4 +36,4 @@ sudo apt install gh
 gh auth login # Opens browser for authn
 ```
 
-### [Two Factor Authn](../../../oses/linux/new-dev-env.md#two-factor-authn)
+### [Two Factor Authn](../../oses/linux/new-dev-env.md#two-factor-authn)
