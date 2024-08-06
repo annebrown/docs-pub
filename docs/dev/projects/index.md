@@ -17,6 +17,7 @@ tags:
 
 ## Projects
 
+</style>
 <style>
 .outter-container {
   padding: 0.5rem;

@@ -1,6 +1,6 @@
 ---
-title: Adding Angular Content
-description: Adding components to Angular App
+title: App Component
+description: Angular App Component
 ---
 
 ## Description
