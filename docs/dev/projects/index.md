@@ -42,4 +42,3 @@ tags:
     <div class="item-00 box1"><a href="react/"><p>React</p></a></div> 
     <div class="item-00 box1"><a href="tailnext/"><p>TailNext</p></a></div>  
 </div>
-<div class="item-00 box1"><a href="setup/"><p>Setup</p></a></div>
