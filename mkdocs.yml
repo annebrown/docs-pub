@@ -42,6 +42,8 @@ theme:
     #- navigation.expand
     - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.preview
     #- navigation.sections
     - navigation.path
     - navigation.prune
