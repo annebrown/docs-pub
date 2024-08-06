@@ -1,5 +1,5 @@
 ---
-title: NeoFetch - Sys Info
+title: NeoFetch
 description: Essential Sys Info Tool
 tags:
   - NeoFetch

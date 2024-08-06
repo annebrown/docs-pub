@@ -1,6 +1,6 @@
 ---
 title: TODOs
-description: Tasks Lists
+description: Automatically Generated Tasks Lists
 tags:
   - TODOs
 ---
@@ -9,9 +9,5 @@ tags:
 
 {{ description }}
 
-## TODOs
 
-
-
-:material-checkbox-blank-outline: TODO Cheatsheets
-
+TODO :material-checkbox-blank-outline: Cheatsheets

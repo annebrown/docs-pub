@@ -16,7 +16,6 @@ hide:
   gap: 10px;
     /* column-gap: 10px; 
     row-gap: 20px; */
-
 }
 
 .item-00 {

@@ -7,66 +7,87 @@ description: My Notes on  Frameworks
 
 {{ description }}
 
+<style>
+.outter-container {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Fractional  */
+  gap: 10px;
+    /* column-gap: 10px; 
+    row-gap: 20px; */
+}
+
+.item-00 {
+  text-align: center;
+  border: 0.25px solid gray;
+}
+</style>
+
 ## Front-End
 
-### [Angular](angular/index.md)
-
-### [Next.js](next/index.md)
-
-### [React](../frameworks/react/index.md)
-
-### [Vue](https://vuejs.org "Official Site")
+<div class="outter-container">
+    <div class="item-00"><a href="angular/"><p>Angular</p></a></div>
+    <div class="item-00"><a href="next/"><p>Next.js</p></a></div>
+    <div class="item-00"><a href="react/"><p>React</p></a></div>
+    <div class="item-00"><a href="https://vuejs.org"><p>Vue</p></a></div>
+</div>
 
 ## Back-End
-
-### [Angular](angular/index.md)
-
-### [Express.js](http://expressjs.com "Official Site")
-
-### [Next.js](next/index.md)
-
-### [Node.js](node/index.md)
+<div class="outter-container">
+    <div class="item-00"><a href="angular/"><p>Angular</p></a></div>
+    <div class="item-00"><a href="http://expressjs.com"><p>Express.js</p></a></div>
+    <div class="item-00"><a href="next/"><p>Next.js</p></a></div>
+    <div class="item-00"><a href="node/"><p>Node.js</p></a></div>
+</div>
 
 ## Full Stack
 
-### [Angular](angular/index.md)
+<div class="outter-container">
+    <div class="item-00"><a href="angular/"><p>Angular</p></a></div>
+    <div class="item-00"><a href="next/"><p>Next.js</p></a></div>
+</div>
 
 ### SSGs
 
-#### [MkDocs](mkdocs/index.md)
-
-#### [Hugo](hugo/index.md)
-
-#### [Jekyll](https://jekyllrb.com "Official Site")
-
-#### [Gatsby](https://www.gatsbyjs.com "Official Site")
+<div class="outter-container">
+    <div class="item-00"><a href="mkdocs/"><p>MkDocs</p></a></div>
+    <div class="item-00"><a href="hugo/"><p>Hugo</p></a></div>
+    <div class="item-00"><a href="https://jekyllrb.com/"><p>Jekyll</p></a></div>
+    <div class="item-00"><a href="https://www.gatsbyjs.com/"><p>Gatsby</p></a></div>   
+</div>
 
 ### LAMP
 
-- [Apache](https://abache.org "Official Site")
-- [Linux](https://www.linux.org "Official Site")
-- [MySQL](https://www.mysql.com "Official Site")
-- Perl/PHP/Python
+<div class="outter-container">
+    <div class="item-00"><a href="https://www.linux.org"><p>Linux</p></a></div>
+    <div class="item-00"><a href="https://apache.org"><p>Apache</p></a></div>
+    <div class="item-00"><a href="https://www.mysql.com"><p>MySql</p></a></div>
+    <div class="item-00"><a href="/tech/languages/"><p>Perl/PHP/Python</p></a></div>   
+</div>
 
 ### MEAN
 
-- [Angular](angular/index.md)
-- [Express.js](http://expressjs.com "Official Site")
-- [MongoDB](https://mongodb.com "Official Site")
-- [Node.js](node/index.md)
+<div class="outter-container">
+    <div class="item-00"><a href="https://mongodb.com"><p>MongDb</p></a></div>
+    <div class="item-00"><a href="http://expressjs.com"><p>Express.js</p></a></div>
+    <div class="item-00"><a href="angular/"><p>Angular</p></a></div>
+    <div class="item-00"><a href="next/"><p>Next.js</p></a></div> 
+</div>
 
 ### MERN
 
-- [Express.js](http://expressjs.com "Official Site")
-- [MongoDB](https://mongodb.com "Official Site")
-- [Node.js](node/index.md)
-- [React.js](https://react.dev "Official Site")
+<div class="outter-container">
+    <div class="item-00"><a href="https://mongodb.com"><p>MongDb</p></a></div>
+    <div class="item-00"><a href="http://expressjs.com"><p>Express.js</p></a></div>
+    <div class="item-00"><a href="react/"><p>React</p></a></div>
+    <div class="item-00"><a href="next/"><p>Next.js</p></a></div> 
+</div>
 
 ### MEVN
 
-- [Express.js](http://expressjs.com "Official Site")
-- [MongoDB](https://mongodb.com "Official Site")
-- [Node.js](node/index.md)
-- [Vue](https://vuejs.org "Official Site")
-
-### [Next.js](next/index.md)
+<div class="outter-container">
+    <div class="item-00"><a href="https://mongodb.com"><p>MongDb</p></a></div>
+    <div class="item-00"><a href="http://expressjs.com"><p>Express.js</p></a></div>
+    <div class="item-00"><a href="https://vuejs.org"><p>Vue</p></a></div>
+    <div class="item-00"><a href="next/"><p>Next.js</p></a></div> 
+</div>

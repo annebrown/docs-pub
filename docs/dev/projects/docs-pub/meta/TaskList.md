@@ -1,7 +1,7 @@
 # Task List
 
 ## dev/TODOs.md
-+ Line 16 - :material-checkbox-blank-outline: TODO Cheatsheets
++ Line 13 - TODO :material-checkbox-blank-outline: Cheatsheets
 
 ## dev/projects/docs-pub/index.md
 + Line 51 - :material-checkbox-blank-outline: TODO Add relevent Tooltips in VSCode Settings
