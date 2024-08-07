@@ -1,29 +1,97 @@
 ---
-title: Testing - CSS
-description: Testing CSS Styling
+title: Styling
+description: Trying Out Styles
+icon: octicons/paintbrush-16
 tags:
-  - CSS
-  - Testing
+  - none
 ---
 
 ## Description
 
 {{ description }}
 
-:awe-face:
+<dl>
+  <dt>Some Term</dt><dd>Some Definition</dd>
+  <dt>Another Term</dt><dd>Another Defition</dd>
+</dl>
 
-## H2 Right Here
+Horiz Lines
+---
 
-### LIttle Bit of H3
+Don't Work
 
-#### H4 Stylin
+===
 
-##### Does H5 Get Rendered
+Horiz Lines, Delimited by blank lines
 
-###### Where Does H6 End
+---
 
-####### Is There Even an H7?
+And Double
 
-Nope.
+===
 
-The End
+===
+
+NOT WORKING
+
+## Link Label
+
+This is a sentence with a [Link][google-url], used to make md easier to read.
+
+[google-url]: https://google.com "Google"
+
+## em
+
+*This is single asterisk - italic*
+
+_This is single underscore - italic_
+
+**This is double asterisk - bold**
+
+__This is double underscore - bold__
+
+## Logo with ID
+
+![Logo with id][logo]
+
+[logo]: /assets/images/logo.svg "Alt text"
+
+## Alerts
+
+!!! NOTE
+
+    Useful information that users should know, even when skimming content.
+
+!!! TIP
+
+    Helpful advice for doing things better or more easily.
+
+
+!!! IMPORTANT
+
+    Key information users need to know to achieve their goal.
+
+
+!!! WARNING
+
+    Urgent info that needs immediate user attention to avoid problems.
+
+
+!!! CAUTION
+
+    Possible negative outcomes resulting from an action.
+    ```
+
+
+
+!!! IMPORTANT
+
+    Vital information required for users to attain success.
+
+!!! WARNING
+
+    Urgent content that requires immediate user focus due to possible risks.
+
+!!! CAUTION
+
+    Possible negative outcomes resulting from an action.

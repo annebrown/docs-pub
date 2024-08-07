@@ -10,21 +10,59 @@ tags:
 {{ description }}
 
 ## Icons
+---
+
+### TODOs
 
 :material-checkbox-blank-outline: TODO Something that needs to be dome
 
 :material-checkbox-outline: TOTO Something that was done
 
-## Testing
+### Alerts
 
-:material-test-tube: Testing
+!!! note "Note with Custom Title"
 
-:material-chip: Tech
+    This is the text of the alert.
 
-:logo-ab: annebrown.ca
+note - :octicons-tag-16:
 
-:logo-bd: browndomain.com
+abstract - :octicons-checklist-16:
 
-:logo: logo.svg
+info - :octicons-info-16:
 
-:octicons-terminal-16: terminal
+tip - :octicons-squirrel-16:
+
+success - :octicons-check-16:
+
+question - :octicons-question-16:
+
+warning - :octicons-alert-16:
+
+failure - :octicons-x-circle-16:
+
+danger - :octicons-zap-16:
+
+bug - :octicons-bug-16:
+
+example - :octicons-beaker-16:
+
+quote - :octicons-quote-16:
+
+## Misc
+
+material-test-tube - :material-test-tube: 
+
+material-chip - :material-chip:
+
+logo-ab - :logo-ab:
+
+logo-bd - :logo-bd:
+
+logo - :logo:
+
+octicons-terminal-16 -:octicons-terminal-16:
+
+material-circle - :material-circle:
+
+black_circle - :black_circle:
+

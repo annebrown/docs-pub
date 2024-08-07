@@ -9,11 +9,22 @@
 + Line 51 - :material-checkbox-blank-outline: TODO Add relevent Tooltips in VSCode Settings
 
 ## dev/projects/docs-pub/testing/images.md
-+ Line 14 - :material-checkbox-blank-outline: TODO Something that needs to be dome
++ Line 17 - :material-checkbox-blank-outline: TODO Something that needs to be dome
 
 ## dev/projects/docs-pub/testing/info.md
-+ Line 22 - :material-checkbox-outline: TODO Test if Defn Lists behave as expected for site searches prefixed with [ define | what is | what are ].
-+ Line 26 - :material-checkbox-blank-outline: TODO Site Index
++ Line 22 - :material-checkbox-blank-outline: TODO Test if Defn Lists behave as expected for site searches prefixed with:
++ Line 28 - :material-checkbox-blank-outline: TODO Site Index
+
+## dev/projects/docs-pub/testing/markdown.md
++ Line 1200 - !!! NOTE
++ Line 1221 - !!! NOTE
++ Line 1297 - > [!NOTE]
+
+## dev/projects/docs-pub/testing/styling.md
++ Line 61 - !!! NOTE
+
+## dev/projects/docs-pub/testing/tasks.md
++ Line 3 - description: Testing TaskList and TODO
 
 ## dev/projects/react/index.md
 + Line 41 - CLI: TODO
