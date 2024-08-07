@@ -20,9 +20,6 @@ MkDocs/Material MkDocs SSG
 
 [https://docs.misscommunication.ca](https://docs.misscommunication.ca)
 
-
-
-
 ## Description
 
 ## Angular
@@ -39,14 +36,23 @@ some text
  
 ## Next.js
 
+next text
+
 ## React/
+
+react text
 
 ## Vue
 
+vie text
 
 ## Wangular
 
+angular wangular
+
 ### Express.js
+
+express text
 
 ## Next.js
 
@@ -59,6 +65,8 @@ some text
 ### Hugo
 
 ### Jekyll
+
+more text
 
 ### LAMP
 
