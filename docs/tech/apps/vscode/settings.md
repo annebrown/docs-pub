@@ -5,6 +5,8 @@ tags:
   - VSCode
 ---
 
+
+
 ## Description
 
 {{ description }} are configred in the app and in [settings files](../vscode/settings-sync.md#settings-files). 
