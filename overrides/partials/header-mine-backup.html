@@ -1,4 +1,26 @@
-
+<!-- 
+    Simplified MkDocs-Material Header
+        Descr:
+        - Single line
+        - Staticly-coded
+        Purpose:
+        - Static Header Navi Menu
+        Contents:
+        - Logo & Text
+        - Navi
+        - Mode Toggle
+        - Search Bar
+        - Repo Deets 
+    Locn: /overrides/partials/header.html
+-->
+<div style="
+    width: 100% !important;
+    border-style: solid solid solid solid; 
+    border-top-color: #A4B888;; 
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: gray;
+">
 {% set class = "md-header" %}
 <header class="{{ class }}" data-md-component="header">
   <nav class="md-header__inner" aria-label="{{ lang.t('header') }}">

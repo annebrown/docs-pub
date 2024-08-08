@@ -1,7 +1,6 @@
-<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-<!-- START -------------------------------------------------------------------->
-<!-- My mods -->
-<!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+{#-
+  This file was automatically generated - do not edit
+-#}
 {% import "partials/language.html" as lang with context %}
 <!doctype html>
 <html lang="{{ lang.t('language') }}" class="no-js">
@@ -92,44 +91,10 @@
     {% set scheme  = palette.scheme  | d("default", true) %}
     {% set primary = palette.primary | d("indigo", true) %}
     {% set accent  = palette.accent  | d("indigo", true) %}
-
-    <!-- Beginning of the Body - A -------------------------------------------->
     <body dir="{{ direction }}" data-md-color-scheme="{{ scheme | replace(' ', '-') }}" data-md-color-primary="{{ primary | replace(' ', '-') }}" data-md-color-accent="{{ accent | replace(' ', '-') }}">
-      <!-- -------------------------------------------------------------------->
-      <!-- START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-      <!-- -------------------------------------------------------------------->
-      <div style="
-      width: 100% !important;
-      border-style: solid solid solid solid; 
-      border-top-color: #A4B888;; 
-      border-bottom-color: darkgray;
-      border-left-color: white;
-      border-right-color: gray;
-      padding:0; margin:0;
-      align-self: center;
-      height: 100%;
-      "><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   {% else %}
-
-     <!-- Beginning of the Body - B ------------------------------------------->
- 
     <body dir="{{ direction }}">
-      <!-- -------------------------------------------------------------------->
-      <!-- START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-      <!-- -------------------------------------------------------------------->
-      <div style="
-      width: 100% !important;
-      border-style: solid solid solid solid; 
-      border-top-color: #A4B888;; 
-      border-bottom-color: darkgray;
-      border-left-color: white;
-      border-right-color: gray;
-      padding:0; margin:0;
-      align-self: center;
-      height: 100%;
-  "><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   {% endif %}
-
     {% set features = config.theme.features or [] %}
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -175,31 +140,17 @@
     {% block header %}
       {% include "partials/header.html" %}
     {% endblock %}
-    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-    <!-- START ---------------------------------------------v               --->
-    <div class="md-container" data-md-component="container"  
-        style="padding: 0; 
-        margin: 0;" 
-        > <!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        {% block hero %}{% endblock %}
-        {% block tabs %}
-          {% if "navigation.tabs.sticky" not in features %}
-            {% if "navigation.tabs" in features %}
-              {% include "partials/tabs.html" %}
-            {% endif %}
+    <div class="md-container" data-md-component="container">
+      {% block hero %}{% endblock %}
+      {% block tabs %}
+        {% if "navigation.tabs.sticky" not in features %}
+          {% if "navigation.tabs" in features %}
+            {% include "partials/tabs.html" %}
           {% endif %}
-        {% endblock %}
-      <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-      <!-- START -------------------------------------v                      -->
-      <main class="md-main" data-md-component="main"  
-          style="padding: 0: margin: 0;"
-          
-          ><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-        <!-- START --------------------------V                               -->
-        <div class="md-main__inner md-grid"  
-        style="padding: 0; margin: 0;"
-        ><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        {% endif %}
+      {% endblock %}
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           {% block site_nav %}
             {% if nav %}
               {% if page.meta and page.meta.hide %}
@@ -304,7 +255,4 @@
       {% endfor %}
     {% endblock %}
   </body>
-  <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-  <!-- START ------------------------------------------------------------------>
-  </div><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </html>

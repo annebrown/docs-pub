@@ -11,6 +11,11 @@ tags:
 
 ## Task List
 
+```[tasklist]
+### Docs Proj
 - [ ] First Task
 - [ ] Second Task
 - [ ] Last Task
+- [ ] #3
+- [ ] #1
+
