@@ -17,3 +17,5 @@ console.log('First Item: ", arrayName[0]);
 );
 ```
 
+TODO: Finish looking at array data type.
+

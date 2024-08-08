@@ -41,7 +41,7 @@ ES6 - ECMAScript 2015, 6th version of ECMAScript std
 
 ```html title="Embedded in head or body elememt"
 <script>
-  //logic
+  // Logic
 </script>
 ```
 

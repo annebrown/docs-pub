@@ -104,7 +104,7 @@ Group contents in a separate, indented block
 ```js title="Example"
 console.group('simple');
   console.warn('warning!');
-  console.error('error here');
+  console.error('error error error');
   console.log('vivi vini vici');
 console.groupEnd('simple');
 console.log('new section');
@@ -113,25 +113,25 @@ console.log('new section');
 ```console title="Output"
 simple
     warning!
-    error here
+    error error error
     vivi vini vici
 new section
 ```
 
 ## Custom Console Logs
 
-Input is CSS.  Logs will replace %c
+Input is CSS.  Log will replace %c
+
+TODO: Not clear what exactly, replacing "%c" does.
 
 ```js title="Example"
-// Custom Console log example
 const spacing = '10px';
 const styles = 
       `padding: ${spacing}; background-color: white; color: green; font-style: 
        italic; border: 1px solid black; font-size: 2em;`;
-console.log('%Label', styles);
+console.log('%cLabel', styles);
 ```
 
-Outputs a white bkgnd, green border box w label
-
-Console sidebar organizes logs and msgs can be filtered by label and msg type
+- Console sidebar organizes logs 
+- Msgs can be filtered by label and msg type
 

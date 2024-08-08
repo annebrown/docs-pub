@@ -15,8 +15,11 @@ document.getElementById(id) Method
 
 ## HTML Output
 
+TODO: Continue study here.
 
 ## Alert Box
 
 
+
 ## Console
+

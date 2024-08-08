@@ -46,3 +46,12 @@
 + Line 12 - ## TODO
 + Line 14 - TODO Move Defn Lists here.
 
+## tech/languages/javascript/arrays.md
++ Line 20 - TODO: Finish looking at array data type.
+
+## tech/languages/javascript/console.md
++ Line 125 - TODO: Not clear what exactly, replacing "%c" does.
+
+## tech/languages/javascript/output.md
++ Line 18 - TODO: Continue study here.
+

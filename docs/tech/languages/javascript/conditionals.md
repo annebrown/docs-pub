@@ -36,10 +36,10 @@ if (cups < 2) {
 ## Ternary Opertor
 
 ```js
-(test) ? // logi if true : // Logic if false 
+(test) ? // Logic if true : // Logic if false 
 ```
 
-```js title="Example:
+```js title="Example"
 return (guess == 5) ? "Correct" : "Incorrect";
 ```
 
