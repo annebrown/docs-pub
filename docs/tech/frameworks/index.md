@@ -62,7 +62,7 @@ description: My Notes on  Frameworks
     <div class="item-00"><a href="https://www.linux.org"><p>Linux</p></a></div>
     <div class="item-00"><a href="https://apache.org"><p>Apache</p></a></div>
     <div class="item-00"><a href="https://www.mysql.com"><p>MySql</p></a></div>
-    <div class="item-00"><a href="/tech/languages/"><p>Perl/PHP/Python</p></a></div>   
+    <div class="item-00"><a href="/tech/langs/"><p>Perl/PHP/Python</p></a></div>   
 </div>
 
 ### MEAN

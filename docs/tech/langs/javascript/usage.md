@@ -24,6 +24,16 @@ description: How to Use JavaScript
 <script src="path/to/section.js"></script>
 ```
 
+## Statements
+
+- end in semicolon
+- whitespaces ignored
+- can put multiple statments on a single line
+- statements can span lines
+
+
+
+
 ## Execution Context
 
 `Memory Allocation Phase`

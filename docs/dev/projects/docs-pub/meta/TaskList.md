@@ -42,16 +42,22 @@
 + Line 21 - TODO config
 + Line 22 - TODO create dirs
 
-## tech/languages/html/index.md
+## tech/langs/html/index.md
 + Line 12 - ## TODO
 + Line 14 - TODO Move Defn Lists here.
 
-## tech/languages/javascript/arrays.md
+## tech/langs/html/definition-list.md
++ Line 16 - :material-checkbox-outline: TODO Test if Defn Lists behave as expected for site searches prefixed with [ define | what is | what are ].
+
+## tech/langs/javascript/arrays.md
 + Line 20 - TODO: Finish looking at array data type.
 
-## tech/languages/javascript/console.md
+## tech/langs/javascript/console.md
 + Line 125 - TODO: Not clear what exactly, replacing "%c" does.
 
-## tech/languages/javascript/flow-ctrl.md
+## tech/langs/javascript/flow-ctrl.md
 + Line 37 - TODO: Finish Throw & Finally usage.
+
+## tech/langs/markdown/toc.md
++ Line 13 - TODO: Put preferred TOC Methods here
 

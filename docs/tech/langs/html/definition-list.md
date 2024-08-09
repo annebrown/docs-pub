@@ -1,6 +1,6 @@
 ---
 title: Definition Lists
-description: HTML Definition Lists for MkDos
+description: HTML Definition Lists
 tags:
   - Definition Lists
 ---

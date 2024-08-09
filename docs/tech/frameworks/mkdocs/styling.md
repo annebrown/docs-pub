@@ -111,25 +111,3 @@ Then create the css file in the same directory as `[some-page-name].md`.
 ## Emojis
 
 [Emoji Search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/?h=icons#search)
-
-## Buttons
-
-```md
-[Do Not Press](#){ .md-button }
-```
-
-Yields:
-
-[Do Not Press](#){ .md-button }
-
-This
-
-```md
-[Do Not Press](#){ .md-button .md-button--primary }
-```
-
-Yields:
-
-[Do Not Press:imp:](#){ .md-button .md-button--primary }
-
-

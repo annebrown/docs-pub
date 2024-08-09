@@ -26,7 +26,7 @@ hide:
 
 <div class="outter-container">
     <div class="item-00"><a href="tech/frameworks/"><p>Frameworks</p></a></div>
-    <div class="item-00"><a href="tech/languages/"><p>Languages</p></a></div>
+    <div class="item-00"><a href="tech/langs/"><p>Languages</p></a></div>
     <div class="item-00"><a href="tech/oses/"><p>OSes</p></a></div>
     <div class="item-00"><a href="tech/apps/"><p>Apps</p></a></div>
     <div class="item-00"><a href="dev/"><p>Dev</p></a></div>   

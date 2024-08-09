@@ -1,6 +1,6 @@
 ---
 title: Tech
-description: Frameworks, Apps, Languages, OSes, etc.
+description: Frameworks, Apps, langs, OSes, etc.
 tags:
   - Tech
 ---
