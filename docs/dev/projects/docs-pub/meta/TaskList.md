@@ -52,6 +52,6 @@
 ## tech/languages/javascript/console.md
 + Line 125 - TODO: Not clear what exactly, replacing "%c" does.
 
-## tech/languages/javascript/output.md
-+ Line 18 - TODO: Continue study here.
+## tech/languages/javascript/flow-ctrl.md
++ Line 37 - TODO: Finish Throw & Finally usage.
 

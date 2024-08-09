@@ -45,7 +45,7 @@ console.clear(); // Purpose, Unclear
 
 ### console.time() 
 
-Measures ms between console.time('Label') and console.timeEnd('Label')
+- ms elapsed between console.time('Label') and console.timeEnd('Label') methods execution.
 
 ```js title="Example"
 console.time.('Label00');

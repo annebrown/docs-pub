@@ -1,6 +1,6 @@
 ---
-title: Syntax
-description: JavaScript Syntax
+title: Values
+description: JavaScript Values
 ---
 
 ## Description
@@ -12,14 +12,16 @@ description: JavaScript Syntax
 
 ### Fixed
 
-Literals:
-- Numbers - decimals optional
-- Strings - single or double quoted
+`Literal`
+
+:    Numbers - decimals optional
+:    Strings - single or double quoted
 
 ### Variable
 
-Variables:
-- Name of storage locn where data is stored
+`Variable`
+
+:    Name of storage locn where data is stored
 
 ## Comments
 

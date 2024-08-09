@@ -21,7 +21,7 @@ break label; // If Switch, stop execution, If Loop, exit Loop block, Label optio
 
 ## Continue
 
-- skip remainder of this iteration of a loop
+- skip remainder of this iteration of the loop
 
 ## Try Catch Throw Finally
 
@@ -34,3 +34,4 @@ catch (e) { // Handle Error
 }
 ```
 
+TODO: Finish Throw & Finally usage.

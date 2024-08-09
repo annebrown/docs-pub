@@ -7,13 +7,16 @@ description: JavaScript String Data Type
 
 {{ description }}
 
-
-- index, position in string, starts at 0
+## Usage
 
 ```js
 let codeString = "perl";
 let stackString = "LAMP uses ${codeString}";
 ```
+
+## Index
+
+- string index, char position in string, starts at 0
 
 ## Multi-Line String
 
@@ -80,7 +83,7 @@ let digitIndex = targetString.indexOf('5');  // 5
 
 ## replace() Method
 
-- Removes searched for subString and places new subString at index of old
+- Removes searched for subString, inserts new subString at index of old
 
 ```js
 let newString = originalString.replace("gray", "grey");
