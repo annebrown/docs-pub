@@ -1,6 +1,6 @@
 ---
 title: Frameworks
-description: My Notes on  Frameworks
+description: My Notes on Frameworks
 ---
 
 ## Description

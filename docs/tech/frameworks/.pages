@@ -1,8 +1,8 @@
 nav:
   - index.md
   - angular
-  - Next.js: next
-  - Node.js: node
+  - next
+  - node
   - react
   - mkdocs
   - hugo

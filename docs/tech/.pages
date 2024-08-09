@@ -1,7 +1,4 @@
 nav:
   - index.md
-  - apps
-  - frameworks
-  - langs
-  - oses
+  - ...
   - links.md

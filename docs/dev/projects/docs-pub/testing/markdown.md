@@ -379,7 +379,7 @@ Using [MathJax](#mathematical-expressions-19-july-2022) syntax:
 | Bittersweet     | `$\color{Bittersweet}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                | $\color{Bittersweet}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$  |
 | Black           | `$\color{Black}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                      | $\color{Black}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$        |
 
-[Full Table](./MathJax.md)
+[Full Table](data/MathJax.md)
 
 ## Multiline
 
@@ -780,10 +780,10 @@ Some other important footnote.[^2]
 ## Relative
 
 ```md
-[Example of a relative link](rl.md)
+[Example of a relative link](data/rl.md)
 ```
 
-[Example of a relative link](rl.md)
+[Example of a relative link](data/rl.md)
 
 ## Auto
 
@@ -808,7 +808,7 @@ Email at example@example.com
 You can use [BinaryTree](https://binarytree.dev/ "Array of Developer Productivity Tools Designed to Help You Save Time") to create markdown tables.
 
 <!-- markdownlint-disable MD051 -->
-You can use [BinaryTree](## "Array of Developer Productivity Tools Designed to Help You Save Time") to create markdown tables.
+You can use [BinaryTree](https://binarytree.dev/## "Array of Developer Productivity Tools Designed to Help You Save Time") to create markdown tables.
 
 ## Enclosed
 

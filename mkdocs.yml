@@ -44,12 +44,12 @@ theme:
     - navigation.indexes
     - navigation.instant
     - navigation.instant.preview
-    #- navigation.sections
+    - navigation.sections
     - navigation.path
     - navigation.prune
     #- navigation.tabs
     #- navigation.tabs.sticky
-    #- navigation.top
+    - navigation.top
     #- navigation.tracking
     - search.highlight
     - search.share
@@ -188,6 +188,6 @@ plugins:
       tags_file: dev/projects/docs-pub/meta/tags.md
   - macros
   - social:
-      cards_layout_optins:
+      cards_layout_options:
         background_color: "#FF1493"
   

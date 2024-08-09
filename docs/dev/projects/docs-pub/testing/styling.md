@@ -54,7 +54,7 @@ __This is double underscore - bold__
 
 ![Logo with id][logo]
 
-[logo]: /assets/images/logo.svg "Alt text"
+[logo]: ../../../../assets/images/logo.svg "Alt text"
 
 ## Alerts
 
