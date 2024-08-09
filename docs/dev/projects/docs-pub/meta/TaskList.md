@@ -16,9 +16,9 @@
 + Line 28 - :material-checkbox-blank-outline: TODO Site Index
 
 ## dev/projects/docs-pub/testing/markdown.md
-+ Line 1200 - !!! NOTE
-+ Line 1221 - !!! NOTE
-+ Line 1297 - > [!NOTE]
++ Line 1202 - !!! NOTE
++ Line 1223 - !!! NOTE
++ Line 1299 - > [!NOTE]
 
 ## dev/projects/docs-pub/testing/styling.md
 + Line 61 - !!! NOTE
