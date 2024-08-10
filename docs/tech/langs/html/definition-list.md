@@ -105,12 +105,9 @@ dt {
 
 
 
-
-
 ```yml
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-```
 ```

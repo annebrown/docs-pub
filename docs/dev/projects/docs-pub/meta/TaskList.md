@@ -42,10 +42,6 @@
 + Line 21 - TODO config
 + Line 22 - TODO create dirs
 
-## tech/langs/html/index.md
-+ Line 12 - ## TODO
-+ Line 14 - TODO Move Defn Lists here.
-
 ## tech/langs/html/definition-list.md
 + Line 16 - :material-checkbox-outline: TODO Test if Defn Lists behave as expected for site searches prefixed with [ define | what is | what are ].
 

@@ -1,0 +1,104 @@
+
+{% set class = "md-header" %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner" aria-label="{{ lang.t('header') }}">
+
+    <!-- The Left Side -->
+    <div style="display: flex; height: 3.7rem;">
+
+        <!-- The Logo/Text Link-->
+        <div>
+            <a href="/">
+                <img src="/assets/images/logo.svg" style="
+                    position: absolute;
+                    top: 0.8em;
+                    left: 0;
+                    padding-left: 10px;
+                    margin: 0;
+                    width: 8em;
+                ">
+            </a>
+        </div>
+        <div style="
+            position: absolute;
+            top: 2.6rem;
+            left: 3.8rem;
+            margin: 0;
+            ">
+            <a href="/">
+              docs.annebrown.ca
+            </a>
+        </div>
+
+        <!-- The Navi -->
+        <style>
+          .my-button {
+            background-color: #A4B888;
+            color: black;
+            padding: 0;
+            margin: 0;
+/*          padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            padding-right: 0.1em;
+            padding-left: 0.1em; */
+            border-style: outset;
+            border-color: gray;
+            border-top-style: double;
+            border-top-color: grey;
+            border-radius: 5%;
+          }
+        </style>
+        <div style="
+            font-size: 0.7rem; 
+            position: absolute; 
+            top: 0.7rem;
+            left: 4.3rem;
+            padding-top: .1em;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            background-color: black;
+            border-style: solid solid solid solid;
+            border-color: black;
+            border-left-color: white;
+            border-right-color: grey;
+            border-top-color: lightgray;
+            border-width:thick;
+
+            ">
+            <button class="my-button" style="width: 3.5em;"><a href="/">Home</a></button>&nbsp;
+            <button class="my-button" style="width: 3.5em;"><a href="/tech/">Tech</a></button>&nbsp;
+            <button class="my-button" style="width: 3.5em;"><a href="/dev/">Dev</a></button>&nbsp;
+            <button class="my-button" style="width: 3.5em;"><a href="/about/">About</a></button> 
+        </div> 
+    </div>
+
+    <!-- The Center Spacer -->
+    <div style="display: flex; flex-grow:1;"></div>
+
+    <!-- The Right Side -->
+    <div style="
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0.35em;
+    ">  
+      <!-- The Dark/Light-Mode Toggle -->
+      {% include "partials/palette.html" %}
+          
+        <!-- The Search Bar -->     
+        <label class="md-header__button md-icon" for="__search">        
+          {% set icon = config.theme.icon.search or "material/magnify" %}       
+          {% include ".icons/" ~ icon ~ ".svg" %}   
+        </label>  
+        {% include "partials/search.html" %}
+    
+        <!-- The Repo Deets -->   
+        <div class="md-header__source">     
+          {% include "partials/source.html" %}  
+        </div>
+    </div>
+  </nav>
+</header>
+</div>

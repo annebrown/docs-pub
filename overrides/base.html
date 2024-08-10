@@ -1,11 +1,16 @@
-<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-<!-- START -------------------------------------------------------------------->
-<!-- My mods -->
-<!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!------------------------------------------------------------------------------
+My Mods:
+- Border Around Page
+------------------------------------------------------------------------------->
 {% import "partials/language.html" as lang with context %}
 <!doctype html>
 <html lang="{{ lang.t('language') }}" class="no-js">
   <head>
+    <!-- HEADER Logic: -------------------------------------------------------->
+
+    <!--   charset, viewport, site description, author,canonical URL,
+           prev/next page, rss,favicon,MkDocs Material generator -------------->
+
     {% block site_meta %}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -35,6 +40,7 @@
       <link rel="icon" href="{{ config.theme.favicon | url }}">
       <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.5.30">
     {% endblock %}
+    <!-- Page Title --------------------------------------------------------->
     {% block htmltitle %}
       {% if page.meta and page.meta.title %}
         <title>{{ page.meta.title }} - {{ config.site_name }}</title>
@@ -44,12 +50,14 @@
         <title>{{ config.site_name }}</title>
       {% endif %}
     {% endblock %}
+    <!-- Stylesheets -------------------------------------------------------->
     {% block styles %}
       <link rel="stylesheet" href="{{ 'assets/stylesheets/main.3cba04c6.min.css' | url }}">
       {% if config.theme.palette %}
         {% set palette = config.theme.palette %}
         <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.06af60db.min.css' | url }}">
       {% endif %}
+      <!-- Icons: admonitions, annotations, tags ---------------------------->
       {% include "partials/icons.html" %}
     {% endblock %}
     {% block libs %}
@@ -57,6 +65,7 @@
         {{ script | script_tag }}
       {% endfor %}
     {% endblock %}
+    <!-- Fonts ---------------------------------------------------------------->
     {% block fonts %}
       {% if config.theme.font != false %}
         {% set text = config.theme.font.get("text", "Roboto") %}
@@ -69,13 +78,17 @@
         <style>:root{--md-text-font:"{{ text }}";--md-code-font:"{{ code }}"}</style>
       {% endif %}
     {% endblock %}
+    <!-- Extra CSS ------------------------------------------------------------>
     {% for path in config.extra_css %}
       <link rel="stylesheet" href="{{ path | url }}">
     {% endfor %}
+    <!-- Extra JS ------------------------------------------------------------->
     {% include "partials/javascripts/base.html" %}
+    <!--Analytics ------------------------------------------------------------->
     {% block analytics %}
       {% include "partials/integrations/analytics.html" %}
     {% endblock %}
+    <!-- Tags ----------------------------------------------------------------->
     {% if page.meta and page.meta.meta %}
       {% for tag in page.meta.meta %}
         <meta {% for key, value in tag.items() %} {{ key }}="{{value}}" {% endfor %}>
@@ -83,6 +96,7 @@
     {% endif %}
     {% block extrahead %}{% endblock %}
   </head>
+  <!-- END OF HEADER --------------------------------------------------->
   {% set direction = config.theme.direction or lang.t("direction") %}
   {% if config.theme.palette %}
     {% set palette = config.theme.palette %}
@@ -92,43 +106,38 @@
     {% set scheme  = palette.scheme  | d("default", true) %}
     {% set primary = palette.primary | d("indigo", true) %}
     {% set accent  = palette.accent  | d("indigo", true) %}
-
-    <!-- Beginning of the Body - A -------------------------------------------->
+    <!-- BODY BEGINNING A ----------------------------------------------------->
     <body dir="{{ direction }}" data-md-color-scheme="{{ scheme | replace(' ', '-') }}" data-md-color-primary="{{ primary | replace(' ', '-') }}" data-md-color-accent="{{ accent | replace(' ', '-') }}">
-      <!-- -------------------------------------------------------------------->
-      <!-- START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-      <!-- -------------------------------------------------------------------->
-      <div style="
-      width: 100% !important;
-      border-style: solid solid solid solid; 
-      border-top-color: #A4B888;; 
-      border-bottom-color: darkgray;
-      border-left-color: white;
-      border-right-color: gray;
-      padding:0; margin:0;
-      align-self: center;
-      height: 100%;
-      "><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   {% else %}
-
-     <!-- Beginning of the Body - B ------------------------------------------->
- 
+    <!-- BODY BEGINNING B ----------------------------------------------------->
     <body dir="{{ direction }}">
-      <!-- -------------------------------------------------------------------->
-      <!-- START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-      <!-- -------------------------------------------------------------------->
-      <div style="
+  {% endif %}
+  <!-- BEGINNING OF BODY ------------------------------------------------------>
+  <!-- Start of Mods xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- Window Border ---------------------------------------------------------->
+  <div style="
       width: 100% !important;
-      border-style: solid solid solid solid; 
-      border-top-color: #A4B888;; 
-      border-bottom-color: darkgray;
+      border-top-style: inset;
+      border-right-style: inset;
+      border-bottom-style: inset;
+      border-left-style: inset;
+      border-top-color: #A4B888;
+      border-bottom-color: black;
       border-left-color: white;
       border-right-color: gray;
-      padding:0; margin:0;
-      align-self: center;
-      height: 100%;
-  "><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  {% endif %}
+      border-width: 0.05rem;
+  ">
+    <div style="
+      border-top-style: inset;
+      border-right-style: inset;
+      border-bottom-style: inset;
+      border-left-style: inset;
+      border-top-color: #A4B888;
+      border-bottom-color: black;
+      border-left-color: white;
+      border-right-color: gray;
+    ">
+  <!-- End of Mods xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
     {% set features = config.theme.features or [] %}
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -142,6 +151,7 @@
         </a>
       {% endif %}
     </div>
+    <!-- ANNOUNCE ------------------------------------------------------------->
     <div data-md-component="announce">
       {% if self.announce() %}
         <aside class="md-banner">
@@ -160,6 +170,7 @@
         </aside>
       {% endif %}
     </div>
+    <!-- OUTDATED WARNING ----------------------------------------------------->
     {% if config.extra.version %}
       <div data-md-color-scheme="default" data-md-component="outdated" hidden>
         {% if self.outdated() %}
@@ -172,39 +183,34 @@
         {% endif %}
       </div>
     {% endif %}
+    <!-- HEADER - PARTIALS ---------------------------------------------------->
     {% block header %}
       {% include "partials/header.html" %}
     {% endblock %}
-    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-    <!-- START ---------------------------------------------v               --->
-    <div class="md-container" data-md-component="container"  
-        style="padding: 0; 
-        margin: 0;" 
-        > <!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <div class="md-container" data-md-component="container">
+        <!-- HERO ------------------------------------------------------------->
         {% block hero %}{% endblock %}
-        {% block tabs %}
+        <!-- HEADER NAV TABS -------------------------------------------------->
+        <!-- Commented Out navigation Tabs:
+          {% block tabs %}
           {% if "navigation.tabs.sticky" not in features %}
             {% if "navigation.tabs" in features %}
               {% include "partials/tabs.html" %}
             {% endif %}
           {% endif %}
-        {% endblock %}
-      <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-      <!-- START -------------------------------------v                      -->
-      <main class="md-main" data-md-component="main"  
-          style="padding: 0: margin: 0;"
-          
-          ><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-        <!-- START --------------------------V                               -->
-        <div class="md-main__inner md-grid"  
-        style="padding: 0; margin: 0;"
-        ><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+          {% endblock %}
+        ----------------------------------------------------------------------->
+
+      <!-- BEGINNING OF MAIN -------------------------------------------------->
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           {% block site_nav %}
             {% if nav %}
+              <!-- Check tags: for hide: - navigation ------------------------->
               {% if page.meta and page.meta.hide %}
                 {% set hidden = "hidden" if "navigation" in page.meta.hide %}
               {% endif %}
+              <!-- START RIGHT SIDEBAR ---------------------------------------->
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" {{ hidden }}>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -212,12 +218,16 @@
                   </div>
                 </div>
               </div>
+              <!-- END RIGHT SIDEBAR ------------------------------------------>
             {% endif %}
+            <!-- Check tags: for hide: - toc ---------------------------------->
             {% if "toc.integrate" not in features %}
               {% if page.meta and page.meta.hide %}
                 {% set hidden = "hidden" if "toc" in page.meta.hide %}
               {% endif %}
+              <!-- START LEFT SIDEBAR ----------------------------------------->
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
+                <!-- SIDEBAR Scrollwrap & partials/toc.html-->
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     {% include "partials/toc.html" %}
@@ -241,6 +251,7 @@
           {% include "partials/top.html" %}
         {% endif %}
       </main>
+      <!-- END OF MAIN ------------------------------------------------->
       {% block footer %}
         {% include "partials/footer.html" %}
       {% endblock %}
@@ -251,6 +262,7 @@
     {% if "navigation.instant.progress" in features %}
       {% include "partials/progress.html" %}
     {% endif %}
+    <!-- CONSENT & partials/consent.html -------------------------------------->
     {% if config.extra.consent %}
       <div class="md-consent" data-md-component="consent" id="__consent" hidden>
         <div class="md-consent__overlay"></div>
@@ -275,9 +287,11 @@
           {%- set _ = app.update({ "version": config.extra.version }) -%}
         {%- endif -%}
       {%- endif -%}
+      <!-- EXTRA TAGS --------------------------------------------------------->
       {%- if config.extra.tags -%}
         {%- set _ = app.update({ "tags": config.extra.tags }) -%}
       {%- endif -%}
+      <!-- TRANSLATIONS ------------------------------------------------------->
       {%- set translations = app.translations -%}
       {%- for key in [
         "clipboard.copy",
@@ -297,14 +311,14 @@
         {{- app | tojson -}}
       </script>
     {% endblock %}
+    <!-- SCRIPTS -------------------------------------------------------------->
     {% block scripts %}
       <script src="{{ 'assets/javascripts/bundle.fe8b6f2b.min.js' | url }}"></script>
+      <!-- Extra JavaScript --------------------------------------------------->
       {% for script in config.extra_javascript %}
         {{ script | script_tag }}
       {% endfor %}
     {% endblock %}
+  </div>
   </body>
-  <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-  <!-- START ------------------------------------------------------------------>
-  </div><!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </html>
