@@ -7,7 +7,7 @@ hide:
   - toc
 ---
 
- <img src="../assets/images/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" style="width: 45%; float: right;"/>
+ <img src="../assets/images/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" style="width: 45%; float: right; padding-right: 0; margin-right: 0;"/>
 
 # About
 
