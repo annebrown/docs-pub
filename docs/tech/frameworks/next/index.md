@@ -9,22 +9,6 @@ My notes on Next.js, {{ description }}
 
 >[Next.js](https://nextjs.org/ "Official Site") has lots of great documentation, however, is in a continual state of evolution, resulting in non-breaking changes.  Where docs don't match new newly created apps, refer to the [Official Docs](https://nextjs.org)  
 
-<style>
-.outter-container {
-  padding: 0.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Fractional  */
-  gap: 10px;
-    /* column-gap: 10px; 
-    row-gap: 20px; */
-}
-
-.item-00 {
-  text-align: center;
-  border: 0.25px solid gray;
-}
-</style>
-
 ## Front-End
 
 <div class="outter-container">

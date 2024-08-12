@@ -32,22 +32,6 @@ Cross-site scripts can inject external JS into visitor's browser.
 
 ## Lang Fundamentals
 
-<style>
-.outter-container {
-  padding: 0.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Fractional  */
-  gap: 10px;
-    /* column-gap: 10px; 
-    row-gap: 20px; */
-}
-
-.item-00 {
-  text-align: center;
-  border: 0.25px solid gray;
-}
-</style>
-
 <div class="outter-container">
     <div class="item-00"><a href="arrays/"><p>Arrays</p></a></div>
     <div class="item-00"><a href="conditionals/"><p>Conditionals</p></a></div>
@@ -57,7 +41,6 @@ Cross-site scripts can inject external JS into visitor's browser.
     <div class="item-00"><a href="loops/"><p>Loops</p></a></div>
     <div class="item-00"><a href="operators/"><p>Operators</p></a></div>
     <div class="item-00"><a href="output/"><p>Output Options</p></a></div>
-    <div class="item-00"><a href="functions/"><p>Functions</p></a></div>
     <div class="item-00"><a href="strings/"><p>Strings</p></a></div>
     <div class="item-00"><a href="usage/"><p>Usage</p></a></div>
     <div class="item-00"><a href="values/"><p>Values</p></a></div>
