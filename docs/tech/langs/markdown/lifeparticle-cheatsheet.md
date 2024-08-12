@@ -1,17 +1,25 @@
 ---
-title: Markdown
-description: Testing Markdown
+title: LifeParticle Cheatsheet
+description: Ultimate Markdown Cheatsheet
 tags:
-  - Markdown
+  - Cheatsheet
 ---
 
 ## Description
 
 {{ description }}
 
+Source: `README.md`, from <https://github.com/lifeparticle/Markdown-Cheatsheet.git>
+
 ## Markdown Test Page
 
-Source: `README.md`, from <https://github.com/lifeparticle/Markdown-Cheatsheet.git>, with mods for use on this site (e.g. h1, alerts, TOC and other list indentent size, format...).
+Source: 
+
+Mods for use on this site:
+
+- /h1/h2/
+- updated alerts to new fmt
+- TOC indents /2/4/ and other list indents /2/4/
 
 <a name="top"></a>
 
@@ -1296,8 +1304,9 @@ Click either the Code (top right) or Raw (top left) option to see the markdown c
 
 <img width="1470" alt="code" src="https://github.com/lifeparticle/Markdown-Cheatsheet/assets/1612112/b70541b0-fce8-4f5e-97f4-6443c20b98ec">
 
-> [!NOTE]
-> Make sure you have clicked the markdown file to see the above view.
+!!! NOTE
+
+    Make sure you have clicked the markdown file to see the above view.
 
 <img width="907" alt="file" src="https://github.com/lifeparticle/Markdown-Cheatsheet/assets/1612112/a4423154-69de-43c1-aeb5-5348b9f05088">
 

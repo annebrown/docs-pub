@@ -17,24 +17,34 @@ description: Syncs VSCODE Config Settings Across Dev Envs
 
 ## Settings Files
 
-Alphabetizing these files facilitates mods and helps reduce dups.  
+Alphabetizing facilitates mods and reduces dups.  
 
   - User Settings: `~/.config/Code/User/settigns.json`
   - User Snippets: `~/.config/Code/User/snippets`
 
-## Move Config Files to .dotfiles
+## Using .dotfiles
 
-To ease VSCode config for new dev envs, move settings to `~/.dotfiles`.  See [New Dev Env](../../oses/linux/new-dev-env.md) and the [Dotfiles Project](../../../dev/projects/index.md).  Skip if using VSCode built-in settings sync. Currently, using built-in sync appears to be less problematic.
+To ease VSCode config for new dev envs, .dotfiles could be used instead of VSCode's built-in settings sync.
 
-User Settings File:
+See [New Dev Env](../../oses/linux/new-dev-env.md) and the [Dotfiles Project](../../../dev/projects/dotfiles/index.md).  
+
+Move Settings Files to .dotfiles:
 
 ```bash
 mv ~/.config/Code/User/settings.json ~/.dotfiles/code/.config/Code/User/settings.json
-```
-
-
-Snippets Dir:
-
-```bash
 mv ~/.config/Code/User/snippets/ ~./dotfiles/code/.config/Code/User/snippets
 ```
+
+Link to .dotfiles
+
+```bash
+cd ~/.dotfiles
+stow code
+```
+
+Resulting Links:
+
+| Link | Tarket |
+| :--- | :----- |
+| `~/.config/Code/User/settings.json` | `~/.dotfiles/code/.config/Code/User/settings.json` |
+| `~/.config/Code/User/snippets/`     | `~./dotfiles/code/.config/Code/User/snippets/`      |

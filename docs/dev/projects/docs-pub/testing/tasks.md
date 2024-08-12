@@ -1,6 +1,6 @@
 ---
 title: Tasks
-description: Testing TaskList and TODO
+description: Testing TaskList
 tags:
   - New Tag
 ---
@@ -11,8 +11,6 @@ tags:
 
 ## Task List
 
-```[tasklist]
-### Docs Proj
 - [ ] First Task
 - [ ] Second Task
 - [ ] Last Task

@@ -1,76 +1,78 @@
+/*
+================================================================================
+File: docs/assets/stylesheets/extra.css
+- Body
+- Header
+- Mini Navi
+- Cards
+- Margins & Padding
+================================================================================
+*/
 
-/* Stylesheet Loaded Test */
-
-/* h2 {
-    color: green;
-}
-    */
-
+/*
+================================================================================
+Body
+================================================================================
+*/
 body {
-    width: 100% !important;
+  width: 100% !important;
 }
-
-
-
- */
-/* Desktop */
 /*
-@media (min-width: 992px) {
-    .sidebar {
-      width: 250px;
-    }
-}
+================================================================================
+Header
+================================================================================
 */
-
-/* Mobile */
-/*
-@media (max-width: 991px) {
-    .sidebar {
-      width: 100%; 
-    }
+.pop-up-logo {
+  margin-right: 0;
+  padding-right: 0.25rem;
+  width: 30px;
 }
-*/
 
 /*
-iframe {max-width: 50%;}
-.md-header { width: 50%;}
-.md-header__inner.md-grid {
-    width: 50%;
-}
-
-nav.md-header__inner.md-grid {
-    width: 50%;
-}
-nav.md-tabs {
-    line-height: 1;
-    box-sizing: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-div.md-grid {
-    width: 100%;
-}
-.md-tabs__list {
-    width: 50;
-}
+================================================================================
+mini-navi
+================================================================================
 */
-
-
-/* Takes out Hambr Menu
+.naviButton {
+  font-size: 0.7em;
+  /* font-weight: bold; */
+  color: aliceblue;
+  /* background-color: aliceblue; */
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  margin: 0 0 0 0;
+  border-style: solid;
+  border-width: 0.07rem;
+  border-color: white black black white;
+  border-radius: 10%;
+}
 /*
-.md-grid {
-    width: 100%;
-}
+================================================================================
+Cards
+================================================================================
 */
+.outter-container {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Fractional  */
+  gap: 10px;
+    /* column-gap: 10px; 
+    row-gap: 20px; */
+}
+.item-00 {
+  text-align: center;
+  border: 0.25px solid gray;
+}
+ /*
+================================================================================
+Margins and Padding
+================================================================================
+*/
+.marg-0 { margin: 0; }
+.padd-0 { padding: 0; }
 
-/*
-ul.md-tabs__list {
-    width: 50%;
-}
-.md-tabs {
-    width: 300px;
-    box-sizing: 50%;
-    line-height: 1;
-}
-*/
+.padd-top-0 { padding-top: 0; }
+.padd-top-02 { padding-top: 0.2rem; }
+.padd-top-05 { padding-top: 0.5rem; }
+
+.padd-right-0 { padding-right: 0; }
+.marg-right-0 { margin-right: 0; }

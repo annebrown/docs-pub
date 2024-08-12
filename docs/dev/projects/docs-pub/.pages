@@ -1,4 +1,5 @@
 nav:
   - index.md
-  - 'Project Meta Data': meta
-  - 'Testing': testing
+  - TODOs.md
+  - meta
+  - testing

@@ -4,6 +4,11 @@
 {% import "partials/language.html" as lang with context %}
 <!doctype html>
 <html lang="{{ lang.t('language') }}" class="no-js">
+    <!-- 
+  ==============================================================================
+  BEGINNING OF HEAD 
+  ==============================================================================
+   -->
   <head>
     {% block site_meta %}
       <meta charset="utf-8">
@@ -82,6 +87,16 @@
     {% endif %}
     {% block extrahead %}{% endblock %}
   </head>
+    <!-- 
+  ==============================================================================
+  END OF HEAD 
+  ==============================================================================
+   -->
+  <!-- 
+  ==============================================================================
+  BEGINNING OF BODY
+  ==============================================================================
+   -->
   {% set direction = config.theme.direction or lang.t("direction") %}
   {% if config.theme.palette %}
     {% set palette = config.theme.palette %}
@@ -95,6 +110,7 @@
   {% else %}
     <body dir="{{ direction }}">
   {% endif %}
+  
     {% set features = config.theme.features or [] %}
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">

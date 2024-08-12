@@ -1,5 +1,5 @@
 ---
-title: Huper Plugins
+title: Hyper Plugins
 description: All About Hyper Plugins
 ---
 

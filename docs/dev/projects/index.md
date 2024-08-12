@@ -40,6 +40,6 @@ tags:
     <div class="item-00 box1"><a href="docs-pub/"><p>docs-pub</p></a></div>
     <div class="item-00 box1"><a href="dotfiles"><p>dotfiles</p></a></div>
     <div class="item-00 box1"><a href="dotfiles-priv/"><p>dotfiles-priv</p></a></div>
-    <div class="item-00 box1"><a href="react/"><p>React</p></a></div> 
+    <div class="item-00 box1"><a href="react/"><p>React Prototype</p></a></div> 
     <div class="item-00 box1"><a href="tailnext/"><p>TailNext</p></a></div>  
 </div>

@@ -35,7 +35,7 @@ Using MathJax syntax:
 | Mahogany        | `$\color{Mahogany}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                   | $\color{Mahogany}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$   |
 | Maroon          | `$\color{Maroon}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                     | $\color{Maroon}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$     |
 | Melon           | `$\color{Melon}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                      | $\color{Melon}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$      |
-| MidnightBlue    | `$\color{MidnightBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`               | $\color{MidnightBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$  |
+| Eighty          | `$\color{Eighty}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                    | $\color{Eighty}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$        |
 | Mulberry        | `$\color{Mulberry}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                   | $\color{Mulberry}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$       |
 | NavyBlue        | `$\color{NavyBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                   | $\color{NavyBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$       |
 | OliveGreen      | `$\color{OliveGreen}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                 | $\color{OliveGreen}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$     |

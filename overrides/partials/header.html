@@ -1,5 +1,9 @@
 <!------------------------------------------------------------------------------
-  - Inserted custom Navi Menu after config.site_name
+- Added class="marg-0 padd-0" to <header> tag 
+- Added class="marg-0 padd-0" to <nav> tag 
+- Inserted custom Navi Menu after config.site_name
+- Added Added id="pop-up-logo" to <a> tag 
+- Made {{ config.site_name }} a link in header
 ------------------------------------------------------------------------------->
 
 <!-- THE HEADER --------------------------------------------------------------->
@@ -10,14 +14,19 @@
 {% elif "navigation.tabs" not in features %}
   {% set class = class ~ " md-header--shadow" %}
 {% endif %}
-<header class="{{ class }}" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}" style="margin: 0; padding: 0;">
-
-    <!-- -->
-    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+<!-- Mods: Added class="marg-0 padd-0" to <header> tag XXXXXXXXXXXXXXXXXXXXXXXX-->
+<header class="{{ class }}" data-md-component="header" class="marg-0 padd-0">
+  <!-- Mods: Added class="marg-0 padd-0" to <nav> tag XXXXXXXXXXXXXXXXXXXXXXXXX-->
+  <nav class="md-header__inner md-grid marg-0 padd-0" 
+    aria-label="{{ lang.t('header') }}">
+    <!-- Mods: Added id="pop-up-logo" to <a> tag XXXXXXXXXXXXXXXXX-->
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" 
+      title="{{ config.site_name | e }}" 
+      class="md-header__button md-logo pop-up-logo" 
+      aria-label="{{ config.site_name }}" data-md-component="logo">
       {% include "partials/logo.html" %}
     </a>
-    <label class="md-header__button md-icon" for="__drawer">
+    <label class="md-header__button md-icon pop-up-logo" for="__drawer">
       {% set icon = config.theme.icon.menu or "material/menu" %}
       {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
@@ -25,35 +34,18 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            {{ config.site_name }}
+            <a href="/" style="margin:0; padding: 0;">{{ config.site_name }}</a>
           </span>
           <!-- Custom Navi ---------------------------------------------------->
-          <style>
-            .myButtons {
-                align-self: center;
-            }
-            .myButton {
-              font-size: 0.7em;
-              background-color: #A4B888;
-              color: black;
-              padding: 0 0.25rem 0 0.25rem;
-              margin: 0 0 0 0;
-              border-style: outset;
-              border-color: gray;
-              border-top-style: double;
-              border-top-color: grey;
-              border-radius: 5%;
-            }
-          </style>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <div class=""myButtons">
-            <button class="myButton">
+          <div>
+            <button class="naviButton">
               <a href="/tech/">Tech</a>
             </button>&nbsp;
-            <button class="myButton">
+            <button class="naviButton">
               <a href="/dev/">Dev</a>
             </button>&nbsp;
-            <button class="myButton">
+            <button class="naviButton">
               <a href="/about/">About</a>
             </button> 
           </div>

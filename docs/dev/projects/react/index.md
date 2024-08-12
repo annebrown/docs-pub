@@ -38,7 +38,7 @@ Still in prototype.
 
 URL: [http://localhost:2020](http://localhost:2020)
 
-CLI: TODO
+ TODO: Finish -> Dev Svr CLI
 
 ## Bash Shortcuts
 

@@ -1,7 +1,30 @@
-{#-
-  This file was automatically generated - do not edit
--#}
+<!-- START ------------------------------------------------------------------    Simplified MkDocs-Material Header
+        Descr:
+        - Single line
+        - Staticly-coded
+        Purpose:
+        - Static Header Navi Menu
+        Contents:
+        - Logo & Text
+        - Navi
+        - Mode Toggle
+        - Search Bar
+        - Repo Deets 
+    Locn: /overrides/partials/header.html
+-->
+<!-- VIEWPORT CONTAINER ------------------------------------------------------->
+<div style="
+    width: 100% !important;
+    border-style: solid solid solid solid; 
+    border-top-color: #A4B888;; 
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: gray;
+">
+<!-- END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- THE HEADER --------------------------------------------------------------->
 {% set class = "md-header" %}
+<!-- NAVI TABS ---------------------------------------------------------------->
 {% if "navigation.tabs.sticky" in features %}
   {% set class = class ~ " md-header--shadow md-header--lifted" %}
 {% elif "navigation.tabs" not in features %}
@@ -9,6 +32,8 @@
 {% endif %}
 <header class="{{ class }}" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+
+    <!-- -->
     <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
       {% include "partials/logo.html" %}
     </a>

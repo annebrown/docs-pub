@@ -1,13 +1,13 @@
 ---
 title: VSCode
-description: Integrated Dev Editor
+description: IDE
 tags:
   - VSCode
 ---
 
 ## Description
 
-[VSCode](https://code.visualstudio.com/download "Official Site"), {{ description }}
+[VSCode](https://code.visualstudio.com/download "Official Site") {{ description }}
 
 <style>
 .outter-container {
@@ -28,6 +28,6 @@ tags:
 <div class="outter-container">
     <div class="item-00 box1"><a href="settings/"><p>Settings</p></a></div>
     <div class="item-00 box1"><a href="extensions/"><p>Extensions</p></a></div>
-    <div class="item-00 box1"><a href="settings-sync/"><p>Settings-Sync</p></a></div>  
+    <div class="item-00 box1"><a href="settings-sync/"><p>Settings Sync</p></a></div>  
 </div>
 

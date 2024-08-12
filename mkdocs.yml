@@ -16,7 +16,7 @@ watch:
 #-------------------------------------------------------------------------------
 # Repo
 #-------------------------------------------------------------------------------
-repo_name: annebrown/docs-pub
+repo_name: docs-pub
 repo_url: https://github.com/annebrown/docs-pub
 #-------------------------------------------------------------------------------
 # Copyright
@@ -32,7 +32,7 @@ theme:
   # Material Features:
   #-----------------------------------------------------------------------------
   features:
-#    - announce.dismiss
+    #- announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
@@ -68,7 +68,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
-      primary: black
+      primary: blue
       accent: #A4B888
       toggle:
         icon: material/brightness-7
@@ -76,12 +76,14 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: blue
       
       accent:  #A4B888
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+    # My Overrides
+   # - primary: custom
   #-----------------------------------------------------------------------------
   # Font
   #-----------------------------------------------------------------------------

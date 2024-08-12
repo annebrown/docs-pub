@@ -9,15 +9,6 @@ tags:
 
 {{ description }}
 
-## Icons
----
-
-### TODOs
-
-:material-checkbox-blank-outline: TODO Something that needs to be dome
-
-:material-checkbox-outline: TOTO Something that was done
-
 ### Alerts
 
 !!! note "Note with Custom Title"

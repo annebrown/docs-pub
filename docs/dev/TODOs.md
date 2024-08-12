@@ -1,6 +1,6 @@
 ---
 title: TODOs
-description: Automatically Generated Tasks Lists
+description: Dev Tasks
 tags:
   - TODOs
 ---
@@ -9,12 +9,9 @@ tags:
 
 {{ description }}
 
+## Tasks
 
-TODO :material-checkbox-blank-outline: Cheatsheets
-
-TODO :material-checkbox-blank-outline: Mobile Search
-
-TODO :material-checkbox-blank-outline: Search Problems:
-
-  - No suggestions
-  - Search results: Producing only single, first-hit, result
+<!-- TODO -->Finish -> Project Cheatsheets
+<!-- TODO -->Test -> Mobile Search:
+<!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;  - Suggestions
+<!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;  - Search results: Producing only single, first-hit, result
