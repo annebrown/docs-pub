@@ -8,6 +8,7 @@ File: docs/assets/stylesheets/extra.css
 - Right Sidebar
 - Cards
 - Margins & Padding
+- About Page
 ================================================================================
 */
 
@@ -68,7 +69,7 @@ Right Sidebar
 ================================================================================
 */
 #right-sidebar {
-  width: 30rem;
+  width: 10rem;
 }
 
 /*
@@ -102,3 +103,20 @@ Margins and Padding
 
 .padd-right-0 { padding-right: 0; }
 .marg-right-0 { margin-right: 0; }
+
+ /*
+================================================================================
+Margins and Padding
+================================================================================
+*/
+#about-logo {
+  width: 200px; 
+  position: relative;
+  float: right;
+  top: 80px;
+  right: 0;
+   
+  padding: 0 50px 0 0;
+  margin: 0 0 0 0;
+}
+
