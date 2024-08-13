@@ -43,7 +43,7 @@ Initialized a git repository.
 Success! Created apex at /home/anne/prod/apex
 ```
 
-Ignoring the deprecated deps for now because [the Internet said so](../next/issues/deprecated-deps.md).
+Ignoring the deprecated deps for now because, according to DevCodeF1.com Editors, theses msgs are not specific to Next.js and can be safely ignored?
 
 ## Clone Existing App
 
@@ -51,6 +51,7 @@ Ignoring the deprecated deps for now because [the Internet said so](../next/issu
 git clone [git-repo-url]
 cd [git-repo]
 npm install
+npm install next@latest react@latest react-dom@latest
 ```
 
 Cloning and installing also throws deprecated deps msgs.

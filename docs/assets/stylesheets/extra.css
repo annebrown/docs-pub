@@ -4,6 +4,8 @@ File: docs/assets/stylesheets/extra.css
 - Body
 - Header
 - Mini Navi
+- Page
+- Right Sidebar
 - Cards
 - Margins & Padding
 ================================================================================
@@ -45,6 +47,30 @@ mini-navi
   border-color: white black black white;
   border-radius: 10%;
 }
+
+/*
+================================================================================
+Page
+================================================================================
+*/
+#page-div {
+        border-style: solid solid solid solid;
+        border-left-color: #A4B888;
+        border-right-color: gray;
+        padding: 0;
+        border-width: 1px;
+        margin: 0;
+}
+
+/*
+================================================================================
+Right Sidebar
+================================================================================
+*/
+#right-sidebar {
+  width: 30rem;
+}
+
 /*
 ================================================================================
 Cards

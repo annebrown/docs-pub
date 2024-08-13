@@ -9,7 +9,6 @@ description: My Notes on Frameworks
 
 <div class="outter-container">
     <div class="item-00"><a href="angular/"><p>Angular</p></a></div>
-    <div class="item-00"><a href="http://expressjs.com"><p>Express.js</p></a></div>
     <div class="item-00"><a href="next/"><p>Next.js</p></a></div>
     <div class="item-00"><a href="node/"><p>Node.js</p></a></div>
     <div class="item-00"><a href="react/"><p>React</p></a></div>

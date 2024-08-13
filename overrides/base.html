@@ -257,7 +257,7 @@
             {% set hidden = "hidden" if "toc" in page.meta.hide %}
           {% endif %}
           <!-- START RIGHT SIDEBAR -------------------------------------------->
-          <div class="md-sidebar md-sidebar--secondary" 
+          <div class="md-sidebar md-sidebar--secondar" id="right-sidebar" 
             data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
             <!-- SIDEBAR Scrollwrap & partials/toc.html-->
             <div class="md-sidebar__scrollwrap">
@@ -274,15 +274,7 @@
       <!-- END OF HEADER IN BODY ---------------------------------------------->
             
       <!-- BEGINNING OF PAGE -------------------------------------------------->
-      <div style="
-        width: 100% !important;
-        border-style: solid solid solid solid;
-        border-left-color: #A4B888;
-        border-right-color: gray;
-
-        padding: 0;
-        border-width: 1px;
-        margin: 0;">
+      <div id="page-div">
         {% block container %}
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
