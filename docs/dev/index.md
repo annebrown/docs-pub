@@ -3,6 +3,8 @@ title: Dev
 description: Dev Notes
 tags:
   - Dev
+hide:
+  - toc
 ---
 
 ## Description

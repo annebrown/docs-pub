@@ -32,11 +32,11 @@ $break-devices: (
   ),
   tablet: (
     portrait:  px2em(720px)  px2em(959.75px),
-    landscape: px2em(2000px)  px2em(1219.75px)
+    landscape: px2em(960px)  px2em(1219.75px)
   ),
   screen: (
-    small:     px2em(620px) px2em(700px),
-    medium:    px2em(800px) px2em(1000px),
+    small:     px2em(1220px) px2em(1599.75px),
+    medium:    px2em(1600px) px2em(1999.75px),
     large:     px2em(2000px)
   )
 );

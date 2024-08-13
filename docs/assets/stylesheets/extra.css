@@ -31,52 +31,6 @@ label.md-nav__title {
   visibility: hidden;
 }
 
-@media screen and (min-width: 63em) {
-  .md-sidebar--secondary {
-      height:0
-  }
-
-  .no-js .md-sidebar--secondary {
-      height: auto
-  }
-
-  .md-sidebar--secondary:not([hidden]) {
-      display: block
-  }
-
-  .md-sidebar--secondary .md-sidebar__scrollwrap {
-      touch-action: pan-y
-  }
-}
-
-.md-grid {
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 61rem;
-    /* Maximum space for text block */
-
-  max-width: 100%; /* or 100%, if you want to stretch to full-width */
-}
-.md-grid {
-  max-width: initial;
-}
-/* .md-main__inner.md-grid {
-  max-width: initial;
-} */
-@media screen and (max-width: 300em5em) {
-  .md-typeset .md-consent__controls .md-button {
-      display:block;
-      margin-top: .4rem;
-      text-align: center;
-      width: 100%
-  }
-}
-
-@media screen and (max-width: 200em) {
-  .md-content--post {
-      flex-flow:column-reverse
-  }
-}
 
 
 

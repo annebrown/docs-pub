@@ -2,7 +2,6 @@
 title: Home
 description: Dev Notes
 hide:
-  - navigation
   - toc
 ---
 

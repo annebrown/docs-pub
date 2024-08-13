@@ -3,6 +3,8 @@ title: Tech
 description: Frameworks, Apps, Languages, OSes, etc.
 tags:
   - Tech
+hide:
+  - toc
 ---
 
 ## Description
