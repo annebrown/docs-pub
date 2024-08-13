@@ -257,12 +257,14 @@
             {% set hidden = "hidden" if "toc" in page.meta.hide %}
           {% endif %}
           <!-- START RIGHT SIDEBAR -------------------------------------------->
-          <div class="md-sidebar md-sidebar--secondar" id="right-sidebar" 
+          <div class="md-sidebar md-sidebar--secondar" 
             data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
             <!-- SIDEBAR Scrollwrap & partials/toc.html-->
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
+                <div id="right-sidebar">
                 {% include "partials/toc.html" %}
+              </div>
               </div>
             </div>
           </div>
