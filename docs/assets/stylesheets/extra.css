@@ -97,12 +97,17 @@ Margins and Padding
 .marg-0 { margin: 0; }
 .padd-0 { padding: 0; }
 
+.marg-top-0 { margin-top: 0; }
 .padd-top-0 { padding-top: 0; }
 .padd-top-02 { padding-top: 0.2rem; }
 .padd-top-05 { padding-top: 0.5rem; }
 
-.padd-right-0 { padding-right: 0; }
 .marg-right-0 { margin-right: 0; }
+.padd-right-0 { padding-right: 0; }
+
+
+.marg-bottom-0 {  margin-bottom: 0; }
+.marg-bottom-0 { padding-bottom: 0; }
 
  /*
 ================================================================================

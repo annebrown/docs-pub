@@ -7,11 +7,13 @@ hide:
   - toc
 ---
 
- <img src="../assets/images/logo-it-arch-resized.png" alt="IT Architect, Green and While Sails" id="about-logo">
+ <img src="../assets/images/logo-it-arch-resized.png" 
+      alt="IT Architect, Green and While Sails" 
+      id="about-logo">
 
-# About
+<h1 class="padd-bottom-0 marg-bottom-0">About</h1>
 
-## Description
+<h2 class="padd-top-0 marg-top-0">Description</h2>
 
 {{ description }}
 
