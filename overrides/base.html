@@ -1,5 +1,5 @@
 <!------------------------------------------------------------------------------
-- Added Padd0 and Marg0 to <main> inner <div>
+- Added id="Padd-0 and Marg-0" to <main> inner <div>
 ------------------------------------------------------------------------------->
 
 {% import "partials/language.html" as lang with context %}
@@ -240,7 +240,7 @@
             {% set hidden = "hidden" if "navigation" in page.meta.hide %}
           {% endif %}
           <!-- START LEFT SIDEBAR --------------------------------------------->
-          <div class="md-sidebar md-sidebar--primary paddtop05"
+          <div class="md-sidebar md-sidebar--primary"
             data-md-component="sidebar" 
             data-md-type="navigation" {{ hidden }}>
             <div class="md-sidebar__scrollwrap">
@@ -257,8 +257,9 @@
             {% set hidden = "hidden" if "toc" in page.meta.hide %}
           {% endif %}
           <!-- START RIGHT SIDEBAR -------------------------------------------->
-          <div class="md-sidebar md-sidebar--secondar" 
-            data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
+          <div class="md-sidebar md-sidebar--secondary" 
+            data-md-component="sidebar" data-md-type="toc" 
+            {{ hidden }}>
             <!-- SIDEBAR Scrollwrap & partials/toc.html-->
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
