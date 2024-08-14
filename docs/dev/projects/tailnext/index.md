@@ -48,7 +48,7 @@ tnservert - launch dev svr as sep process w Next.js theme
 tnstorybook - launch Storybook
 ```
 
-<div class="outter-container">
+<div class="ab-buttons">
     <div class="item-00 box1"><a href="setup/"><p>Setup</p></a></div>
     <div class="item-00 box1"><a href="file-stru/"><p>Initial File Structure</p></a></div>
     <div class="item-00 box1"><a href="scripts/"><p>Scripts</p></a></div>

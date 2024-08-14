@@ -13,13 +13,13 @@ tags:
 
 Place for scripts, data and pages used for testing various features.
 
-
-<div class="outter-container">
-    <div class="item-00 box1"><a href="grids/"><p>Grids</p></a></div>
-    <div class="item-00 box1"><a href="images/"><p>Images</p></a></div>
-    <div class="item-00 box1"><a href="info/"><p>Info</p></a></div>
-    <div class="item-00 box1"><a href="snippets"><p>Snippets</p></a></div>
-    <div class="item-00 box1"><a href="styling/"><p>Styling</p></a></div>
-    <div class="item-00 box1"><a href="sandbox/"><p>Sandbox</p></a></div> 
-</div>
-
+[Folding](folding/){ .ab-button }
+[Grids](grids/){ .ab-button }
+[Images](images/){ .ab-button }
+[Info](info/){ .ab-button }
+[Snippets](snippets/){ .ab-button }
+[Styling](styling/){ .ab-button }
+[Tasks](tasks/){ .ab-button }
+[Test MD Source](rando/){ .ab-button }
+[TOCs](tocs/){ .ab-button }
+[Sandbox](sandbox/){ .ab-button }

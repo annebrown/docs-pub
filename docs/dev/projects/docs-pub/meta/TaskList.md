@@ -1,16 +1,14 @@
 # Task List
 
-## dev/TODOs.md
-+ Line 14 - <!-- TODO -->Finish -> Project Cheatsheets
-+ Line 15 - <!-- TODO -->Test -> Mobile Search:
-+ Line 16 - <!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;  - Suggestions
-+ Line 17 - <!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;  - Search results: Producing only single, first-hit, result
-+ Line 18 - <!-- TODO -->Customize 404
-
 ## dev/projects/docs-pub/TODOs.md
 + Line 14 - <!-- TODO -->Test -> Defn Lists for site searches prefixed with:
 + Line 15 - <!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ define | what is | what are ]
 + Line 16 - <!-- TODO -->Fix -> Tasks Not Listed in TaskList.md See [Testing - Tasks](testing/tasks.md)
++ Line 17 - <!-- TODO -->Finish -> Project Cheatsheets
++ Line 18 - <!-- TODO -->Test -> Mobile Search:
++ Line 19 - <!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;  - Suggestions
++ Line 20 - <!-- TODO -->&nbsp;&nbsp;&nbsp;&nbsp;  - Search results: Producing only single, first-hit, result
++ Line 21 - <!-- TODO -->Customize -> 404
 
 ## dev/projects/docs-pub/testing/styling.md
 + Line 61 - !!! NOTE

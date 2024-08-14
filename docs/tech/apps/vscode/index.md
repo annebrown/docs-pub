@@ -3,15 +3,20 @@ title: VSCode
 description: IDE
 tags:
   - VSCode
+hide:
+  - toc
 ---
 
 ## Description
 
 [VSCode](https://code.visualstudio.com/download "Official Site") {{ description }}
 
-<div class="outter-container">
-    <div class="item-00 box1"><a href="settings/"><p>Settings</p></a></div>
-    <div class="item-00 box1"><a href="extensions/"><p>Extensions</p></a></div>
-    <div class="item-00 box1"><a href="settings-sync/"><p>Settings Sync</p></a></div>  
+
+<div class="ab-buttons" markdown>
+
+  [Settings](settings/){ .ab-button .md-button--primary }
+  [Extensions](extensions/){ .ab-button .md-button--primary }
+  [Settings Sync](settings-sync/){ .ab-button .md-button--primary }
+
 </div>
 

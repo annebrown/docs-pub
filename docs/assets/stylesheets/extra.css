@@ -4,35 +4,21 @@ File: docs/assets/stylesheets/extra.css
 - Body
 - Header
 - Mini Navi
+- Main
+- Left Sidebar
 - Page
 - Right Sidebar
-- Cards
+- Buttons
 - Margins & Padding
 - About Page
 ================================================================================
 */
 
 /*
-copied from partials/comp/main.123.min.css:
+================================================================================
+Draft
+================================================================================
 */
-
-
-body {
-  display: flex;
-  flex-direction: column;
-  font-size: .5rem;
-  min-height: 100%;
-  position: relative;
-  width: 100%
-}
-
-/* hide docs.annebrown.ca from top of left sidebar toc */
-label.md-nav__title {
-  visibility: hidden;
-}
-
-
-
 
 
 /*
@@ -40,31 +26,47 @@ label.md-nav__title {
 Body
 ================================================================================
 */
-body {
-  /* width: 100% !important; */
-}
+#ab-body {
+  border-style: solid solid solid solid;
+  border-radius: 12px;
+  border-width: 0.01rem 0.1rem 0.01rem 0.05rem;
+  border-color: gray #A4B888 gray #A4B888;
+  margin: 0.25rem 1.5rem 0.25rem 0.25rem;
+  padding: 0.5rem 0 0.5rem 0;
+  width:100% !important;
+  }
+  
 /*
 ================================================================================
 Header
 ================================================================================
 */
+#ab-header {
+  background-color: #263238 !important;
+}
 .pop-up-logo {
   margin-right: 0;
   padding-right: 0.25rem;
   width: 30px;
 }
 
-/*
-================================================================================
-mini-navi
-================================================================================
-*/
-.naviButton {
+.ab-site-name {
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  border-style: solid;
+  border-width: 0.1.5rem;
+  border-color: #A4B888 black black #A4B888;
+  border-radius: 1%;
+}
+.ab-navi-button {
   font-size: 0.7em;
-  /* font-weight: bold; */
-  color: aliceblue;
-  /* background-color: aliceblue; */
-  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  background-color: #A4B888;
+  color: black;
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
   margin: 0 0 0 0;
   border-style: solid;
   border-width: 0.07rem;
@@ -74,16 +76,43 @@ mini-navi
 
 /*
 ================================================================================
+Main
+================================================================================
+*/
+#ab-main {
+border-style:  none solid none solid;
+border-radius: 12px;
+border-width: 0.01rem 0.01rem 0.1rem 0.05rem;
+border-color: black darkolivegreen black darkolivegreen;
+margin: 0.3rem 0.25rem 0.25rem 0.25rem;
+padding: 0 0 0.5rem 0;
+}
+
+/*
+================================================================================
+Left Sidebar
+================================================================================
+*/
+/* hide docs.annebrown.ca from top of left sidebar toc */
+#ab-left-sidebar {
+  background-color: green;
+}
+label.md-nav__title {
+  visibility: hidden;
+}
+/*
+================================================================================
 Page
 ================================================================================
 */
-#page-div {
-        border-style: solid solid solid solid;
-        border-left-color: #A4B888;
-        border-right-color: gray;
-        padding: 0;
-        border-width: 1px;
-        margin: 0;
+#ab-page-div {
+  border-style:  none solid none solid;
+  border-radius: 10px;
+  border-width: 0.025rem 0.05rem 0.25rem 0.05rem;
+  border-color: black darkolivegreen black darkolivegreen;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  width: 100% !important;
 }
 
 /*
@@ -91,37 +120,33 @@ Page
 Right Sidebar
 ================================================================================
 */
-media screen and (min-width: 60em) {
-  .md-sidebar--secondary:not([hidden]) {
-      display: block;
-  }
+
+#ab-right-sidebar {
+  background-color: green;
 }
 
-
-
-/* #right-sidebar {
-
- */
 /*
 ================================================================================
-Cards
+Buttons
 ================================================================================
 */
-.outter-container {
-  margin: 0; padding: 0;
+.ab-buttons {
+  padding: 0.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Fractional  */
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-/* 
-  column-gap: 10px; 
-  row-gap: 20px; 
-*/
+  width: 100%;
 }
-.item-00 {
-  padding: 0 1rem 0 1rem;
-  margin: 0 0 0 0;
-  text-align: center;
-  border: 0.25px solid gray;
+
+.ab-button {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border: solid;
+  border-width: 0.07rem;
+  border-color: white black black white;
+  border-radius: 10%;
+  background-color: #A4B888;
+  color: black !important; */
 }
  /*
 ================================================================================
@@ -154,7 +179,6 @@ Margins and Padding
   float: right;
   top: 55px;
   right: 0;
-   
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }

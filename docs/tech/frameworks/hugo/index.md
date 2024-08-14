@@ -3,6 +3,8 @@ title: Hugo
 description: Open-source Python Full-Stack SSG
 tags:
   - Hugo
+hide:
+  - toc
 ---
 
 ## Description

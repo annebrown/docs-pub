@@ -17,6 +17,6 @@ description: Linux-based OS
 3. Press Spacebar to turn on OS verification.
 4. Scroll down to Advanced options and choose Developer Mode or Ctrl-D
 
-<div class="outter-container">
+<div class="ab-buttons">
     <div class="item-00 box1"><a href="LDE/"><p>Linux Dev Env for Android</p></a></div>
 </div>

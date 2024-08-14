@@ -15,7 +15,7 @@
   {% set class = class ~ " md-header--shadow" %}
 {% endif %}
 <!-- Mods: Added class="marg-0 padd-0" to <header> tag XXXXXXXXXXXXXXXXXXXXXXXX-->
-<header class="{{ class }}" data-md-component="header" class="marg-0 padd-0">
+<header class="{{ class }}" data-md-component="header" id="ab-header">
   <!-- Mods: Added class="marg-0 padd-0" to <nav> tag XXXXXXXXXXXXXXXXXXXXXXXXX-->
   <nav class="md-header__inner md-grid marg-0 padd-0" 
     aria-label="{{ lang.t('header') }}">
@@ -30,28 +30,38 @@
       {% set icon = config.theme.icon.menu or "material/menu" %}
       {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
-    <div class="md-header__title" data-md-component="header-title">
+    <div  
+      class="md-header__title"
+      data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
+
           <span class="md-ellipsis">
-            <a href="/" style="margin:0; padding: 0;">{{ config.site_name }}</a>
+            <a href="/" style="margin:0; padding: 0;">
+              <button class="ab-site-name">
+                docs.annebrown.ca
+              </button>
           </span>
+<!--           <button class="ab-navi-button">
+            <a href="/">docs.annebrown.ca</a>
+          </button> -->
           <!-- Custom Navi ---------------------------------------------------->
           &nbsp;&nbsp;&nbsp;&nbsp;
           <div>
-            <button class="naviButton">
+            <button class="ab-navi-button">
               <a href="/tech/">Tech</a>
             </button>&nbsp;
-            <button class="naviButton">
+            <button class="ab-navi-button">
               <a href="/dev/">Dev</a>
             </button>&nbsp;
-            <button class="naviButton">
+            <button class="ab-navi-button">
               <a href="/about/">About</a>
             </button> 
           </div>
           <!-- END OF MODS ---------------------------------------------------->
         </div> 
-        <div class="md-header__topic" data-md-component="header-topic">
+        
+        <!-- <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             {% if page.meta and page.meta.title %}
               {{ page.meta.title }}
@@ -59,7 +69,7 @@
               {{ page.title }}
             {% endif %}
           </span>
-        </div>
+        </div> -->
       </div>
     </div>
     {% if config.theme.palette %}

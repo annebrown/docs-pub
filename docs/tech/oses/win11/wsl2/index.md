@@ -29,7 +29,7 @@ systemd=true
 generateHosts false
 ```
 
-<div class="outter-container">
-    <div class="item-00"><a href="wsl2-cli/"><p>CLI</p></a></div>
-    <div class="item-00"><a href="desktop/"><p>Desktop</p></a></div>
+<div class="ab-buttons">
+[](wsl2-cli/"><p>CLI</p></a></div>
+[](desktop/"><p>Desktop</p></a></div>
 </div>

@@ -46,7 +46,7 @@ URL: [http://localhost:2020](http://localhost:2020)
 Not yet rqd.
 ```
 
-<div class="outter-container">
+<div class="ab-buttons">
     <div class="item-00 box1"><h2><a href="setup/"><p>Setup</p></a></h2></div>
 </div>
 

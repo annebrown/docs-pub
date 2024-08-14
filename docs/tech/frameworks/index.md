@@ -1,24 +1,22 @@
 ---
 title: Frameworks
 description: My Notes on Frameworks
+hide:
+  - toc
 ---
 
 ## Description
 
 {{ description }}
 
-<div class="outter-container">
-    <div class="item-00"><a href="angular/"><p>Angular</p></a></div>
-    <div class="item-00"><a href="next/"><p>Next.js</p></a></div>
-    <div class="item-00"><a href="node/"><p>Node.js</p></a></div>
-    <div class="item-00"><a href="react/"><p>React</p></a></div>
-</div>
+[Angular](angular/){ .ab-button }
+[Next.js](next/){ .ab-button }
+[Node.js](node/){ .ab-button }
+[React](react/){ .ab-button }
 
-### SSGs
+SSGs:
 
-<div class="outter-container">
-    <div class="item-00"><a href="mkdocs/"><p>MkDocs</p></a></div>
-    <div class="item-00"><a href="hugo/"><p>Hugo</p></a></div>
-    <div class="item-00"><a href="https://jekyllrb.com/"><p>Jekyll</p></a></div>
-    <div class="item-00"><a href="https://www.gatsbyjs.com/"><p>Gatsby</p></a></div>   
-</div>
+[MkDocs](mkdocs/){ .ab-button }
+[Hugo](hugo/){ .ab-button }
+[Jekyll](https://jekyllrb.com/){ .ab-button }
+[Gatsby](https://www.gatsbyjs.com/){ .ab-button }

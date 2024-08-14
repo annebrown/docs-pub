@@ -47,7 +47,7 @@ docserver - start dev svr in venv
 docservert - launch dev svr in sep process w matching theme
 ```
 
-<div class="outter-container">
+<div class="ab-buttons">
     <div class="item-00 box1"><a href="testing/"><p>Testing</p></a></div>
     <div class="item-00 box1"><a href="meta/"><p>Meta</p></a></div>
 </div>

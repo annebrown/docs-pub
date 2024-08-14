@@ -1,0 +1,7 @@
+nav:
+  - index.md
+  - android
+  - ChromeOS: chromeos
+  - RasPi: raspi
+  - Win11: win11
+  

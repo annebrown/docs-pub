@@ -72,7 +72,7 @@ Appearance:
 
 - Something different
 
-<div class="outter-container">
+<div class="ab-buttons">
     <div class="item-00 box1"><a href="install/"><p>Install</p></a></div>
     <div class="item-00 box1"><a href="config/"><p>Config</p></a></div>
     <div class="item-00 box1"><a href="plugins/"><p>Plugins</p></a></div>

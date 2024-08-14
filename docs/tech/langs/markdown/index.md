@@ -1,6 +1,8 @@
 ---
 title: Markdown
 description: Plain-Text Formatting Syntax
+hide:
+  - toc
 ---
 
 ## Description

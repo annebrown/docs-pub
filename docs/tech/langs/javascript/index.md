@@ -32,17 +32,17 @@ Cross-site scripts can inject external JS into visitor's browser.
 
 ## Lang Fundamentals
 
-<div class="outter-container">
-    <div class="item-00"><a href="arrays/"><p>Arrays</p></a></div>
-    <div class="item-00"><a href="conditionals/"><p>Conditionals</p></a></div>
-    <div class="item-00"><a href="console/"><p>Console</p></a></div>
-    <div class="item-00"><a href="flow-ctrl/"><p>Flow-Ctrl</p></a></div>
-    <div class="item-00"><a href="functions/"><p>Functions</p></a></div>
-    <div class="item-00"><a href="loops/"><p>Loops</p></a></div>
-    <div class="item-00"><a href="operators/"><p>Operators</p></a></div>
-    <div class="item-00"><a href="output/"><p>Output Options</p></a></div>
-    <div class="item-00"><a href="strings/"><p>Strings</p></a></div>
-    <div class="item-00"><a href="usage/"><p>Usage</p></a></div>
-    <div class="item-00"><a href="values/"><p>Values</p></a></div>
-    <div class="item-00"><a href="variables/"><p>Variables</p></a></div>
+<div class="ab-buttons">
+[](arrays/"><p>Arrays</p></a></div>
+[](conditionals/"><p>Conditionals</p></a></div>
+[](console/"><p>Console</p></a></div>
+[](flow-ctrl/"><p>Flow-Ctrl</p></a></div>
+[](functions/"><p>Functions</p></a></div>
+[](loops/"><p>Loops</p></a></div>
+[](operators/"><p>Operators</p></a></div>
+[](output/"><p>Output Options</p></a></div>
+[](strings/"><p>Strings</p></a></div>
+[](usage/"><p>Usage</p></a></div>
+[](values/"><p>Values</p></a></div>
+[](variables/"><p>Variables</p></a></div>
 </div>

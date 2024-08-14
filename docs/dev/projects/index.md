@@ -17,14 +17,9 @@ tags:
 
 ## Projects
 
-</style>
-
-<div class="outter-container">
-    <div class="item-00 box1"><a href="ab/"><p>www.annebrown.ca</p></a></div>
-    <div class="item-00 box1"><a href="bd/"><p>www.browndomain.com</p></a></div>
-    <div class="item-00 box1"><a href="docs-pub/"><p>docs-pub</p></a></div>
-    <div class="item-00 box1"><a href="dotfiles"><p>dotfiles</p></a></div>
-    <div class="item-00 box1"><a href="dotfiles-priv/"><p>dotfiles-priv</p></a></div>
-    <div class="item-00 box1"><a href="react/"><p>React Prototype</p></a></div> 
-    <div class="item-00 box1"><a href="tailnext/"><p>TailNext</p></a></div>  
-</div>
+  [www.ab.ca](ab/){ .ab-button }
+  [www.bd.com](bd/){ .ab-button }
+  [Docs Project](docs-pub/){ .ab-button }
+  [.dotfiles](dotfiles){ .ab-button }
+  [.dotfiles-priv](dotfiles-priv/){ .ab-button }
+  [TailNext](ailnext/){ .ab-button }
