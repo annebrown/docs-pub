@@ -44,12 +44,15 @@ Header
 #ab-header {
   background-color: #263238 !important;
 }
-.pop-up-logo {
+#ab-about-logo {
+  position: relative;
+  float: right;
+  top: 0;
+  right: 0;
   margin-right: 0;
-  padding-right: 0.25rem;
-  width: 30px;
+  padding-right: 0;
+  width: 200px;
 }
-
 .ab-site-name {
   font-size: 0.8rem;
   text-align: center;

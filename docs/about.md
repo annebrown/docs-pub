@@ -6,9 +6,7 @@ hide:
   - toc
 ---
 
- <img src="../assets/images/logo-it-arch-resized.png" 
-      alt="IT Architect, Green and While Sails" 
-      id="about-logo">
+![Logo, text: IT Architect, img: Green and While Sails](../assets/images/logo-it-arch-resized.png){ #ab-about-logo }
 
 <h1 class="padd-bottom-0 marg-bottom-0">About</h1>
 
