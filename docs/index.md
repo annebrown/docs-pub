@@ -14,7 +14,9 @@ hide:
 
 <div class="ab-buttons grid" markdown> 
 
-  [Tech](tech/){ .ab-button-group-title } :
+  [Tech: ](tech/){ .ab-button-group-title }
+
+<br>
 
   [Frameworks](tech/frameworks/){ .ab-button }
   [Languages](tech/langs/){ .ab-button }
@@ -23,16 +25,14 @@ hide:
   [Links](tech/links/){.ab-button }
 
 </div>
+
 <div class="ab-buttons grid" markdown> 
 
-  [Dev](dev/){ .ab-button-group-title } :
+  [Dev: ](dev/){ .ab-button-group-title }
+
+<br>
 
   [Projects](dev/projects/){ .ab-button }
   [Deployments](dev/deploy/){ .ab-button }
-
-</div>
-<div class="ab-buttons grid" markdown> 
-
-  [About](about/){ .ab-button-category}
 
 </div>

@@ -81,7 +81,7 @@ border-style:  none solid none solid;
 border-radius: 12px;
 border-width: 0.01rem 0.01rem 0.1rem 0.05rem;
 border-color: black darkolivegreen black darkolivegreen;
-margin: 0.5rem 0 0 0;
+margin: 0.5rem ;
 padding: 0;
 background-color: none;
 }
@@ -209,7 +209,7 @@ footer.md-footer {
   background-color: #545151;
 }
 #ab-footer-bottom {
-  background-color: #545151 !important;
+  background-color: #2d2c2c !important;
 }
 
 /*
@@ -253,14 +253,14 @@ Buttons
   width: 100%;
 }
 .ab-button-group-title {
-  margin-top: 0.5em;
+  margin: 0.5rem 0 0 0;
   padding: 0.25rem;
   border: solid;
   border-width: 0.07rem;
   border-color: white black black white;
   border-radius: 10%;
-  background-color: none;
-  color: black !important;
+  background-color: #545151;
+  color: white !important;
   width: 100%;
 }
 
@@ -308,7 +308,7 @@ About
 */
 
 #ab-about-logo {
-  width: 200px;  height: 200px;
+  width: 200px;
   position: relative;
   float: right;
   top: 55px;
