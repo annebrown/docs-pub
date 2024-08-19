@@ -11,8 +11,12 @@ hide:
 
 My Notes on {{ description }}
 
+<div class="ab-buttons grid" markdown> 
+
 [Android](android/){ .ab-button }
 [ChromeOS](chromeos/){ .ab-button }
-[lINUX](linux/){ .ab-button }
+[Linux](linux/){ .ab-button }
 [RasPi](raspi/){ .ab-button }
 [Win11](win11/wsl2/){ .ab-button }
+
+</div>

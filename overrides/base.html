@@ -1,5 +1,16 @@
 <!------------------------------------------------------------------------------
-- Added id="Padd-0 and Marg-0" to <main> inner <div>
+File: /overrides/base.html
+
+Mods:
+- Added id="ab-body" to <body> x 
+- Added <div id="ab-header-bar">
+- Added id="ab-main-outer" to md-container
+- Added id="ab-main" to md-main
+- Added id="#ab-main-inner-grid" to md-main__inne
+- Added d="ab-left-sidebar" to md-sidebar__scrollwrap
+- Added id="ab-right-sidebar" to md-sidebar__scrollwrap
+- Added id="ab-page-div" to "md-content data-md-component="content" 
+- Added id="ab-footer-block" to footer
 ------------------------------------------------------------------------------->
 
 {% import "partials/language.html" as lang with context %}
@@ -13,38 +24,38 @@
   <head>
     <!-- HEADER Logic: -------------------------------------------------------->
     {% block site_meta %}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    {% if page.meta and page.meta.description %}
-      <meta name="description" content="{{ page.meta.description }}">
-    {% elif config.site_description %}
-      <meta name="description" content="{{ config.site_description }}">
-    {% endif %}
-    {% if page.meta and page.meta.author %}
-      <meta name="author" content="{{ page.meta.author }}">
-    {% elif config.site_author %}
-      <meta name="author" content="{{ config.site_author }}">
-    {% endif %}
-    {% if page.canonical_url %}
-      <link rel="canonical" href="{{ page.canonical_url }}">
-    {% endif %}
-    {% if page.previous_page %}
-      <link rel="prev" href="{{ page.previous_page.url | url }}">
-    {% endif %}
-    {% if page.next_page %}
-      <link rel="next" href="{{ page.next_page.url | url }}">
-    {% endif %}
-    {% if "rss" in config.plugins %}
-      <link rel="alternate" type="application/rss+xml" 
-        title="{{ lang.t('rss.created') }}" 
-        href="{{ 'feed_rss_created.xml' | url }}">
-      <link rel="alternate" type="application/rss+xml" 
-        title="{{ lang.t('rss.updated') }}" 
-        href="{{ 'feed_rss_updated.xml' | url }}">
-    {% endif %}
-    <link rel="icon" href="{{ config.theme.favicon | url }}">
-    <meta name="generator" 
-      content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.5.30">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      {% if page.meta and page.meta.description %}
+        <meta name="description" content="{{ page.meta.description }}">
+      {% elif config.site_description %}
+        <meta name="description" content="{{ config.site_description }}">
+      {% endif %}
+      {% if page.meta and page.meta.author %}
+        <meta name="author" content="{{ page.meta.author }}">
+      {% elif config.site_author %}
+        <meta name="author" content="{{ config.site_author }}">
+      {% endif %}
+      {% if page.canonical_url %}
+        <link rel="canonical" href="{{ page.canonical_url }}">
+      {% endif %}
+      {% if page.previous_page %}
+        <link rel="prev" href="{{ page.previous_page.url | url }}">
+      {% endif %}
+      {% if page.next_page %}
+        <link rel="next" href="{{ page.next_page.url | url }}">
+      {% endif %}
+      {% if "rss" in config.plugins %}
+        <link rel="alternate" type="application/rss+xml" 
+          title="{{ lang.t('rss.created') }}" 
+          href="{{ 'feed_rss_created.xml' | url }}">
+        <link rel="alternate" type="application/rss+xml" 
+          title="{{ lang.t('rss.updated') }}" 
+          href="{{ 'feed_rss_updated.xml' | url }}">
+      {% endif %}
+      <link rel="icon" href="{{ config.theme.favicon | url }}">
+      <meta name="generator" 
+        content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.5.30">
     {% endblock %}
     <!-- Page Title ----------------------------------------------------------->
     {% block htmltitle %}
@@ -115,7 +126,7 @@
    -->
   <!-- 
   ==============================================================================
-  BEGINNING OF BODY
+  BEGINNING OF VIEWPORT
   ==============================================================================
    -->
   {% set direction = config.theme.direction or lang.t("direction") %}
@@ -128,7 +139,7 @@
     {% set primary = palette.primary | d("indigo", true) %}
     {% set accent  = palette.accent  | d("indigo", true) %}
   <!-- BODY BEGINNING A ------------------------------------------------------->
-    <!-- Mods: -->
+    <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
     <body id="ab-body"
       dir="{{ direction }}" 
       data-md-color-scheme="{{ scheme | replace(' ', '-') }}"
@@ -136,269 +147,299 @@
       data-md-color-accent="{{ accent | replace(' ', '-') }}">
   {% else %}
   <!-- BODY BEGINNING B ------------------------------------------------------->
-    <!-- Mods: -->
+    <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
     <body dir="{{ direction }}" id="ab-body">
   {% endif %}
-  <!--
-  ==============================================================================
-  BEGINNING OF BODY HEADER 
-  ==============================================================================
-   -->
-  <!-- Config Theme Features -------------------------------------------------->
-  {% set features = config.theme.features or [] %}
-  <input class="md-toggle" data-md-toggle="drawer" 
-    type="checkbox" id="__drawer" autocomplete="off">
-  <input class="md-toggle" data-md-toggle="search" 
-    type="checkbox" id="__search" autocomplete="off">
-  <label class="md-overlay" for="__drawer"></label>
-  <div data-md-component="skip">
-    {% if page.toc | first is defined %}
-      {% set skip = page.toc | first %}
-      <a href="{{ skip.url | url }}" class="md-skip">
-        {{ lang.t("action.skip") }}
-      </a>
-    {% endif %}
-  </div>
-  <!-- ANNOUNCE --------------------------------------------------------------->
-  <!-- Mods: -->
+    <!--
+    ==============================================================================
+    BEGINNING OF TOP HEADER 
+    ==============================================================================
+    -->
 
-  <div data-md-component="announce">
-    {% if self.announce() %}
-      <aside class="md-banner">
-        <div class="md-banner__inner md-grid md-typeset">
-          {% if "announce.dismiss" in features %}
-            <button class="md-banner__button md-icon" 
-            aria-label="{{ lang.t('announce.dismiss') }}">
-              {% set icon = config.theme.icon.close or "material/close" %}
-              {% include ".icons/" ~ icon ~ ".svg" %}
-            </button>
-          {% endif %}
-          {% block announce %}{% endblock %}
-        </div>
-        {% if "announce.dismiss" in features %}
-          {% include "partials/javascripts/announce.html" %}
-        {% endif %}
-      </aside>
-    {% endif %}
-  </div>
-  <!-- OUTDATED WARNING -------------------------------------------------------->
-  {% if config.extra.version %}
-    <div data-md-color-scheme="default" 
-      data-md-component="outdated" hidden>
-      {% if self.outdated() %}
-        <aside class="md-banner md-banner--warning">
+    <!-- Config Theme Features -------------------------------------------------->
+    {% set features = config.theme.features or [] %}
+    <input class="md-toggle" data-md-toggle="drawer" 
+      type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" 
+      type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      {% if page.toc | first is defined %}
+        {% set skip = page.toc | first %}
+        <a href="{{ skip.url | url }}" class="md-skip">
+          {{ lang.t("action.skip") }}
+        </a>
+      {% endif %}
+    </div>
+    <!-- ANNOUNCE --------------------------------------------------------------->
+    <div data-md-component="announce">
+      {% if self.announce() %}
+        <aside class="md-banner">
           <div class="md-banner__inner md-grid md-typeset">
-            {% block outdated %}{% endblock %}
+            {% if "announce.dismiss" in features %}
+              <button class="md-banner__button md-icon" 
+              aria-label="{{ lang.t('announce.dismiss') }}">
+                {% set icon = config.theme.icon.close or "material/close" %}
+                {% include ".icons/" ~ icon ~ ".svg" %}
+              </button>
+            {% endif %}
+            {% block announce %}{% endblock %}
           </div>
-          {% include "partials/javascripts/outdated.html" %}
+          {% if "announce.dismiss" in features %}
+            {% include "partials/javascripts/announce.html" %}
+          {% endif %}
         </aside>
       {% endif %}
     </div>
-  {% endif %}
-  <!-- HEADER - PARTIALS ------------------------------------------------------>
-  <div>
-  {% block header %}
-    {% include "partials/header.html" %}
-  {% endblock %}
-  <!-- 
-  ==============================================================================
-  END OF BODY HEADER
-  ==============================================================================
-  -->
-  <!-- 
-  ==============================================================================
-  BEGINNING OF NAVI HEADER
-  ==============================================================================
-  -->    
-  <div class="md-container" data-md-component="container" id="ab-main">
-    <!-- HERO ----------------------------------------------------------------->
-    {% block hero %}{% endblock %}
-    <!-- NAVI TABS ------------------------------------------------------------>
-    {% block tabs %}
-    {% if "navigation.tabs.sticky" not in features %}
-      {% if "navigation.tabs" in features %}
-        {% include "partials/tabs.html" %}
-      {% endif %}
-    {% endif %}
-    {% endblock %}
-  <!-- 
-  ==============================================================================
-  END OF NAVI SUB-HEADER
-  ==============================================================================
-  -->
-  <!-- 
-  ==============================================================================
-  START OF MAIN (Sidebars & Page), Before Footer
-  ==============================================================================
-  -->
-  <main class="md-main" data-md-component="main">
-
-    <!-- BEGINNING OF HEADER IN BODY ------------------------------------------>
-
-    <!-- Mods - Added Padd0 and Marg0 to <main> inner <div> XXXXXXXXXXXXXXXXX-->   
-    <div class="md-main__inner md-grid" style="margin: 0; padding: 0;">
-    <!-- End of Mods xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-      {% block site_nav %}
-        {% if nav %}
-          <!-- Check tags: for hide: - navigation ----------------------------->
-          {% if page.meta and page.meta.hide %}
-            {% set hidden = "hidden" if "navigation" in page.meta.hide %}
-          {% endif %}
-          <!-- START LEFT SIDEBAR --------------------------------------------->
-          <!-- Mods: Added id="md-sidebar" to right sidebar <div> ------------->
-          <div class="md-sidebar md-sidebar--primary"
-            data-md-component="sidebar" 
-            data-md-type="navigation" {{ hidden }}>
-            <div class="md-sidebar__scrollwrap">
-              <div class="md-sidebar__inner">
-                {% include "partials/nav.html" %}
-              </div>
+    <!-- OUTDATED WARNING ------------------------------------------------------->
+    {% if config.extra.version %}
+      <div data-md-color-scheme="default" 
+        data-md-component="outdated" hidden>
+        {% if self.outdated() %}
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              {% block outdated %}{% endblock %}
             </div>
-          </div>
-          <!-- END LEFT SIDEBAR ----------------------------------------------->
+            {% include "partials/javascripts/outdated.html" %}
+          </aside>
         {% endif %}
-        <!-- START toc Check------------ -------------------------------------->
-        {% if "toc.integrate" not in features %}
-          {% if page.meta and page.meta.hide %}
-            {% set hidden = "hidden" if "toc" in page.meta.hide %}
-          {% endif %}
-          <!-- START RIGHT SIDEBAR -------------------------------------------->
-          <div class="md-sidebar md-sidebar--secondary"
-            data-md-component="sidebar" data-md-type="toc" 
-            {{ hidden }}>
-            <!-- SIDEBAR Scrollwrap & partials/toc.html-->
-            <div class="md-sidebar__scrollwrap">
-              <div class="md-sidebar__inner">
-                <div id="right-sidebar">
-                {% include "partials/toc.html" %}
-              </div>
-              </div>
-            </div>
-          </div>
-          <!-- END RIGHT SIDEBAR ---------------------------------------------->
-        <!-- END toc Check ---------------------------------------------------->
-        {% endif %}
-      {% endblock %}
-
-      <!-- END OF HEADER IN BODY ---------------------------------------------->
-            
-      <!-- BEGINNING OF PAGE -------------------------------------------------->
-      <div>
-        {% block container %}
-          <!-- Added id=page-dir" to Page Inner Div -->
-          <div class="md-content" data-md-component="content" id="ab-page-div">
-            <article class="md-content__inner md-typeset">
-              {% block content %}
-                {% include "partials/content.html" %}
-              {% endblock %}
-            </article>
-          </div>
-        {% endblock %}
-        {% include "partials/javascripts/content.html" %}
       </div>
-    </div>
-    <!-- END OF PAGE ---------------------------------------------------------->
-
-    <!-- Back to Top Button --------------------------------------------------->
-    {% if "navigation.top" in features %}
-      {% include "partials/top.html" %}
     {% endif %}
-  </main>
-  <!-- 
-  ==============================================================================
-  START OF MAIN (Sidebars & Page), Before Footer
-  ==============================================================================
-  -->
-  <!-- 
-  ==============================================================================
-  START OF FOOTER
-  ==============================================================================
-  -->
-  {% block footer %}
-    {% include "partials/footer.html" %}
-  {% endblock %}
-  <!--
-  ==============================================================================
-  END OF FOOTER
-  ==============================================================================
-  -->
-  <!-- 
-  ==============================================================================
-  START OF EXTRAS
-  ==============================================================================
-  -->
-  <div class="md-dialog" data-md-component="dialog">
-    <div class="md-dialog__inner md-typeset"></div>
-  </div>
-  {% if "navigation.instant.progress" in features %}
-    {% include "partials/progress.html" %}
-  {% endif %}
-  <!-- CONSENT & partials/consent.html ---------------------------------------->
-  {% if config.extra.consent %}
-    <div class="md-consent" data-md-component="consent" 
-      id="__consent" hidden>
-      <div class="md-consent__overlay"></div>
-      <aside class="md-consent__inner">
-        <form class="md-consent__form md-grid md-typeset" name="consent">
-          {% include "partials/consent.html" %}
-        </form>
-      </aside>
+    <!-- HEADER - PARTIALS ---------------------------------------------------->
+
+    <div id="ab-header-bar">
+      {% block header %}
+        {% include "partials/header.html" %}
+      {% endblock %}
     </div>
-    {% include "partials/javascripts/consent.html" %}
-  {% endif %}
-  {% block config %}
-    {%- set app = {
-      "base": base_url,
-      "features": features,
-      "translations": {},
-      "search": "assets/javascripts/workers/search.b8dbb3d2.min.js" | url
-    } -%}
-    {%- if config.extra.version -%}
-      {%- set mike = config.plugins.get("mike") -%}
-      {%- if not mike or mike.config.version_selector -%}
-        {%- set _ = app.update({ "version": config.extra.version }) -%}
-      {%- endif -%}
-    {%- endif -%}
-    <!-- EXTRA TAGS ----------------------------------------------------------->
-    {%- if config.extra.tags -%}
-      {%- set _ = app.update({ "tags": config.extra.tags }) -%}
-    {%- endif -%}
-    <!-- TRANSLATIONS --------------------------------------------------------->
-    {%- set translations = app.translations -%}
-    {%- for key in [
-      "clipboard.copy",
-      "clipboard.copied",
-      "search.result.placeholder",
-      "search.result.none",
-      "search.result.one",
-      "search.result.other",
-      "search.result.more.one",
-      "search.result.more.other",
-      "search.result.term.missing",
-      "select.version"
-    ] -%}
-      {%- set _ = translations.update({ key: lang.t(key) }) -%}
-    {%- endfor -%}
-    <script id="__config" type="application/json">
-      {{- app | tojson -}}
-    </script>
-  {% endblock %}
-  <!-- SCRIPTS ---------------------------------------------------------------->
-  {% block scripts %}
-    <script 
-      src="{{ 'assets/javascripts/bundle.fe8b6f2b.min.js' | url }}">
-    </script>
-    <!-- Extra JavaScript ----------------------------------------------------->
-    {% for script in config.extra_javascript %}
-      {{ script | script_tag }}
-    {% endfor %}
-  {% endblock %}
-  <!-- 
-  ==============================================================================
-  END OF EXTRAS
-  ==============================================================================
-  -->
-</div>
+  
+
+    <!-- 
+    ============================================================================
+    END OF TOP HEADER
+    ============================================================================
+    -->
+ 
+    <!-- BEGINNING OF CONTAINER -->  
+    <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    <div class="md-container" data-md-component="container" id="ab-main-outer">
+      <!-- 
+      ==========================================================================
+      BEGINNING OF SUB-HEADER - Hero & navigation.tabs
+      ==========================================================================
+      --> 
+
+
+      {% block hero %}{% endblock %}
+      {% block tabs %}
+        {% if "navigation.tabs.sticky" not in features %}
+          {% if "navigation.tabs" in features %}
+            {% include "partials/tabs.html" %}
+          {% endif %}
+        {% endif %}
+      {% endblock %} 
+
+      <!-- 
+      ==========================================================================
+      END OF SUB-HEADER - Hero & navigation.tabs
+      ==========================================================================
+      -->
+    
+      <!-- 
+      ==========================================================================
+      BEGINNING OF MIDDLE (Sidebars & Page), Before Footer
+      ==========================================================================
+      --> 
+       <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+      <main class="md-main" data-md-component="main" id="ab-main">
+        <!-- BEGINNING OF INNER GRID-->
+         <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+        <div 
+          id="#ab-main-inner-grid"
+          class="md-main__inner md-grid" >
+
+          <!-- Grid Item: Left Sidebar -->
+          {% block site_nav %}
+            {% if nav %}
+              <!-- Check tags for: hide navigation ---------------------------->
+              {% if page.meta and page.meta.hide %}
+                {% set hidden = "hidden" if "navigation" in page.meta.hide %}
+              {% endif %}
+              <!-- 
+              ==================================================================
+              BEGINNING OF LEFT SIDEBAR (navigation)
+              ==================================================================
+              -->  
+              <div
+                class="md-sidebar md-sidebar--primary" 
+                data-md-component="sidebar" 
+                data-md-type="navigation" {{ hidden }}>
+                <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                <div class="md-sidebar__scrollwrap" id="ab-left-sidebar">
+                  <!-- Hamburger Menu -->
+                  <div class="md-sidebar__inner">
+                    {% include "partials/nav.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}  
+            <!-- 
+            ====================================================================
+            END OF LEFT SIDEBAR (navigation)
+            ====================================================================
+            -->   
+
+            <!-- Grid Item: Right Sidebar -->
+            {% if "toc.integrate" not in features %}
+              {% if page.meta and page.meta.hide %}
+                {% set hidden = "hidden" if "toc" in page.meta.hide %}
+              {% endif %}
+              <!-- 
+              ==================================================================
+              BEGINNING OF RIGHT SIDEBAR (toc)
+              ==================================================================
+              --> 
+              <div class="md-sidebar md-sidebar--secondary"  
+                data-md-component="sidebar" data-md-type="toc" 
+                {{ hidden }}>
+                <!-- SIDEBAR Scrollwrap & partials/toc.html-->
+                 <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                <div class="md-sidebar__scrollwrap" id="ab-right-sidebar">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/toc.html" %}
+                  </div>
+                </div>
+              </div>
+ 
+              <!-- 
+              ==================================================================
+              END OF RIGHT SIDEBAR (toc)
+              ==================================================================
+              --> 
+            {% endif %}
+          {% endblock %}
+          <!-- 
+          ======================================================================
+          BEGINNING OF PAGE
+          ======================================================================
+          -->   
+          {% block container %}
+            <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <div class="md-content" data-md-component="content" id="ab-page-div">
+              <article class="md-content__inner md-typeset">
+                {% block content %}
+                  {% include "partials/content.html" %}
+                {% endblock %}
+              </article>
+            </div>
+          {% endblock %}
+          {% include "partials/javascripts/content.html" %}
+          <!-- Back to Top Button --------------------------------------------->
+          {% if "navigation.top" in features %}
+            {% include "partials/top.html" %}
+          {% endif %}
+          <!-- 
+          ======================================================================
+          END OF PAGE
+          ======================================================================
+          --> 
+        </div><!-- END OF INNER GRID-->
+      </main>
+      
+      <!-- 
+      ==========================================================================
+      START OF FOOTER
+      ==========================================================================
+      -->
+      <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+      <div id="ab-footer-block">
+        {% block footer %}
+          {% include "partials/footer.html" %}
+        {% endblock %}
+      </div>
+      <!--
+      ==========================================================================
+      END OF FOOTER
+      ==========================================================================
+      -->
+
+      <!-- 
+      ==========================================================================
+      START OF EXTRAS
+      ==========================================================================
+      -->
+      <div class="md-dialog" data-md-component="dialog">
+        <div class="md-dialog__inner md-typeset"></div>
+      </div>
+      {% if "navigation.instant.progress" in features %}
+        {% include "partials/progress.html" %}
+      {% endif %}
+      <!-- CONSENT & partials/consent.html ------------------------------------>
+      {% if config.extra.consent %}
+        <div class="md-consent" data-md-component="consent" 
+          id="__consent" hidden>
+          <div class="md-consent__overlay"></div>
+          <aside class="md-consent__inner">
+            <form class="md-consent__form md-grid md-typeset" name="consent">
+              {% include "partials/consent.html" %}
+            </form>
+          </aside>
+        </div>
+        {% include "partials/javascripts/consent.html" %}
+      {% endif %}
+      {% block config %}
+        {%- set app = {
+          "base": base_url,
+          "features": features,
+          "translations": {},
+          "search": "assets/javascripts/workers/search.b8dbb3d2.min.js" | url
+        } -%}
+        {%- if config.extra.version -%}
+          {%- set mike = config.plugins.get("mike") -%}
+          {%- if not mike or mike.config.version_selector -%}
+            {%- set _ = app.update({ "version": config.extra.version }) -%}
+          {%- endif -%}
+        {%- endif -%}
+        <!-- EXTRA TAGS ------------------------------------------------------->
+        {%- if config.extra.tags -%}
+          {%- set _ = app.update({ "tags": config.extra.tags }) -%}
+        {%- endif -%}
+        <!-- TRANSLATIONS ----------------------------------------------------->
+        {%- set translations = app.translations -%}
+        {%- for key in [
+          "clipboard.copy",
+          "clipboard.copied",
+          "search.result.placeholder",
+          "search.result.none",
+          "search.result.one",
+          "search.result.other",
+          "search.result.more.one",
+          "search.result.more.other",
+          "search.result.term.missing",
+          "select.version"
+        ] -%}
+          {%- set _ = translations.update({ key: lang.t(key) }) -%}
+        {%- endfor -%}
+        <script id="__config" type="application/json">
+          {{- app | tojson -}}
+        </script>
+      {% endblock %}
+      <!-- SCRIPTS ------------------------------------------------------------>
+      {% block scripts %}
+        <script 
+          src="{{ 'assets/javascripts/bundle.fe8b6f2b.min.js' | url }}">
+        </script>
+        <!-- Extra JavaScript ------------------------------------------------->
+        {% for script in config.extra_javascript %}
+          {{ script | script_tag }}
+        {% endfor %}
+      {% endblock %}
+      <!-- 
+      ==========================================================================
+      END OF EXTRAS
+      ==========================================================================
+      -->
+    </div><!-- END OF CONTAINER -->  
   </body>
   <!-- 
   ==============================================================================

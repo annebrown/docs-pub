@@ -17,9 +17,13 @@ tags:
 
 ## Projects
 
+<div class="ab-buttons grid" markdown> 
+
   [www.ab.ca](ab/){ .ab-button }
   [www.bd.com](bd/){ .ab-button }
   [Docs Project](docs-pub/){ .ab-button }
   [.dotfiles](dotfiles){ .ab-button }
   [.dotfiles-priv](dotfiles-priv/){ .ab-button }
   [TailNext](ailnext/){ .ab-button }
+
+</div>

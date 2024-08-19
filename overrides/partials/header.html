@@ -1,67 +1,56 @@
 <!------------------------------------------------------------------------------
-- Added class="marg-0 padd-0" to <header> tag 
-- Added class="marg-0 padd-0" to <nav> tag 
-- Inserted custom Navi Menu after config.site_name
-- Added Added id="pop-up-logo" to <a> tag 
-- Made {{ config.site_name }} a link in header
-------------------------------------------------------------------------------->
+File: /overrides/partials/header.html
 
-<!-- THE HEADER --------------------------------------------------------------->
+Mods:
+- Added id="ab-config-site-name" to {{ config.site_name }}
+- Added custom mini-nave with id="ab-navi-button" buttons
+------------------------------------------------------------------------------->
+<!-- Determine classes -->
 {% set class = "md-header" %}
-<!-- NAVI TABS ---------------------------------------------------------------->
 {% if "navigation.tabs.sticky" in features %}
   {% set class = class ~ " md-header--shadow md-header--lifted" %}
 {% elif "navigation.tabs" not in features %}
   {% set class = class ~ " md-header--shadow" %}
 {% endif %}
-<!-- Mods: Added class="marg-0 padd-0" to <header> tag XXXXXXXXXXXXXXXXXXXXXXXX-->
-<header class="{{ class }}" data-md-component="header" id="ab-header">
-  <!-- Mods: Added class="marg-0 padd-0" to <nav> tag XXXXXXXXXXXXXXXXXXXXXXXXX-->
-  <nav class="md-header__inner md-grid marg-0 padd-0" 
-    aria-label="{{ lang.t('header') }}">
-    <!-- Mods: Added id="pop-up-logo" to <a> tag XXXXXXXXXXXXXXXXX-->
-    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" 
-      title="{{ config.site_name | e }}" 
-      class="md-header__button md-logo pop-up-logo" 
-      aria-label="{{ config.site_name }}" data-md-component="logo">
+
+<!-- Header -->
+<header class="{{ class }}" data-md-component="header">
+
+
+  <nav style="background-color: #545151 !important;"
+    class="md-header__inner md-grid"
+    aria-label="{{ lang.t('header') }}"
+  >
+
+    <!-- Link to home -->
+    <a
+      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+      title="{{ config.site_name | e }}"
+      class="md-header__button md-logo"
+      aria-label="{{ config.site_name }}"
+      data-md-component="logo"
+    >
       {% include "partials/logo.html" %}
     </a>
-    <label class="md-header__button md-icon pop-up-logo" for="__drawer">
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
       {% set icon = config.theme.icon.menu or "material/menu" %}
       {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
-    <div  
-      class="md-header__title"
-      data-md-component="header-title">
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
-
           <span class="md-ellipsis">
-            <a href="/" style="margin:0; padding: 0;">
-              <button class="ab-site-name">
-                docs.annebrown.ca
-              </button>
+            <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <span id="ab-config-site-name">
+              {{ config.site_name }}
+            </span>
           </span>
-<!--           <button class="ab-navi-button">
-            <a href="/">docs.annebrown.ca</a>
-          </button> -->
-          <!-- Custom Navi ---------------------------------------------------->
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <div>
-            <button class="ab-navi-button">
-              <a href="/tech/">Tech</a>
-            </button>&nbsp;
-            <button class="ab-navi-button">
-              <a href="/dev/">Dev</a>
-            </button>&nbsp;
-            <button class="ab-navi-button">
-              <a href="/about/">About</a>
-            </button> 
-          </div>
-          <!-- END OF MODS ---------------------------------------------------->
-        </div> 
-        
-        <!-- <div class="md-header__topic" data-md-component="header-topic">
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             {% if page.meta and page.meta.title %}
               {{ page.meta.title }}
@@ -69,36 +58,82 @@
               {{ page.title }}
             {% endif %}
           </span>
-        </div> -->
+        </div>
       </div>
     </div>
+
+
+    <!--
+    ========================================================================
+    START OF CUSTOM MINI-NAV and SITE BUTTON
+    ========================================================================
+    -->
+    <!-- MODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <div>
+      <button class="ab-navi-button">
+        <a href="/">Home</a>
+      </button>
+      <button class="ab-navi-button">
+        <a href="/tech/">Tech</a>
+      </button>&nbsp;
+      <button class="ab-navi-button">
+        <a href="/dev/">Dev</a>
+      </button>&nbsp;
+      <button class="ab-navi-button">
+        <a href="/about/">About</a>
+      </button> 
+    </div>
+    <!--
+    ========================================================================
+    END OF CUSTOM MINI-NAV and SITE BUTTON
+    ========================================================================
+    -->    
+    
+    <!-- Color palette toggle -->
     {% if config.theme.palette %}
       {% if not config.theme.palette is mapping %}
         {% include "partials/palette.html" %}
       {% endif %}
     {% endif %}
+
+    <!-- User preference: color palette -->
     {% if not config.theme.palette is mapping %}
       {% include "partials/javascripts/palette.html" %}
     {% endif %}
+
+    <!-- Site language selector -->
     {% if config.extra.alternate %}
       {% include "partials/alternate.html" %}
     {% endif %}
+
+    <!-- Button to open search modal -->
     {% if "material/search" in config.plugins %}
       <label class="md-header__button md-icon" for="__search">
         {% set icon = config.theme.icon.search or "material/magnify" %}
         {% include ".icons/" ~ icon ~ ".svg" %}
       </label>
+
+      <!-- Search interface -->
       {% include "partials/search.html" %}
     {% endif %}
+
+    <!-- Repository information -->
     {% if config.repo_url %}
       <div class="md-header__source">
         {% include "partials/source.html" %}
       </div>
     {% endif %}
+
   </nav>
-  {% if "navigation.tabs.sticky" in features %}
+
+
+  <!-- Navigation tabs (sticky) -->
+
+<!--   {% if "navigation.tabs.sticky" in features %}
     {% if "navigation.tabs" in features %}
       {% include "partials/tabs.html" %}
     {% endif %}
-  {% endif %}
+  {% endif %} -->
+
 </header>

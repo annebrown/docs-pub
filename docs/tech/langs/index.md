@@ -11,6 +11,8 @@ hide:
 
 My Notes on {{ description }}
 
+<div class="ab-buttons" markdown>
+
 [CSS](css/){ .ab-button }
 [Go](go/){ .ab-button }
 [HTML](html/){ .ab-button }
@@ -19,3 +21,5 @@ My Notes on {{ description }}
 [PHP](https://www.php.net/){ .ab-button }
 [Python](python/){ .ab-button }
 [Perl](ttps://www.perl.org/){ .ab-button }
+
+</div>

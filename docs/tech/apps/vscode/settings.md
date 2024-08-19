@@ -57,12 +57,26 @@ Visible page border at 80 cols.
 Editor>Show Folding Controls [always]
 ```
 
+### Hover Pop-Ups
+
+Hover pop-up/tooltips show up over everything and cover up what you need to see.  To preserve sanity:
+
+```txt
+Hover > Disable
+```
+
 ### Lightbulb
 
 Annoying Lightbulb covers gutter info:
 
 ```json
 Lightbulb:Enabled [off]
+```
+
+### Minimap
+
+```txt
+Editor > Minimap: Disable
 ```
 
 ### Tab Completion

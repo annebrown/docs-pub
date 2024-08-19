@@ -167,6 +167,7 @@
       {% endblock %}
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
+
           {% block site_nav %}
             {% if nav %}
               {% if page.meta and page.meta.hide %}
@@ -180,6 +181,7 @@
                 </div>
               </div>
             {% endif %}
+            
             {% if "toc.integrate" not in features %}
               {% if page.meta and page.meta.hide %}
                 {% set hidden = "hidden" if "toc" in page.meta.hide %}

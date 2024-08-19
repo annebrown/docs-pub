@@ -13,6 +13,10 @@ site_description: Dev Notes
 #-------------------------------------------------------------------------------
 watch:
   - includes
+  - mkdocs.yml
+  - overrides/base.html
+  - overrides/partials/header.html
+  - overrides/partials/footer.html
 #-------------------------------------------------------------------------------
 # Repo
 #-------------------------------------------------------------------------------
@@ -68,18 +72,16 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
-      primary: #0277BD
-      accent: 0277BD
+      primary: #808080
+      accent: #A4B888
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: #0288D1
+      primary: #808080
       accent: #A4B888
-      
-      accent:  #A4B888
       toggle:
         icon: material/brightness-4
         name: Switch to system preference

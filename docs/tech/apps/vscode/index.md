@@ -11,12 +11,8 @@ hide:
 
 [VSCode](https://code.visualstudio.com/download "Official Site") {{ description }}
 
+  [Settings](settings/){ .ab-button }
+  [Extensions](extensions/){ .ab-button }
+  [Settings Sync](settings-sync/){ .ab-button }
 
-<div class="ab-buttons" markdown>
-
-  [Settings](settings/){ .ab-button .md-button--primary }
-  [Extensions](extensions/){ .ab-button .md-button--primary }
-  [Settings Sync](settings-sync/){ .ab-button .md-button--primary }
-
-</div>
 

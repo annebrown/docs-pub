@@ -4,6 +4,7 @@
 *[HTML]: Hyper Text Markup Language
 *[ISR]: Incremental Static Regeneration
 *[LTS]: Long Term Support
+*[OVP]: Overlord Page
 *[PPA]: Personal Package Archive
 *[PWA]: Progressive Web App
 *[SSG]: Static Site Generation

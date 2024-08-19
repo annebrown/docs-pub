@@ -13,6 +13,8 @@ It's listed under frameworks because I consider it a Javascript IF Framework. Or
 
 Nothing yet for this placeholder.
 
-<div class="ab-buttons">
-[](../react/setup/"><p>Setup</p></a></div>
+<div class="ab-buttons" markdown>
+
+[Setup](../react/setup/){ .ab-button }
+
 </div>
